@@ -1,0 +1,205 @@
+diff --git a/src/icons/128-apps-kontact.png b/src/icons/128-apps-kontact.png
+deleted file mode 100644
+index 34738b25..00000000
+Binary files a/src/icons/128-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/16-apps-kontact.png b/src/icons/16-apps-kontact.png
+deleted file mode 100644
+index f5b04771..00000000
+Binary files a/src/icons/16-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/22-apps-kontact.png b/src/icons/22-apps-kontact.png
+deleted file mode 100644
+index 8027f640..00000000
+Binary files a/src/icons/22-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/32-apps-kontact.png b/src/icons/32-apps-kontact.png
+deleted file mode 100644
+index c249d480..00000000
+Binary files a/src/icons/32-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/48-apps-kontact.png b/src/icons/48-apps-kontact.png
+deleted file mode 100644
+index d97a8f66..00000000
+Binary files a/src/icons/48-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/48-apps-kontact.svg b/src/icons/48-apps-kontact.svg
+new file mode 100644
+index 00000000..74457a3d
+--- /dev/null
++++ b/src/icons/48-apps-kontact.svg
+@@ -0,0 +1,88 @@
++<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
++ <defs>
++  <linearGradient id="a" y1="44" y2="20" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(384.57 499.8)">
++   <stop stop-color="#eef1f2"/>
++   <stop offset="1" stop-color="#f9fafb"/>
++  </linearGradient>
++  <linearGradient id="b" y1="529.8" x1="419.57" y2="536.8" x2="426.57" gradientUnits="userSpaceOnUse">
++   <stop/>
++   <stop offset="1" stop-opacity="0"/>
++  </linearGradient>
++  <linearGradient id="c" y1="519.8" y2="504.8" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)">
++   <stop stop-color="#bd8d48"/>
++   <stop offset="1" stop-color="#e8b971"/>
++  </linearGradient>
++  <linearGradient xlink:href="#c" id="d" y1="519.8" y2="504.8" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(0-1)"/>
++  <linearGradient id="e" x1="428.57" x2="406.57" gradientUnits="userSpaceOnUse">
++   <stop stop-color="#e3dfd6"/>
++   <stop offset="1" stop-color="#f4f1e8"/>
++  </linearGradient>
++  <linearGradient id="f" y1="516.8" x1="392.57" y2="508.8" x2="400.57" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)">
++   <stop stop-color="#f39c12"/>
++   <stop offset="1" stop-color="#f5ab35"/>
++  </linearGradient>
++  <linearGradient id="g" x1="427.71" x2="437.71" gradientUnits="userSpaceOnUse">
++   <stop stop-color="#ebc69a"/>
++   <stop offset="1" stop-color="#f4e0c8"/>
++  </linearGradient>
++  <linearGradient xlink:href="#g" id="h" y1="541.51" x1="428.76" y2="528.51" gradientUnits="userSpaceOnUse" x2="430.47"/>
++  <linearGradient xlink:href="#b" id="i" y1="531.79" y2="544.79" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.70711-.70711.70711.70711-649.01-56.06)"/>
++ </defs>
++ <g transform="translate(-384.57-499.8)">
++  <g stroke-linejoin="round" stroke-linecap="round" color="#000000">
++   <g transform="matrix(.96593-.25882.25882.96593-120.32 121.71)">
++    <rect width="19" x="392.57" y="509.8" fill="url(#f)" height="16"/>
++    <rect width="19" x="392.57" opacity=".2" y="509.8" fill="#ffffff" height="3"/>
++   </g>
++   <rect width="22" x="406.57" y="504.8" fill="url(#d)" height="33"/>
++   <rect width="22" x="406.57" y="505.8" fill="url(#e)" height="33"/>
++   <rect width="22" x="406.57" y="506.8" fill="url(#c)" height="33"/>
++  </g>
++  <g fill="url(#g)" transform="translate(-15.14-17.993)">
++   <path opacity=".2" fill="url(#i)" stroke-linejoin="round" color="#000000" d="m35.12 11.879l-4.242 4.242 2.637 2.637-3.891.148-.625 1.094v3l8.984.229 2.086 2.086 4.244-4.244z" transform="translate(399.71 517.79)"/>
++   <path fill="url(#h)" d="m432.71 528.79c-1.662 0-3 1.338-3 3 0 1.662 1.338 3 3 3 1.662 0 3-1.338 3-3 0-1.662-1.338-3-3-3m0 7c-2.77 0-5 .892-5 2v6h10v-6c0-1.108-2.23-2-5-2m0 1c2.216 0 4 .636 4 1.428v4.572h-8v-4.572c0-.791 1.784-1.428 4-1.428"/>
++  </g>
++  <path fill="url(#a)" d="m388.57 519.8v24h40v-24z"/>
++  <rect width="40" x="388.57" y="542.8" fill="#d1d3d4" height="1"/>
++  <g fill-rule="evenodd">
++   <path fill="#c0392b" d="m391.57 543.8l1-2h2l-1 2z"/>
++   <path fill="#2980b9" d="m399.57 543.8l1-2h2l-1 2z"/>
++   <path fill="#c0392b" d="m407.57 543.8l1-2h2l-1 2z"/>
++   <path fill="#2980b9" d="m415.57 543.8l1-2h2l-1 2z"/>
++   <path fill="#c0392b" d="m423.57 543.8l1-2h2l-1 2z"/>
++   <path fill="#2980b9" d="m426.57 537.8l2 1v2l-2-1z"/>
++   <path fill="#c0392b" d="m426.57 529.8l2 1v2l-2-1z"/>
++   <g fill="#2980b9">
++    <path d="m426.57 521.8l2 1v2l-2-1z"/>
++    <path d="m390.57 538.8l-2 1v2l2-1z"/>
++   </g>
++   <path fill="#c0392b" d="m390.57 530.8l-2 1v2l2-1z"/>
++   <path fill="#2980b9" d="m390.57 522.8l-2 1v2l2-1z"/>
++   <path fill="#c0392b" d="m390.57 519.8l1 2h2l-1-2z"/>
++   <path fill="#2980b9" d="m398.57 519.8l1 2h2l-1-2z"/>
++   <path fill="#c0392b" d="m406.57 519.8l1 2h2l-1-2z"/>
++   <path fill="#2980b9" d="m414.57 519.8l1 2h2l-1-2z"/>
++   <path fill="#c0392b" d="m422.57 519.8l1 2h2l-1-2z"/>
++   <path opacity=".2" fill="url(#b)" d="m424.57 523.8l4 4v11l-9-9z"/>
++  </g>
++  <g stroke-linejoin="round" stroke-linecap="round" color="#000000">
++   <rect width="5" x="419.57" y="523.8" fill="#fcfcfc" height="6"/>
++   <rect width="3" x="420.57" y="524.8" fill="#16a085" height="4"/>
++   <g fill="#bdc3c7">
++    <rect width="7" x="404.57" y="528.8" height="1"/>
++    <rect width="4" x="404.57" y="530.8" height="1"/>
++    <rect width="10" x="404.57" y="532.8" height="1"/>
++    <rect width="5" x="404.57" y="534.8" height="1"/>
++    <rect width="4" x="392.57" y="523.8" height="1"/>
++    <rect width="7" x="392.57" y="525.8" height="1"/>
++    <rect width="6" x="392.57" y="527.8" height="1"/>
++   </g>
++   <g fill="#7f8c8d">
++    <rect width="1" x="409.57" y="503.8" height="4"/>
++    <rect width="1" x="424.57" y="503.8" height="4"/>
++    <rect width="1" x="414.57" y="503.8" height="4"/>
++    <rect width="1" x="419.57" y="503.8" height="4"/>
++   </g>
++  </g>
++ </g>
++</svg>
+diff --git a/src/icons/64-apps-kontact.png b/src/icons/64-apps-kontact.png
+deleted file mode 100644
+index f1338d7f..00000000
+Binary files a/src/icons/64-apps-kontact.png and /dev/null differ
+diff --git a/src/icons/CMakeLists.txt b/src/icons/CMakeLists.txt
+index 91cf5d63..3cf300a4 100644
+--- a/src/icons/CMakeLists.txt
++++ b/src/icons/CMakeLists.txt
+@@ -1 +1 @@
+-ecm_install_icons(ICONS 128-apps-kontact.png  16-apps-kontact.png  22-apps-kontact.png  32-apps-kontact.png  48-apps-kontact.png  64-apps-kontact.png DESTINATION ${KDE_INSTALL_ICONDIR} THEME hicolor)
++ecm_install_icons(ICONS 48-apps-kontact.svg DESTINATION ${KDE_INSTALL_ICONDIR} THEME hicolor)
+diff --git a/src/icons/hisc-apps-kontact.svgz b/src/icons/hisc-apps-kontact.svgz
+deleted file mode 100644
+index 4daaa1b2..00000000
+Binary files a/src/icons/hisc-apps-kontact.svgz and /dev/null differ
+diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
+index fd5a945a..13764a83 100644
+--- a/src/org.kde.kontact.appdata.xml
++++ b/src/org.kde.kontact.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.kontact.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
++  <developer_name>The KDE Community</developer_name>
+   <name>Kontact</name>
+   <name xml:lang="ar">متراسلك</name>
+   <name xml:lang="ast">Kontact</name>
+@@ -40,7 +41,7 @@
+   <name xml:lang="x-test">xxKontactxx</name>
+   <name xml:lang="zh-CN">Kontact</name>
+   <name xml:lang="zh-TW">個人資訊管理_Kontact</name>
+-  <summary>An integrated solution to your personal information management</summary>
++  <summary>Handle all your emails, calendars, contacts and more within a single window</summary>
+   <summary xml:lang="ar">حلّ متكامل لإدارة المعلومات الشّخصيّة</summary>
+   <summary xml:lang="ca">Una solució integrada per a la gestió de la vostra informació personal</summary>
+   <summary xml:lang="ca-valencia">Una solució integrada per a la gestió de la vostra informació personal</summary>
+@@ -66,10 +67,19 @@
+   <summary xml:lang="zh-CN">个人信息管理的集成解决方案</summary>
+   <description>
+     <p>
+-      Kontact is the integrated solution to your personal information management (PIM) needs.
+-      It combines well-known KDE applications like KMail, KOrganizer and KAddressBook into a single interface to provide easy access to mail,
+-      scheduling, address book and other PIM functionality.
++    Handle your email, calendar, contacts and other personal data with Kontact. Kontact groups everything together in one place and helps you manage your communications, organize your day and work with your colleagues.
+     </p>
++    <p>
++    Kontact unifies several personal information management applications into a single window to give you the best possible experience and boost your productivity. With Kontact you can use all the tools of our powerful suite in one place. Unlike proprietary web applications we value your privacy and support open standards, which is why Kontact gives you full control over your data. You can of course also access your data offline if you want to.
++    </p>
++    <p>Kontact consists of several well-integrated components:</p>
++    <ul>
++        <li>KMail - a powerful and feature-rich email client with support for a wide range of email providers.</li>
++        <li>KOrganizer - a calendar and scheduling component of Kontact which is able to work with NextCloud, Kolab, Google Calendar and other calendaring services.</li>
++        <li>KAddressBook - an easy to use contact management tool that can synchronize contacts with many popular services.</li>
++        <li>Akregator - a news reader with powerful search and archiving functionality.</li>
++        <li>KNotes - a simple program that lets you write the computer equivalent of sticky notes.</li>
++    </ul>
+     <p xml:lang="ar">«متراسلك» هو حلّ متكامل لاحتياجات إدارة معلوماتك الشّخصيّة (PIM). يضمّ الطّقم برمجيّات كدي المعروفة مثل «بريدك»، و«منظّمك» و«دفتر عناوينك» في واجهة واحدة لتوفير نفاذ أسهل إلى البريد، والجدولة ودفتر العناوين وأيّة وظائف PIM أخرى.</p>
+     <p xml:lang="ca">El Kontact és la solució integral per a la gestió de la vostra informació personal (PIM) que necessiteu. Combina aplicacions KDE conegudes com el KMail, KOrganizer i KAddressBook en una única interfície per a facilitar l'accés al correu, la planificació, la llibreta d'adreces i altres funcionalitats del PIM.</p>
+     <p xml:lang="ca-valencia">El Kontact és la solució integral per a la gestió de la vostra informació personal (PIM) que necessiteu. Combina aplicacions KDE conegudes com el KMail, KOrganizer i KAddressBook en una única interfície per a facilitar l'accés al correu, la planificació, la llibreta d'adreces i altres funcionalitats del PIM.</p>
+@@ -101,12 +111,28 @@
+     <p xml:lang="zh-CN">Kontact 是您的个人信息管理（PIM）的集成化解决方案。他组合了知名的 KDE 应用程序，例如 KMail，KOrgranizer 和 KAddressBook 到一个界面当中，从而提供对邮件，计划，地址簿和其他个人信息管理功能的简单访问。</p>
+     <p xml:lang="zh-TW">Kontact 是一套個人資訊管理（PIM）的整合解決方案。它將用的 KDE 應用程式，如 KMail, KOrganizer, KAddressBook 等，結合在單一介面中，讓您可以輕鬆處理郵件、排程、通訊錄等等功能。</p>
+   </description>
+-  <url type="homepage">http://www.kontact.org/</url>
++  <url type="homepage">https://www.kontact.org/</url>
+   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kontact</url>
+-  <url type="help">http://docs.kde.org/stable/en/kdepim/kontact/index.html</url>
++  <url type="help">https://docs.kde.org/stable/en/kdepim/kontact/index.html</url>
+   <screenshots>
+     <screenshot type="default">
+-      <image>http://kde.org/images/screenshots/kontact.png</image>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-summary.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>KMail, the email component of Kontact.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kmail.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>Organize your time, manage events, create todos or schedule meetings with KOrganizer.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-korganizer.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>KAddressBook provides an easy way to manage your contacts.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kaddressbook.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>Stay on top of the new with Akregator, our news reader.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-akregator.png</image>
+     </screenshot>
+   </screenshots>
+   <project_group>KDE</project_group>
