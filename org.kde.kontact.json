@@ -1079,6 +1079,10 @@
                 {
                     "type": "file",
                     "path": "run_kontact.sh"
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
             ],
             "post-install": [
