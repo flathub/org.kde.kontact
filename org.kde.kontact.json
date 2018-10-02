@@ -471,7 +471,8 @@
             "name": "akonadi-search",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DAKONADISEARCH_ENABLE_KRUNNER_RUNNER=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -479,65 +480,10 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/applications/18.08.1/src/akonadi-search-18.08.1.tar.xz",
                     "sha256": "fc63226503b40dd39404335f47358767a6f59db3af5c15f3f0d3fc84a5e3eb64"
-                }
-            ],
-            "modules": [
+                },
                 {
-                    "name": "krunner",
-                    "config-opts": [
-                        "-DBUILD_TESTING=OFF",
-                        "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-                    ],
-                    "buildsystem": "cmake-ninja",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.50/krunner-5.50.0.tar.xz",
-                            "sha256": "e80181055baba12940e447c1c76f4ae581893285e580da81f6861d1b42782f0e"
-                        }
-                    ],
-                    "modules": [
-                        {
-                            "name": "plasma-framework",
-                            "config-opts": [
-                                "-DBUILD_TESTING=OFF",
-                                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-                            ],
-                            "buildsystem": "cmake-ninja",
-                            "sources": [
-                                {
-                                    "type": "archive",
-                                    "url": "https://download.kde.org/stable/frameworks/5.50/plasma-framework-5.50.0.tar.xz",
-                                    "sha256": "28879382e4835bde4ffff87a329cc20d8adb9d6eb914d3b49ef2c3866376e006"
-                                }
-                            ],
-                            "cleanup": [
-                                "/bin/plasmapkg2"
-                            ],
-                            "modules": [
-                                {
-                                    "name": "kactivities",
-                                    "config-opts": [
-                                        "-DBUILD_TESTING=OFF",
-                                        "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-                                    ],
-                                    "buildsystem": "cmake-ninja",
-                                    "builddir": true,
-                                    "sources": [
-                                        {
-                                            "type": "archive",
-                                            "url": "https://download.kde.org/stable/frameworks/5.50/kactivities-5.50.0.tar.xz",
-                                            "sha256": "a190bf6a90acc9d567bacc0680d444d5ab53415fe2bc0f589f3a2407398a7949"
-                                        }
-                                    ],
-                                    "cleanup": [
-                                        "/bin/kactivities-cli"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
+                    "type": "patch",
+                    "path": "akonadi-search-disable-krunner.patch"
             ]
         },
         {
