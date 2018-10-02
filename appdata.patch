@@ -1,0 +1,29 @@
+diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
+index fd5a945a..520919e3 100644
+--- a/src/org.kde.kontact.appdata.xml
++++ b/src/org.kde.kontact.appdata.xml
+@@ -106,7 +106,23 @@
+   <url type="help">http://docs.kde.org/stable/en/kdepim/kontact/index.html</url>
+   <screenshots>
+     <screenshot type="default">
+-      <image>http://kde.org/images/screenshots/kontact.png</image>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-summary.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>KMail, the email component of Kontact.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kmail.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>Organize your time, manage events, create todos or schedule meetings with KOrganizer.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-korganizer.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>KAddressBook provides an easy way to manage your contacts.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kaddressbook.png</image>
++    </screenshot>
++    <screenshot>
++      <caption>Stay on top of the new with Akregator, our news reader.</caption>
++      <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-akregator.png</image>
+     </screenshot>
+   </screenshots>
+   <project_group>KDE</project_group>
