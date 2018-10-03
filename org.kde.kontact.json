@@ -38,7 +38,8 @@
         "--talk-name=org.kde.knotify",
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kcookiejar5",
-        "--system-talk-name=org.freedesktop.NetworkManager"
+        "--system-talk-name=org.freedesktop.NetworkManager",
+        "--env=QT_QPA_PLATFORM=xcb"
     ],
     "cleanup": [
         "/lib/cmake",
