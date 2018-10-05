@@ -12,6 +12,7 @@
         "--socket=x11",
         "--socket=wayland",
         "--device=dri",
+        "--filesystem=xdg-config/kdeglobals:ro",
         "--own-name=org.freedesktop.Akonadi",
         "--own-name=org.freedesktop.Akonadi.*",
         "--own-name=org.freedesktop.Akonadi.Control.*",
