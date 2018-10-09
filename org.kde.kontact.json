@@ -60,6 +60,42 @@
     "rename-icon": "kontact",
     "copy-icon": true,
     "modules": [
+        {   "name": "cyrus-sasl2",
+            "config-opts": [
+                "--with-dblib=berkeley",
+                "--without-pam",
+                "--without-opie",
+                "--without-des",
+                "--disable-gssapi",
+                "--enable-cram",
+                "--enable-digest",
+                "--enable-otp",
+                "--enable-plain",
+                "--enable-login",
+                "--with-plugindir=/app/lib/sasl2:/usr/lib/sasl2"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "ftp://ftp.cyrusimap.org/cyrus-sasl/cyrus-sasl-2.1.26.tar.gz",
+                    "sha256": "8fbc5136512b59bb793657f36fadda6359cae3b08f01fd16b3d406f1345b7bc3"
+                },
+                {
+                    "type": "patch",
+                    "path": "debian_patches_0009_sasldb.al.diff"
+                },
+                {
+                    "type": "patch",
+                    "path": "debian_patches_0014_avoid_pic_overwrite.diff"
+                },
+                {
+                    "type": "script",
+                    "commands": [
+                        "rm aclocal.m4 config/libtool.m4"
+                    ]
+                }
+            ]
+        },
         {
             "name": "gpgme",
             "sources": [
