@@ -74,6 +74,7 @@
                 "--enable-login",
                 "--with-plugindir=/app/lib/sasl2:/usr/lib/sasl2"
             ],
+            "no-parallel-make": true,
             "sources": [
                 {
                     "type": "archive",
@@ -89,9 +90,10 @@
                     "path": "debian_patches_0014_avoid_pic_overwrite.diff"
                 },
                 {
-                    "type": "script",
+                    "type": "shell",
                     "commands": [
-                        "rm aclocal.m4 config/libtool.m4"
+                        "cp /usr/share/automake-1.15/config.guess config",
+                        "cp /usr/share/automake-1.15/config.sub config"
                     ]
                 }
             ]
