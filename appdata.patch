@@ -1,5 +1,5 @@
 diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
-index fd5a945a..13764a83 100644
+index fd5a945a..e2f65a40 100644
 --- a/src/org.kde.kontact.appdata.xml
 +++ b/src/org.kde.kontact.appdata.xml
 @@ -3,6 +3,7 @@
@@ -42,7 +42,7 @@ index fd5a945a..13764a83 100644
      <p xml:lang="ar">«متراسلك» هو حلّ متكامل لاحتياجات إدارة معلوماتك الشّخصيّة (PIM). يضمّ الطّقم برمجيّات كدي المعروفة مثل «بريدك»، و«منظّمك» و«دفتر عناوينك» في واجهة واحدة لتوفير نفاذ أسهل إلى البريد، والجدولة ودفتر العناوين وأيّة وظائف PIM أخرى.</p>
      <p xml:lang="ca">El Kontact és la solució integral per a la gestió de la vostra informació personal (PIM) que necessiteu. Combina aplicacions KDE conegudes com el KMail, KOrganizer i KAddressBook en una única interfície per a facilitar l'accés al correu, la planificació, la llibreta d'adreces i altres funcionalitats del PIM.</p>
      <p xml:lang="ca-valencia">El Kontact és la solució integral per a la gestió de la vostra informació personal (PIM) que necessiteu. Combina aplicacions KDE conegudes com el KMail, KOrganizer i KAddressBook en una única interfície per a facilitar l'accés al correu, la planificació, la llibreta d'adreces i altres funcionalitats del PIM.</p>
-@@ -101,12 +111,28 @@
+@@ -101,16 +111,35 @@
      <p xml:lang="zh-CN">Kontact 是您的个人信息管理（PIM）的集成化解决方案。他组合了知名的 KDE 应用程序，例如 KMail，KOrgranizer 和 KAddressBook 到一个界面当中，从而提供对邮件，计划，地址簿和其他个人信息管理功能的简单访问。</p>
      <p xml:lang="zh-TW">Kontact 是一套個人資訊管理（PIM）的整合解決方案。它將用的 KDE 應用程式，如 KMail, KOrganizer, KAddressBook 等，結合在單一介面中，讓您可以輕鬆處理郵件、排程、通訊錄等等功能。</p>
    </description>
@@ -74,3 +74,10 @@ index fd5a945a..13764a83 100644
      </screenshot>
    </screenshots>
    <project_group>KDE</project_group>
+   <provides>
+     <binary>kontact</binary>
+   </provides>
++  <releases>
++    <release version="18.08.2" date="2018-10-11" type="stable" />
++  </releases>
+ </component>
