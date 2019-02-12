@@ -28,7 +28,7 @@
         "--own-name=org.kde.korganizer",
         "--own-name=org.kde.kalarm",
         "--own-name=org.kde.accountwizard",
-        "--own-name=org.kde.pimsettingsexporter",
+        "--own-name=org.kde.pimsettingexporter",
         "--own-name=org.kde.sieveeditor",
         "--own-name=org.kde.pim.*",
         "--talk-name=org.kde.Solid.PowerManagement",
@@ -78,7 +78,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "ftp://ftp.cyrusimap.org/cyrus-sasl/cyrus-sasl-2.1.26.tar.gz",
+                    "url": "https://www.cyrusimap.org/releases/cyrus-sasl-2.1.26.tar.gz",
                     "sha256": "8fbc5136512b59bb793657f36fadda6359cae3b08f01fd16b3d406f1345b7bc3"
                 },
                 {
@@ -155,8 +155,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kcalcore-18.08.2.tar.xz",
-                    "sha256": "a70ea203e35188185fa06066ea6f7edc7886d3c4ad8d91d6b2e1a980d4cc3d86"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kcalcore-18.12.2.tar.xz",
+                    "sha256": "4ca6a0bcb875961d2e05e47dda7692f66ec6637b5d9774107d15b13cc63d6179"
                 }
             ],
             "modules": [
@@ -206,8 +206,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-18.08.2.tar.xz",
-                    "sha256": "ada4dc79d4df129d7f6a205da7c90c8e1fe51e8e78c31274917dcc5d63330a08"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-18.12.2.tar.xz",
+                    "sha256": "fca6bcdc962ceebe1d7e95650a0b67afd698104f654ff34a15494b7c526e1b9c"
                 }
             ],
             "modules": [
@@ -243,8 +243,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kmime-18.08.2.tar.xz",
-                    "sha256": "2796457f5b5818c5e26edf47623438a9b49384603a50d63377de1cfb6ed3a8eb"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kmime-18.12.2.tar.xz",
+                    "sha256": "c7c3202b0c2556b3390760d980b5cf9113561f614df7339085029f069a5d33f5"
                 }
             ]
         },
@@ -258,8 +258,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-mime-18.08.2.tar.xz",
-                    "sha256": "7416e2811351eb94d4ff914119ca070a986047f83c11b5396f25308e00ead3f1"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-mime-18.12.2.tar.xz",
+                    "sha256": "251dbf09ca7972201182d69ca94649cd541d5e7972c9fd675319bb5b850efc6a"
                 }
             ]
         },
@@ -273,8 +273,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kcontacts-18.08.2.tar.xz",
-                    "sha256": "628b5640f8a404e96913b647c01c30a9fbe3421d03c3ddd8ef5002d35090967c"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kcontacts-18.12.2.tar.xz",
+                    "sha256": "79a6637db19f8273bf6171fd03ba972f152e857a115d203c28a4081ea0f23aec"
                 }
             ]
         },
@@ -303,8 +303,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.50/prison-5.50.0.tar.xz",
-                    "sha256": "4d98254c787f4ec4f80317a738d4f5ec6f2125144df1185fe61c444a086ec2ec"
+                    "url": "https://download.kde.org/stable/frameworks/5.53/prison-5.53.0.tar.xz",
+                    "sha256": "61b5f10b48d847ce60769d10525a8f4c3c7120d71dd8e2e6285d303ea519b579"
                 }
             ],
             "modules": [
@@ -346,8 +346,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-contacts-18.08.2.tar.xz",
-                    "sha256": "03fb98021b58d4dd5ae73b4d23ac1067fc1bd320e75794d6b111acc28692842c"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-contacts-18.12.2.tar.xz",
+                    "sha256": "1eaa69ad10bd6b615efcd71d47ce88fbf2a40e953c513f89cfcba785b46a2347"
                 }
             ]
         },
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/libkgapi-18.08.2.tar.xz",
-                    "sha256": "894924b08c34d073bda2b84e9b119fc361e15d8317abda7f07a269254bdfa606"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libkgapi-18.12.2.tar.xz",
+                    "sha256": "041aa032397e254d6c8f20240d5c3de072a8e06521143c5a614c78ebe04696a7"
                 }
             ]
         },
@@ -376,8 +376,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/ksmtp-18.08.2.tar.xz",
-                    "sha256": "7451ddf2c64f29b5d957ee5fe403a02ea6041236f0be0769791f0b6fd2d636a5"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/ksmtp-18.12.2.tar.xz",
+                    "sha256": "a9245c1ae9a929ccfcf56c0dca02bd542d45d63112a56f1bf73d430f311374ff"
                 }
             ]
         },
@@ -391,8 +391,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kmailtransport-18.08.2.tar.xz",
-                    "sha256": "de777ede945768c055ad2812cd9e7231bd733dcfd1c10cb1197eaaa93d137429"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kmailtransport-18.12.2.tar.xz",
+                    "sha256": "02ad535689e736edcc0ed37425c270c55944e6f25c1ff930b31ff36695d90ffe"
                 }
             ]
         },
@@ -406,8 +406,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kpimtextedit-18.08.2.tar.xz",
-                    "sha256": "64384fe9f2caeb6614958eba6b61c81ff6d7f8b8ef394c33c58a3f8e8874867e"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kpimtextedit-18.12.2.tar.xz",
+                    "sha256": "7419b4bb0323ef375159d985f82274b1dcc9bb6d0c997ec79c79449952a07daf"
                 }
             ]
         },
@@ -421,8 +421,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kidentitymanagement-18.08.2.tar.xz",
-                    "sha256": "d17a736e0531f7767919cee59628e4702267534c4764ea4f1801274a9a6447dd"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kidentitymanagement-18.12.2.tar.xz",
+                    "sha256": "1bfd4166a029332a6be1f711c94a1daa821ca1c0888e3d6dd1cec4603734af8f"
                 }
             ]
         },
@@ -436,8 +436,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kcalutils-18.08.2.tar.xz",
-                    "sha256": "6c86919ec250aac42aebc84c50f36c1a0bcab6cca13c53a8aff34abe3902b530"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kcalutils-18.12.2.tar.xz",
+                    "sha256": "8d8459a1fad7fc6fee5313adc196b2342532b8188827a10adb4b664b464b620d"
                 }
             ]
         },
@@ -470,8 +470,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kldap-18.08.2.tar.xz",
-                    "sha256": "55a4a4b41d503ffd53f13b7cdda94897853f37e2b6a4c5adaf780dbf21e96c89"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kldap-18.12.2.tar.xz",
+                    "sha256": "de6f23e2bb6ac189856c0695b9468a914d486b5e2f47400562f250abcdd7e7f4"
                 }
             ],
             "modules": [
@@ -518,12 +518,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-search-18.08.2.tar.xz",
-                    "sha256": "fb533f4e78f2abbfee1d0f41cbee2091a0b9040eae1ad79d2fc7bb5ac1bc0fd9"
-                },
-                {
-                    "type": "patch",
-                    "path": "akonadi-search-disable-krunner.patch"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-search-18.12.2.tar.xz",
+                    "sha256": "93ee34e089212694b23071f5b3297338b1c18c77c7e3b07701d8ff973608d522"
                 }
             ]
         },
@@ -537,8 +533,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kmbox-18.08.2.tar.xz",
-                    "sha256": "2e6971afdbf81a40624fcb1950a76df78b4258fd2ebe00222c927942414d2978"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kmbox-18.12.2.tar.xz",
+                    "sha256": "36bcbc5f4ad9f59b865d7205847bd1a3256d69124b9ecf206284056e70053590"
                 }
             ]
         },
@@ -552,8 +548,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/libkdepim-18.08.2.tar.xz",
-                    "sha256": "b297c762f3b8dae50be804aa6f70ae26f3c60b269ae4f4bb37583154e5075213"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libkdepim-18.12.2.tar.xz",
+                    "sha256": "7945f57d1ca8e8e1235f7c5107162952e8fa704833a59a3046fd744acade9592"
                 }
             ]
         },
@@ -567,8 +563,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kimap-18.08.2.tar.xz",
-                    "sha256": "4c04f7294f58bc469591990c5ca85e4e80e0c49fe4280d66dc4d2519e1de9aea"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kimap-18.12.2.tar.xz",
+                    "sha256": "31ca3e3f5b87d15f637ea49b4e305b2ba6707dcfc8d52ec2b6a2024063ca9a4e"
                 }
             ]
         },
@@ -582,8 +578,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/pimcommon-18.08.2.tar.xz",
-                    "sha256": "4173676fff5ce4d8197660aa0493b0ec911bc4f2f5a315a55ddabea581425c02"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/pimcommon-18.12.2.tar.xz",
+                    "sha256": "08f39c7d25195d5abdfaaccfedf71f68aa5ac568cf6de3ded3d815c445abd3e9"
                 }
             ]
         },
@@ -597,8 +593,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.50/kholidays-5.50.0.tar.xz",
-                    "sha256": "327ca6237c273204edd66bae9ff858ac8be4ed08a602a5eb13ed5482a5ae537e"
+                    "url": "https://download.kde.org/stable/frameworks/5.53/kholidays-5.53.0.tar.xz",
+                    "sha256": "e512b0772c845042d9a0fd93d9f92c1705791b07849e84092b8f93bd6240c5fe"
                 }
             ]
         },
@@ -612,8 +608,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kalarmcal-18.08.2.tar.xz",
-                    "sha256": "7d47e6ce7494bd28285676ee39e40be30fc5b3b8a6be237d6399de699781b270"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kalarmcal-18.12.2.tar.xz",
+                    "sha256": "f2fb28dcd9bfd0c5c3d7fde76279999f4f5863d3f21bd9a3f47f77ee0b9f110d"
                 }
             ]
         },
@@ -627,8 +623,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-calendar-18.08.2.tar.xz",
-                    "sha256": "79dbc2114788b149ae359948c7b62d80f528722eed549e65b8e1a4f718eecca6"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-calendar-18.12.2.tar.xz",
+                    "sha256": "2dc01e5fdf821ebdd537fbe7f62b973f6db5e7b8bd300e282b54d80e26451757"
                 }
             ]
         },
@@ -642,8 +638,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-notes-18.08.2.tar.xz",
-                    "sha256": "3fd3eb69e3780547a720692865d86c6ff966a83cfa16f2d574762049a2492ee4"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-notes-18.12.2.tar.xz",
+                    "sha256": "df9132aa0272897c4c4fb489edfe6c0fd5829a920b25254f249cea41f758c066"
                 }
             ]
         },
@@ -657,8 +653,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/syndication-18.08.2.tar.xz",
-                    "sha256": "db02ff56f4188bdab93ca61a4daeb310cb1e91016d30ef39541da4b7976d0bb0"
+                    "url": "https://download.kde.org/stable/frameworks/5.53/syndication-5.53.0.tar.xz",
+                    "sha256": "cbe4bfbbfdd90401574a6c60463ffa08083ad14efac0d0ed888c04d85e46d27e"
                 }
             ]
         },
@@ -672,8 +668,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kdav-18.08.2.tar.xz",
-                    "sha256": "768cb9437ee51c12555855a5cc955d8dd8e67dbdd336a4aa919fd9e5cf5b7395"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kdav-18.12.2.tar.xz",
+                    "sha256": "b47af6e301af1f991ba095320cb0109f097c7411ccdb61ed602c9b3260937cfc"
                 }
             ]
         },
@@ -687,8 +683,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/libkleo-18.08.2.tar.xz",
-                    "sha256": "2ecb5b2dc7dbbeadc98d91c72356348223967b65722a615de522cdf16fd248c4"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libkleo-18.12.2.tar.xz",
+                    "sha256": "d88049fd5f4af3c52424ea0c4e01b41bad18cd3eb229bb6ead2a7022d104a60a"
                 }
             ]
         },
@@ -702,8 +698,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/grantleetheme-18.08.2.tar.xz",
-                    "sha256": "9bc9d10e0a7fe9bc881585e87ecbae1716fc72fa600e8aba35542d6c8964d2ad"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/grantleetheme-18.12.2.tar.xz",
+                    "sha256": "7c4081724cef375481d7a8657a9010ea28bb8d82d48faedfa7ef84ca38cfc162"
                 }
             ]
         },
@@ -717,8 +713,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kdepim-apps-libs-18.08.2.tar.xz",
-                    "sha256": "10ac6453b8bd961c6ad0a2fde1e7f4893bec25fe13307f34bb1fb6d82ce8b15a"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kdepim-apps-libs-18.12.2.tar.xz",
+                    "sha256": "06e19b5878600e92be6f9184efd51bc0abc74a1582d6c77f84dc2703a00238dd"
                 }
             ]
         },
@@ -732,8 +728,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/libgravatar-18.08.2.tar.xz",
-                    "sha256": "a70f75994e14bb8f49df1f9e306ffd5f4101e52a953a79b43b88644c44b26ed3"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libgravatar-18.12.2.tar.xz",
+                    "sha256": "2c6b0073a2187a2ea120de61cefb9d8abb673650f684a2eff2fed2368a87d089"
                 }
             ]
         },
@@ -747,8 +743,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/calendarsupport-18.08.2.tar.xz",
-                    "sha256": "4c975356eced1b54e5d83f54dbd7781c711fb89b714f6c42554babb7ea53e910"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/calendarsupport-18.12.2.tar.xz",
+                    "sha256": "5b9145e7dc54eeddf581eb3165b24f88968aa8d323d3846d29b7430d6e9e6c65"
                 }
             ]
         },
@@ -762,8 +758,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/eventviews-18.08.2.tar.xz",
-                    "sha256": "d9e816cf27b00510e946fad5f1e8c601dc14715c35f7c5475cb4458d39d345a5"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/eventviews-18.12.2.tar.xz",
+                    "sha256": "c386e02e3450775580e8f522d9cefa0a28e0a46683b2725aef73c18e0c3120d6"
                 }
             ]
         },
@@ -777,8 +773,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/incidenceeditor-18.08.2.tar.xz",
-                    "sha256": "78a4197a2a5bc14d1dd816197f4d19a74103a92ecb9220cb5d90757212b75524"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/incidenceeditor-18.12.2.tar.xz",
+                    "sha256": "7526488ff3ddcdd24eb4651f1aecca89675c04696d7e236acb876e67a4eb89a6"
                 }
             ]
         },
@@ -792,8 +788,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/messagelib-18.08.2.tar.xz",
-                    "sha256": "2e735c18641498232d40e60fe7d56d87cb80c0cea2a4b57d393c27ef90357e20"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/messagelib-18.12.2.tar.xz",
+                    "sha256": "03bb331642b61fe5ea1e0d625594973f10797884d24c77f8894b894ea570cbfa"
                 }
             ]
         },
@@ -807,8 +803,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/mailimporter-18.08.2.tar.xz",
-                    "sha256": "3f57096a93d3e781d3182b3fa8a1f8d60414787df24f033d5d2a9e425700e4e3"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/mailimporter-18.12.2.tar.xz",
+                    "sha256": "6640d627b31516ab0ee3d805bf12a862e980fb5d6473a3b3bcfb6bff7ab20a57"
                 }
             ]
         },
@@ -822,8 +818,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/mailcommon-18.08.2.tar.xz",
-                    "sha256": "d0d7e641c340c25bc6510e732469a281cf0e499e0a99ba54a029cdba3854d38e"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/mailcommon-18.12.2.tar.xz",
+                    "sha256": "95dd65f57ac8b0ad98aa73c08dc9de1cda2f30c1c051d37ea82e1ddc0d4dd800"
                 }
             ]
         },
@@ -837,8 +833,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kontactinterface-18.08.2.tar.xz",
-                    "sha256": "2643d849babe6d514a4c7c3bbe2bd01ba891a8016744f8ac8fe54abe9eb78f74"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kontactinterface-18.12.2.tar.xz",
+                    "sha256": "0e8afef75b0adf31122b18bce64cb6aa11d23fb603d2c4e75c5943119db50f11"
                 }
             ]
         },
@@ -852,8 +848,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/libksieve-18.08.2.tar.xz",
-                    "sha256": "6247998712efae2c2b82c9d03da28ce561c970207440ba14295704da4f7ffd6f"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libksieve-18.12.2.tar.xz",
+                    "sha256": "024b9ee3804678b3b28fd65e8e1f093cd5dca6c52185957842489ad32836be16"
                 }
             ]
         },
@@ -867,8 +863,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kdepim-runtime-18.08.2.tar.xz",
-                    "sha256": "629e05fd910b9633cf8f9b227248b46325c1a18cf3854b98c159aaeec66a0357"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kdepim-runtime-18.12.2.tar.xz",
+                    "sha256": "b7d5cd9e03688f62f4b36f1867ba681a2ce8d806817d3d2be1c615f07b3f6e45"
                 }
             ],
             "modules": [
@@ -932,8 +928,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://download.kde.org/stable/frameworks/5.50/portingAids/kdelibs4support-5.50.0.tar.xz",
-                                    "sha256": "b4800719c22fbb6643ea17c83eb01fe4468604c19c5bfd89430dba6b59b8348a"
+                                    "url": "https://download.kde.org/stable/frameworks/5.53/portingAids/kdelibs4support-5.53.0.tar.xz",
+                                    "sha256": "208a2f308aa55a1ec9c311e3c3224d65d78feb53a1df127b26007f046a9821aa"
                                 }
                             ]
                         }
@@ -951,8 +947,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/ktnef-18.08.2.tar.xz",
-                    "sha256": "4b852ff356d2a032e28b7283cc355ea9c444e22673bbe3efd6dbee000d1bbeab"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/ktnef-18.12.2.tar.xz",
+                    "sha256": "dcb2dbed1f184e057d4611c015d570d751fa0154dbe89ebdd3c26951c8390a68"
                 }
             ]
         },
@@ -966,8 +962,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kmail-18.08.2.tar.xz",
-                    "sha256": "46645d6174ec7ef769b6828848b65a07d2606b6a28f6650a46e56d8abd7cf565"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kmail-18.12.2.tar.xz",
+                    "sha256": "dfa2e36a37e035e6e2b710cec7946c3da11f789f32a1082129be1b6b867c5c89"
                 }
             ]
         },
@@ -981,8 +977,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akregator-18.08.2.tar.xz",
-                    "sha256": "bef2ff8ff8242eb5bbfb6461b1051c3d1899834c4f03894c158db99fc865843f"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akregator-18.12.2.tar.xz",
+                    "sha256": "2653bbd9498c692a191eeb8ac625e0805e5742a432d9e43ad360887ae9fce8d1"
                 },
                 {
                     "type": "patch",
@@ -1000,8 +996,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/korganizer-18.08.2.tar.xz",
-                    "sha256": "29f4195146adc0317f5b867751bfeb53df7a85de9e683489aebcdc34f20cfb16"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/korganizer-18.12.2.tar.xz",
+                    "sha256": "aaff5b68a1fbacdb8f9ae50b34ff98751f21f038f619688553ff959961c2cdfe"
                 }
             ]
         },
@@ -1015,8 +1011,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kalarm-18.08.2.tar.xz",
-                    "sha256": "7c143d86b24d6cfb80866109c2dc46dfa17dd0a145943f151eda6f06e149603b"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kalarm-18.12.2.tar.xz",
+                    "sha256": "498f6dc40681b9571cc39854757a6d1d1a9a20adb756a0d45e691ee3611ca7e3"
                 }
             ]
         },
@@ -1030,8 +1026,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kaddressbook-18.08.2.tar.xz",
-                    "sha256": "acf2fb483f85e322861c3985d9f2905042c9f744908041085d5dbc76366beb8b"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kaddressbook-18.12.2.tar.xz",
+                    "sha256": "9a4a7b85b8b8f15acae40e8f95265a42701599076bf2cc2069485222578041b3"
                 }
             ]
         },
@@ -1045,8 +1041,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/knotes-18.08.2.tar.xz",
-                    "sha256": "cf066bb07688820e255c7524e1d49ddc76053d070153f093517e873bf10e33f6"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/knotes-18.12.2.tar.xz",
+                    "sha256": "f10417b010b8ca951095a8ec3e68728c5b86518c5858b2e391cb8677ae82cb90"
                 }
             ]
         },
@@ -1060,8 +1056,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kontact-18.08.2.tar.xz",
-                    "sha256": "eb191f4826032071a788c357eb08269ec123d554ef9c8d30a64d50003cfa5e1c"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kontact-18.12.2.tar.xz",
+                    "sha256": "b512c1f5ae50dfa324c931853e1b5f1f64b5f3c873d3e5a93c917889d17c11be"
                 },
                 {
                     "type": "file",
@@ -1086,8 +1082,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/akonadi-import-wizard-18.08.2.tar.xz",
-                    "sha256": "d396a8235ab3e0df5a08a0bda78216d21d0949cf41fcd16901fb85c9098cfe25"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadi-import-wizard-18.12.2.tar.xz",
+                    "sha256": "e9d26776414376c6cf5bc4e547271d9770c44c5718b1ae0bae27f68d4a817137"
                 }
             ]
         },
@@ -1101,8 +1097,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kdepim-addons-18.08.2.tar.xz",
-                    "sha256": "98ace1101cc55efa527af76534284a92574baaa4d84409e4f4e8a737dd468527"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kdepim-addons-18.12.2.tar.xz",
+                    "sha256": "346d28e915c59360874120645f04c4269872ce17043901661411de36ec6dcd23"
                 }
             ],
             "modules": [
@@ -1116,8 +1112,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/applications/18.08.2/src/kitinerary-18.08.2.tar.xz",
-                            "sha256": "f88b3a8e52ebafc6dcefa410212d911280053da53deb4155ea3670588e7d2691"
+                            "url": "https://download.kde.org/stable/applications/18.12.2/src/kitinerary-18.12.2.tar.xz",
+                            "sha256": "8885efa4e2042806f8999558b6f531d55a099f39632dc6398f5114b354eb58c2"
                         }
                     ],
                     "modules": [
@@ -1131,8 +1127,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kpkpass-18.08.2.tar.xz",
-                                    "sha256": "aa2fdc4cd3a9186860a04cf75fae0b1f9d0b00d86be0bb0cfbc2cd3f65873b91"
+                                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kpkpass-18.12.2.tar.xz",
+                                    "sha256": "0dd611334d2b48d2765b859a435e96b67928d8bb7ba3c6b2ae4c2be568e778d6"
                                 }
                             ]
                         }
@@ -1150,8 +1146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/grantlee-editor-18.08.2.tar.xz",
-                    "sha256": "cd955d3aaee06759b52b92047d254de7fd1815883b9e460c6b92052d393e8b7f"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/grantlee-editor-18.12.2.tar.xz",
+                    "sha256": "4be59def61b12a668af8cc6b8f4978e288e79b1abc521ef36161f787724401e4"
                 }
             ]
         },
@@ -1165,8 +1161,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/kmail-account-wizard-18.08.2.tar.xz",
-                    "sha256": "bb98ec03be36f8606f58a03efe3d95ff79bf82d5c41e730568ea8f3e1033bf73"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kmail-account-wizard-18.12.2.tar.xz",
+                    "sha256": "3d288fcd7cdee5a7d2b076ea0aa1732de13f81267bfd95eaf5f530d9182f3380"
                 }
             ],
             "modules": [
@@ -1180,8 +1176,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.50/portingAids/kross-5.50.0.tar.xz",
-                            "sha256": "42413a8175cbd7bf251f7a2713a73b818d0c10c25bd11b08b63ac34c3e1911bc"
+                            "url": "https://download.kde.org/stable/frameworks/5.53/portingAids/kross-5.53.0.tar.xz",
+                            "sha256": "5e7ef96c1c981d8c47928301eb1c84d69c1567ae46cf716275b2765befbdc9e0"
                         }
                     ]
                 }
@@ -1197,8 +1193,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/pim-data-exporter-18.08.2.tar.xz",
-                    "sha256": "18d50f2d57a0521b5b9df7f6a54587564c59ded9885baa03b73511d93762b005"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/pim-data-exporter-18.12.2.tar.xz",
+                    "sha256": "fde992e3ea86ab7102d9e1e9487e158e84924421f851cfc6cc3079f15a0b470c"
                 }
             ]
         },
@@ -1212,8 +1208,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/pim-sieve-editor-18.08.2.tar.xz",
-                    "sha256": "1f07607a3f6549ffd66ec1d4405706b56fee293c37aa843e5a39d8931c791a05"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/pim-sieve-editor-18.12.2.tar.xz",
+                    "sha256": "e87fbc16dadacbeb2f3c856f14285b5555f7a49361c0f8eb04c19cdbd4c451f5"
                 }
             ]
         },
@@ -1227,8 +1223,23 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/18.08.2/src/mbox-importer-18.08.2.tar.xz",
-                    "sha256": "2b2e2cc06ccf8fed4694ed48d749bc08187c5cfb73e22b83c45061f89a887d89"
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/mbox-importer-18.12.2.tar.xz",
+                    "sha256": "4c994faff6b26bb5746e178e2d6bdaddf45e62f9573f85a1bc78cb4e84d41603"
+                }
+            ]
+        },
+        {
+            "name": "akonadiconsole",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/akonadiconsole-18.12.2.tar.xz",
+                    "sha256": "c1d3f53852c2ad61a1a3d4787bf54ac78f9f523ae5d9e3e9e8959e1f81a6e5be"
                 }
             ]
         }

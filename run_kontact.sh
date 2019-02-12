@@ -21,6 +21,9 @@ trap stop_akonadi EXIT
 # is minimal.
 kbuildsycoca5
 
+# fire up Akonadi
+akonadictl start
+
 # .. aaaaand lift-off
 kontact "$@"
 
