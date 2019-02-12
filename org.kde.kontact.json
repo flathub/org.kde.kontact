@@ -28,7 +28,7 @@
         "--own-name=org.kde.korganizer",
         "--own-name=org.kde.kalarm",
         "--own-name=org.kde.accountwizard",
-        "--own-name=org.kde.pimsettingsexporter",
+        "--own-name=org.kde.pimsettingexporter",
         "--own-name=org.kde.sieveeditor",
         "--own-name=org.kde.pim.*",
         "--talk-name=org.kde.Solid.PowerManagement",
