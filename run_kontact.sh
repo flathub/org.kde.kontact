@@ -27,3 +27,4 @@ akonadictl start
 # .. aaaaand lift-off
 kontact "$@"
 
+
