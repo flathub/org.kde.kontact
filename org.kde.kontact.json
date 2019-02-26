@@ -979,6 +979,10 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/applications/18.12.2/src/akregator-18.12.2.tar.xz",
                     "sha256": "2653bbd9498c692a191eeb8ac625e0805e5742a432d9e43ad360887ae9fce8d1"
+                },
+                {
+                    "type": "patch",
+                    "path": "akregator-arm32-fix-namelookup.patch"
                 }
             ]
         },
