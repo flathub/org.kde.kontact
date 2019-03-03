@@ -3,7 +3,7 @@
     "branch": "stable",
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.11",
+    "runtime-version": "5.12",
     "sdk": "org.kde.Sdk",
     "command": "run_kontact.sh",
     "finish-args": [
@@ -78,22 +78,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.cyrusimap.org/releases/cyrus-sasl-2.1.26.tar.gz",
-                    "sha256": "8fbc5136512b59bb793657f36fadda6359cae3b08f01fd16b3d406f1345b7bc3"
-                },
-                {
-                    "type": "patch",
-                    "path": "debian_patches_0009_sasldb.al.diff"
-                },
-                {
-                    "type": "patch",
-                    "path": "debian_patches_0014_avoid_pic_overwrite.diff"
+                    "url": "https://www.cyrusimap.org/releases/cyrus-sasl-2.1.27.tar.gz",
+                    "sha256": "26866b1549b00ffd020f188a43c258017fa1c382b3ddadd8201536f72efb05d5"
                 },
                 {
                     "type": "shell",
                     "commands": [
-                        "cp /usr/share/automake-1.15/config.guess config",
-                        "cp /usr/share/automake-1.15/config.sub config"
+                        "cp -p /usr/share/automake-*/config.{sub,guess} ."
                     ]
                 }
             ]
@@ -497,6 +488,12 @@
                             "dest-filename": "autogen.sh",
                             "commands": [
                                 "AUTOMAKE=\"/bin/true\" autoreconf -vfi"
+                            ]
+                        },
+                        {
+                            "type": "shell",
+                            "commands": [
+                                "cp -p /usr/share/automake-*/config.{sub,guess} ."
                             ]
                         }
                     ],
