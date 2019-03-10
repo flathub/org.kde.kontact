@@ -1018,6 +1018,7 @@
         },
         {
             "name": "kalarm",
+            "disabled": true,
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
