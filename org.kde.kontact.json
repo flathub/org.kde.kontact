@@ -31,6 +31,7 @@
         "--own-name=org.kde.pimsettingexporter",
         "--own-name=org.kde.sieveeditor",
         "--own-name=org.kde.pim.*",
+        "--own-name=org.kde.akonadiconsole.*",
         "--own-name=org.kde.kioexec.*",
         "--talk-name=org.kde.Solid.PowerManagement",
         "--talk-name=org.kde.kded5",
