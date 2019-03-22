@@ -853,6 +853,7 @@
         {
             "name": "kdepim-runtime",
             "config-opts": [
+                "-DQt5NetworkAuth_DIR=/app/lib/cmake/Qt5NetworkAuth",
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
@@ -865,6 +866,23 @@
                 }
             ],
             "modules": [
+                {
+                    "name": "libqt5networkauth5",
+                    "buildsystem": "qmake",
+                    "build-commands": [
+                        "make",
+                        "find . -name Makefile -exec sed -i -e \"s/\\$(INSTALL_ROOT)\\/usr\\/lib\\/${FLATPAK_ARCH}-linux-gnu/\\/app\\/lib/g\" -e \"s/\\$(INSTALL_ROOT)\\/usr\\/lib\\/mkspecs/\\/app\\/lib\\/mkspecs/g\" -e \"s/\\$(INSTALL_ROOT)\\/usr\\/include\\/QtNetworkAuth/\\/app\\/include\\/QtNetworkAuth/g\" -e \"s/\\$(INSTALL_ROOT)\\/usr\\/doc/\\/app\\/doc/g\" {} \\;",
+                        "find . -name '*.cmake' -exec sed -i -e \"s/\\/usr\\/lib\\/${FLATPAK_ARCH}-linux-gnu\\/\\.\\./\\/app\\/lib/g\" -e \"s/\\/lib\\/${FLATPAK_ARCH}-linux-gnu/\\/lib/g\" -e 's/\\${CMAKE_CURRENT_LIST_DIR}\\/\\.\\.\\/\\.\\.\\/\\.\\.\\/\\.\\.\\//\\/app\\//g' {} \\;",
+                        "find . -name '*.pc' -exec sed -i -e \"s/\\/usr/\\/app/g\" -e \"s/lib\\/${FLATPAK_ARCH}-linux-gnu/lib/g\" {} \\;"
+                    ],
+                    "sources": [
+                        {
+                            "type": "archive",
+                            "url": "https://download.qt.io/official_releases/qt/5.12/5.12.1/submodules/qtnetworkauth-everywhere-src-5.12.1.tar.xz",
+                            "sha256": "090fbb6be35b2f2edf7cc4cb32f0f9c27a9a66defa06f6d23e1397836e31d44c"
+                        }
+                    ]
+                },
                 {
                     "name": "libkolabxml",
                     "config-opts": [
