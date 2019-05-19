@@ -1,12 +1,50 @@
 diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
-index f75de0a6..2a4f6aa7 100644
+index 9b7ba71..86906e5 100644
 --- a/src/org.kde.kontact.appdata.xml
 +++ b/src/org.kde.kontact.appdata.xml
-@@ -300,4 +300,8 @@
+@@ -230,7 +230,7 @@
+       <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-summary.png</image>
+     </screenshot>
+     <screenshot>
+-      <caption>KMail, the email component of Kontact.</caption>
++      <caption>KMail, the email component of Kontact</caption>
+       <caption xml:lang="ca">El KMail, el component de correu electrònic del Kontact.</caption>
+       <caption xml:lang="ca-valencia">El KMail, el component de correu electrònic del Kontact.</caption>
+       <caption xml:lang="en-GB">KMail, the email component of Kontact.</caption>
+@@ -251,7 +251,7 @@
+       <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kmail.png</image>
+     </screenshot>
+     <screenshot>
+-      <caption>Organize your time, manage events, create todos or schedule meetings with KOrganizer.</caption>
++      <caption>Organize your time with KOrganizer</caption>
+       <caption xml:lang="ca">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu pendents o programeu reunions amb el KOrganizer.</caption>
+       <caption xml:lang="ca-valencia">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu pendents o programeu reunions amb el KOrganizer.</caption>
+       <caption xml:lang="en-GB">Organise your time, manage events, create to-dos or schedule meetings with KOrganizer.</caption>
+@@ -271,7 +271,7 @@
+       <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-korganizer.png</image>
+     </screenshot>
+     <screenshot>
+-      <caption>KAddressBook provides an easy way to manage your contacts.</caption>
++      <caption>KAddressBook let's you manage your contacts</caption>
+       <caption xml:lang="ca">El KAddressBook proporciona una manera fàcil de gestionar els vostres contactes.</caption>
+       <caption xml:lang="ca-valencia">El KAddressBook proporciona una manera fàcil de gestionar els vostres contactes.</caption>
+       <caption xml:lang="en-GB">KAddressBook provides an easy way to manage your contacts.</caption>
+@@ -291,7 +291,7 @@
+       <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kaddressbook.png</image>
+     </screenshot>
+     <screenshot>
+-      <caption>Stay on top of the new with Akregator, our news reader.</caption>
++      <caption>Stay on top of the news with Akregator</caption>
+       <caption xml:lang="ca">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
+       <caption xml:lang="ca-valencia">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
+       <caption xml:lang="en-GB">Stay on top of the new with Akregator, our news reader.</caption>
+@@ -315,4 +315,10 @@
    <provides>
      <binary>kontact</binary>
    </provides>
++  <content_rating type="oars-1.1" />
 +  <releases>
++    <release version="19.04.1" date="2019-05-09" type="stable" />
 +    <release version="18.12.2" date="2019-02-12" type="stable" />
 +    <release version="18.08.2" date="2018-10-11" type="stable" />
 +  </releases>
