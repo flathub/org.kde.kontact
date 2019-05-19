@@ -72,7 +72,7 @@
                 "--enable-otp",
                 "--enable-plain",
                 "--enable-login",
-                "--with-plugindir=/app/lib/sasl2:/usr/lib/sasl2"
+                "--with-plugindir=/app/lib/sasl2"
             ],
             "no-parallel-make": true,
             "sources": [
