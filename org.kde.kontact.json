@@ -42,7 +42,8 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kcookiejar5",
         "--system-talk-name=org.freedesktop.NetworkManager",
-        "--env=QT_QPA_PLATFORM=xcb"
+        "--env=QT_QPA_PLATFORM=xcb",
+        "--env=SASL_PATH=/app/lib/sasl2"
     ],
     "cleanup": [
         "/lib/cmake",
