@@ -59,6 +59,9 @@ def update_frameworks_url(source, name, new_version):
 
 def update_modules(args, modules):
     for module in modules:
+        # Skip external submodules
+        if isinstance(module, str):
+            continue
         sources = module['sources']
         for source in sources:
             if source['type'] != 'archive':

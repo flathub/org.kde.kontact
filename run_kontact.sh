@@ -2,7 +2,10 @@
 
 function stop_akonadi {
     akonadictl stop
-    while [[ $(akonadictl status 2>&1 | grep "running") ]]; do
+    count=0
+    while [[ $(akonadictl status 2>&1 | grep "running") && $count -lt 5 ]]; do
+        echo "Waiting for Akonadi to stop..."
+        ((count=$count+1))
         sleep 1
     done
 }
@@ -12,7 +15,7 @@ stop_akonadi
 
 # Make sure that our Akonadi is stopped when this script exits, as there
 # is no way to shut it down later and it would interfere with the next run.
-trap stop_akonadi EXIT
+trap stop_akonadi EXIT TERM
 
 # Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca5
 # automatically (because KDED lives outside of the sandbox).
