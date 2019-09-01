@@ -14,6 +14,7 @@ from tqdm import tqdm
 def update_source(source, name, version, new_url):
     print('Downloading %s' % new_url)
     r = requests.get(new_url, stream = True)
+    r.raise_for_status()
     total_size = int(r.headers.get('content-length', 0))
     block_size = 4096
     wrote = 0
@@ -28,6 +29,7 @@ def update_source(source, name, version, new_url):
         exit(1)
 
     sig = requests.get(new_url + '.sig')
+    sig.raise_for_status()
     sigfilename = '/tmp/%s.sig' % name
     with open(sigfilename, 'w') as sigfile:
         sigfile.write(sig.text)
