@@ -7,6 +7,7 @@ import hashlib
 import sys
 import subprocess
 import os
+import yaml
 from math import ceil
 from tqdm import tqdm
 
@@ -73,6 +74,22 @@ def update_modules(args, modules):
         if 'modules' in module:
             update_modules(args, module['modules'])
 
+def update_json_file(args, filename):
+    with open(filename, 'r', encoding='utf-8') as infile:
+        j = json.load(infile)
+        update_modules(args, j['modules'])
+
+    with open(filename, 'w', encoding='utf-8') as outfile:
+        json.dump(j, outfile, indent=4, ensure_ascii = False)
+
+def update_yaml_file(args, filename):
+    with open(filename, 'r', encoding='utf-8') as infile:
+        y = yaml.load(infile, Loader=yaml.Loader)
+        update_modules(args, y['modules'])
+
+    with open(filename, 'w', encoding='utf-8') as outfile:
+        outfile.write(yaml.dump(y, Dumper=yaml.Dumper))
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-v', '--version', action='store', required=True, dest='version')
@@ -80,13 +97,12 @@ def main():
     parser.add_argument('file', action='store')
 
     args = parser.parse_args()
-    with open(args.file, 'r', encoding='utf-8') as f:
-        j = json.load(f)
-        update_modules(args, j['modules'])
-
-    with open(args.file, 'w', encoding='utf-8') as f:
-        json.dump(j, f, indent=4, ensure_ascii = False)
-
+    if args.file.endswith('.json'):
+        update_json_file(args, args.file)
+    elif args.file.endswith('.yaml'):
+        update_yaml_file(args, args.file)
+    else:
+        raise RuntimeError("Unrecognized manifest file type")
 
 if __name__ == "__main__":
     main()
