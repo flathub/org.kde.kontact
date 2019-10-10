@@ -3,7 +3,7 @@
     "branch": "stable",
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.13",
     "sdk": "org.kde.Sdk",
     "command": "run_kontact.sh",
     "finish-args": [
@@ -1241,7 +1241,7 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadiconsole-19.04.1.tar.xz",
-                    "sha256": "33846348b0308eaf4ca81e8d577ce0eb6c17d49632e034607506413e86531262"
+                    "sha256": "33846348b0308eaf4ca81e8d577ce0eb6c17d49632e034607506413e865.1362"
                 }
             ]
         }
