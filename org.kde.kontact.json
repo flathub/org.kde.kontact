@@ -3,7 +3,7 @@
     "branch": "stable",
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.14",
     "sdk": "org.kde.Sdk",
     "command": "run_kontact.sh",
     "finish-args": [
