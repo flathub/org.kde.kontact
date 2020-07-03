@@ -108,8 +108,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.32.tar.bz2",
-                            "sha256": "c345c5e73cc2332f8d50db84a2280abfb1d8f6d4f1858b9daa30404db44540ca"
+                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.38.tar.bz2",
+                            "sha256": "d8988275aa69d7149f931c10442e9e34c0242674249e171592b430ff7b3afd02"
                         }
                     ]
                 },
