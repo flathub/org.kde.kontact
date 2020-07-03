@@ -150,8 +150,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.71/kcalendarcore-5.71.0.tar.xz",
-                    "sha256": "d5138db971f6be606be8ae7d761bad778af3cacada8e85fb2f469190c347cd94"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/kcalendarcore-5.69.0.tar.xz",
+                    "sha256": "4ef44809c4766843f71b908eafa66d2b00047984c47abe8c62c80f06a2cc2184"
                 }
             ],
             "modules": [
@@ -268,8 +268,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.71/kcontacts-5.71.0.tar.xz",
-                    "sha256": "57f511a624406b27a7de25c83deb4104c95e851f9fda4f6d94450155ab08f4bd"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/kcontacts-5.69.0.tar.xz",
+                    "sha256": "fcf59f7db66ec65fe27a3c6f04eb2426bd47d5c7048d19f9d2b2c3d94c75a3c8"
                 }
             ]
         },
@@ -298,8 +298,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.71/prison-5.71.0.tar.xz",
-                    "sha256": "44762ee7a3993bd7527f0b33ee09bacc1d5a518641b79932e5490a511ac7e87f"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/prison-5.69.0.tar.xz",
+                    "sha256": "79d091e84f2539130224160c2ce51446e2b5f04352938c2a45fdb9973282817e"
                 }
             ],
             "modules": [
@@ -594,8 +594,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.71/kholidays-5.71.0.tar.xz",
-                    "sha256": "5469718d6ede7edb2ab06bbaff8af01567ba77ffe2160c2c2d47c666cfebf417"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/kholidays-5.69.0.tar.xz",
+                    "sha256": "9f1a5c26dab6c59e6982108d29a155fc06c4542d443d989456bc2c830df00358"
                 }
             ]
         },
@@ -654,8 +654,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.71/syndication-5.71.0.tar.xz",
-                    "sha256": "c515fd48d3736b55c8e7990c72471bfddd55363c4bcb049713be741eaa7b07e0"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/syndication-5.69.0.tar.xz",
+                    "sha256": "eb38fbc7749efff7a06ee1454c0aaf4e0751bda2eaaf2587560e7d810f02972e"
                 }
             ]
         },
