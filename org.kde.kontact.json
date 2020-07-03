@@ -201,8 +201,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadi-19.04.1.tar.xz",
-                    "sha256": "b157c4199e3b913c4f684f56ed9d76bef67b3c120c319c88ae24bded6fc927bc"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadi-20.04.2.tar.xz",
+                    "sha256": "b2e4bb3a8038ecb47bcdecc25edad21a6c5eb0366c1e739064ccaa3f13b20f16"
                 }
             ],
             "modules": [
