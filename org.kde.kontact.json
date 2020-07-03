@@ -356,8 +356,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/libkgapi-19.04.1.tar.xz",
-                    "sha256": "a9d499fe1f5371112ceb94b3b03f8e2b1a1faa4ee69722b4c1c9ba28e8f9052e"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/libkgapi-20.04.2.tar.xz",
+                    "sha256": "ecb87422fbf0ed711da9cf947fffca6dd09572a5cf01400bafd3f38e05141470"
                 }
             ]
         },
