@@ -534,8 +534,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kmbox-19.04.1.tar.xz",
-                    "sha256": "701eda3a4831ed0daf9bd14a93ff845f42e4f93c6ca16d83ebda958c27021fc0"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kmbox-20.04.2.tar.xz",
+                    "sha256": "c3c55a3d9f8d203545a0a1c28ef81e487f24eb30e72e476fe5e42eeb0817c481"
                 }
             ]
         },
