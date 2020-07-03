@@ -371,8 +371,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/ksmtp-19.04.1.tar.xz",
-                    "sha256": "965f5f1c44cd64f9899ff5919372fe449e0f8b63e492f566017c9b8d5eb324bb"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/ksmtp-20.04.2.tar.xz",
+                    "sha256": "b759236021688236257ecfef16d443030414332c3d1a8f133f482c7d57399162"
                 }
             ]
         },
