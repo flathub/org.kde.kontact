@@ -699,8 +699,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/grantleetheme-19.04.1.tar.xz",
-                    "sha256": "fdcf77c996123daea0559cc2ac4251b330e2c4388104ee95f814af770fc33d8b"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/grantleetheme-20.04.2.tar.xz",
+                    "sha256": "112520067c6ee714f4412318ee126a9582e44fdcb584660847fe33840e3dc2e5"
                 }
             ]
         },
