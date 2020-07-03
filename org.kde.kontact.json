@@ -268,8 +268,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kcontacts-19.04.1.tar.xz",
-                    "sha256": "1773a5ddcec46dbf72cef2bbcc8c3143a0ba18ce6fa462ba642011b36b9cc088"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/kcontacts-5.69.0.tar.xz",
+                    "sha256": "fcf59f7db66ec65fe27a3c6f04eb2426bd47d5c7048d19f9d2b2c3d94c75a3c8"
                 }
             ]
         },
