@@ -1013,8 +1013,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kalarm-19.04.1.tar.xz",
-                    "sha256": "e8a58584e765c1d98beb4b6bcac0ab835dcb1f1c1bab8cf1c01fa01a2a56bbfd"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kalarm-20.04.2.tar.xz",
+                    "sha256": "dbe88105a14920f1d4113e4c0842ae7ead01db1d5362e3a41305791ccc2a9f33"
                 }
             ]
         },
