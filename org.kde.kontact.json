@@ -789,8 +789,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/messagelib-19.04.1.tar.xz",
-                    "sha256": "7e4d0e2f2d6dfcb235408af0e4af235ab10dc8a8c4f1e169a672f03b37b180ad"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/messagelib-20.04.2.tar.xz",
+                    "sha256": "8d3401f9d5fd65fe6dcff67459eb7aaea996d770a4889b2f4b2b542eeed3ce5e"
                 }
             ]
         },
