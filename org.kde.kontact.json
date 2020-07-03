@@ -948,8 +948,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/ktnef-19.04.1.tar.xz",
-                    "sha256": "6f9449307d83a7bf0dc30022c36e3d854a06b370af18e44ca6e2eab684b97c93"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/ktnef-20.04.2.tar.xz",
+                    "sha256": "799a24e826069cd2ecbc752c75605df9ab2d71c9a504c6c8ea64df25631a0248"
                 }
             ]
         },
