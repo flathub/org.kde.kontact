@@ -978,8 +978,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akregator-19.04.1.tar.xz",
-                    "sha256": "b2e731a3eac0a68865a90b71f17307c3aea8db304bf6663b551bc95907a490f1"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akregator-20.04.2.tar.xz",
+                    "sha256": "f5f79894bf939d9448a51da3a52eb81d8609831e55a8e7eeb556374d63e5b0fd"
                 },
                 {
                     "type": "patch",
