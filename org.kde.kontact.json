@@ -141,7 +141,7 @@
             ]
         },
         {
-            "name": "kcalcore",
+            "name": "kcalendarcore",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
@@ -150,8 +150,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kcalcore-19.04.1.tar.xz",
-                    "sha256": "d14bf2f8270c0072e415cf8fe87c0fb8eefad1b95a8713e184bba3e3ae6002f9"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/kcalendarcore-5.69.0.tar.xz",
+                    "sha256": "4ef44809c4766843f71b908eafa66d2b00047984c47abe8c62c80f06a2cc2184"
                 }
             ],
             "modules": [
