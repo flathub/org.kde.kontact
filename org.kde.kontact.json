@@ -774,8 +774,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/incidenceeditor-19.04.1.tar.xz",
-                    "sha256": "f0f5191e4246068fb941fde10df87b76b5ca1d6f491d864e4b7e4acacebcae58"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/incidenceeditor-20.04.2.tar.xz",
+                    "sha256": "4efd249e05430bed934af58f134fe00290eb3d426ea5ab2a4e3226c8f37fac92"
                 }
             ]
         },
