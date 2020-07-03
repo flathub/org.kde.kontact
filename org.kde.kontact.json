@@ -1099,8 +1099,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kdepim-addons-19.04.1.tar.xz",
-                    "sha256": "d4e36a6d0043ad0ed5e3c427559bfaa29523578f99b613c82c3aaef16b2a7882"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kdepim-addons-20.04.2.tar.xz",
+                    "sha256": "6daa6b0b00dfa36047d26595c882a5b95f1e848e6545b7999a5b7344771dd3fb"
                 }
             ],
             "modules": [
