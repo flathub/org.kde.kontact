@@ -639,8 +639,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadi-notes-19.04.1.tar.xz",
-                    "sha256": "e503101e8806485ecf6ef22d1bafd8c299676ca75a388499e5418b8641604277"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadi-notes-20.04.2.tar.xz",
+                    "sha256": "5060f1c0200a4d69d3789aa623626500ba2b41d663dac0e96c56b53e26d475ea"
                 }
             ]
         },
