@@ -759,8 +759,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/eventviews-19.04.1.tar.xz",
-                    "sha256": "1fae8263d17a802393e5b1ece80879b66303f4d5bc8cc040cf142d6d5e8cc763"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/eventviews-20.04.2.tar.xz",
+                    "sha256": "44306f7c20aef2c168d7ed6ca8e3919e5be03dee2fec9e26c6461ca9b6d8c70f"
                 }
             ]
         },
