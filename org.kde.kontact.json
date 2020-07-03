@@ -864,8 +864,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kdepim-runtime-19.04.1.tar.xz",
-                    "sha256": "1587eca5a206768917443bd5274c03d8cbb2cbc6dcbe60449110c326b1aa0744"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kdepim-runtime-20.04.2.tar.xz",
+                    "sha256": "cd54019d60e78ff8d3cd291fdda36fe2f03ace4591f5bbbc3521e999f071f0a0"
                 }
             ],
             "modules": [
