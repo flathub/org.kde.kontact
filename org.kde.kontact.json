@@ -1043,8 +1043,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/knotes-19.04.1.tar.xz",
-                    "sha256": "b5cc805c657622e8cc4ab0ea07f30ea0258e767a87e525bc02fbc7d6ee9d7ec9"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/knotes-20.04.2.tar.xz",
+                    "sha256": "37e3fb20304f93e3cb77ae2c12c7fe1d1f790e06cb5842979019a75dd917a5a7"
                 }
             ]
         },
