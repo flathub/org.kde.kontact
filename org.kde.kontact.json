@@ -1084,8 +1084,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadi-import-wizard-19.04.1.tar.xz",
-                    "sha256": "2699ca57ea6a04228875dd795255fd32a1120e2e5c4834290aea3270c43403e7"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadi-import-wizard-20.04.2.tar.xz",
+                    "sha256": "3573bb200102d9439f65e278c4c1fc5e3adc6d8049898ebeab859ded159304eb"
                 }
             ]
         },
