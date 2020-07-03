@@ -609,8 +609,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kalarmcal-19.04.1.tar.xz",
-                    "sha256": "69a265ad7e82034974a47c795b81ee8768873dcb76018dc794a9905365111646"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kalarmcal-20.04.2.tar.xz",
+                    "sha256": "0bdedb73c06f43eab166ed01270c845e7919e185d30e86f33fb4aec507bcf61f"
                 }
             ]
         },
