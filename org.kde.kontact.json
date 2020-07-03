@@ -150,8 +150,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.69/kcalendarcore-5.69.0.tar.xz",
-                    "sha256": "4ef44809c4766843f71b908eafa66d2b00047984c47abe8c62c80f06a2cc2184"
+                    "url": "https://download.kde.org/stable/frameworks/5.71/kcalendarcore-5.71.0.tar.xz",
+                    "sha256": "d5138db971f6be606be8ae7d761bad778af3cacada8e85fb2f469190c347cd94"
                 }
             ],
             "modules": [
