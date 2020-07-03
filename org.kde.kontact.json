@@ -849,8 +849,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/libksieve-19.04.1.tar.xz",
-                    "sha256": "23cca1dfc1d79242f24dd95e8817a9672629276bced3a9ee56067570ef69ccff"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/libksieve-20.04.2.tar.xz",
+                    "sha256": "bbfed5095af2eacf9b270699879547202be9e21a0f5ff8d3bf8ed082a49a1959"
                 }
             ]
         },
