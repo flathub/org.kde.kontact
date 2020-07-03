@@ -744,8 +744,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/calendarsupport-19.04.1.tar.xz",
-                    "sha256": "9b44e868a24494c3ce595dc71e8981f97a8ce75dc4646e1417ebde973ee5f535"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/calendarsupport-20.04.2.tar.xz",
+                    "sha256": "a0f29370c61b60d62739a9104e418a99bd4ba4e5f622a810bfaa479370f30994"
                 }
             ]
         },
