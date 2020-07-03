@@ -298,8 +298,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.56/prison-5.56.0.tar.xz",
-                    "sha256": "1dbe7531d1ebe6adcef6b56553812ae6557d32c3a3da65be7cd7ea02be331e16"
+                    "url": "https://download.kde.org/stable/frameworks/5.71/prison-5.71.0.tar.xz",
+                    "sha256": "44762ee7a3993bd7527f0b33ee09bacc1d5a518641b79932e5490a511ac7e87f"
                 }
             ],
             "modules": [
