@@ -579,8 +579,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/pimcommon-19.04.1.tar.xz",
-                    "sha256": "bc4612711775ea4665c0827c7935397503b5cf82f906bcf22a64b3ab1eaaaa72"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/pimcommon-20.04.2.tar.xz",
+                    "sha256": "cc9aff8c38a9ea921645bab06409297fe2d930bfa9880dc12af626ce239bda3f"
                 }
             ]
         },
