@@ -1195,8 +1195,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/pim-data-exporter-19.04.1.tar.xz",
-                    "sha256": "0fa9e20ef67f64d5a9c967f4ea32a476438b23ab8405774035cd4584e6100ebd"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/pim-data-exporter-20.04.2.tar.xz",
+                    "sha256": "0235b9a2070d83efac2c9f27ac68d3a6841ffe3d5cbeaec52468d14393bead00"
                 }
             ]
         },
