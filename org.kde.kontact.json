@@ -1225,8 +1225,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/mbox-importer-19.04.1.tar.xz",
-                    "sha256": "3fcd5c6b3824dea9ff4145dde6bf7b472675e3927ce91258d89cbfe4d0ebb77a"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/mbox-importer-20.04.2.tar.xz",
+                    "sha256": "50e0b468bdcb7af5900fb9ba5ca343cd21ff734043b90505329704b396d994af"
                 }
             ]
         },
