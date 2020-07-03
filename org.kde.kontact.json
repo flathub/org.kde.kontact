@@ -519,8 +519,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadi-search-19.04.1.tar.xz",
-                    "sha256": "8438876407e9fd8fa08afe6942ab8dd3677202bc2ff1eba4fd7a49dd926f26d6"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadi-search-20.04.2.tar.xz",
+                    "sha256": "936beec7ac4a30b7d47ffffc1c3a491cacac190e8dd6d9fd856ebb22cca385d4"
                 }
             ]
         },
