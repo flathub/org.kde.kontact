@@ -386,8 +386,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kmailtransport-19.04.1.tar.xz",
-                    "sha256": "b8c0cf5cb8f7ad93bb3d1b2adab68fbc2470bc14160650fb45d1c4d40e8549fa"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kmailtransport-20.04.2.tar.xz",
+                    "sha256": "51cc5c8f12299b0263c0e9f78795d75b4b4eaa0b5cb1793ac4bf3854bda89deb"
                 }
             ]
         },
