@@ -834,8 +834,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kontactinterface-19.04.1.tar.xz",
-                    "sha256": "034dcf0b2740273037a40ce2c1dd0d4eb17aac1eba608eca81f7e905a336cbc2"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kontactinterface-20.04.2.tar.xz",
+                    "sha256": "96429c896b9b084d96e9703bd5961a8288e1745744ee27cd31440d81edff08cc"
                 }
             ]
         },
