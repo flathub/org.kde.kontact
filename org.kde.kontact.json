@@ -997,8 +997,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/korganizer-19.04.1.tar.xz",
-                    "sha256": "cb5c06d13f9f6eb4191ef6b86dab72ecde92fe6d9c8b6d9a4396645c94f83b67"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/korganizer-20.04.2.tar.xz",
+                    "sha256": "81322609b3f5e257b35fb49491391f70a7895105e6eff34e7bd69ce4473a61b3"
                 }
             ]
         },
