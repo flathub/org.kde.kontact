@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadi-contacts-19.04.1.tar.xz",
-                    "sha256": "4c58a73db7924250e47fb030657dc768fe44405806ec2d94ee00a264b414febc"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadi-contacts-20.04.2.tar.xz",
+                    "sha256": "9bffeec514cb798e6764ef70c6eb05c524fe84ee6298b3c341c32a8a5a4cdd19"
                 }
             ]
         },
