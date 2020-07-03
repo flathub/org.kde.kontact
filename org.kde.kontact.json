@@ -431,8 +431,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kcalutils-19.04.1.tar.xz",
-                    "sha256": "8856a1e812f81848f1e2adc179182349acfac9e189b55f29afeb020c148909ec"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kcalutils-20.04.2.tar.xz",
+                    "sha256": "c5ebbb49f7caf16f613bf0c41191caaf04757b648ce7fa3f93bc08882e9d4315"
                 }
             ]
         },
