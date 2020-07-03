@@ -684,8 +684,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/libkleo-19.04.1.tar.xz",
-                    "sha256": "a75084129e44028ff3f7742cdcb1800df94845d8c6ace38389da317144fa0529"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/libkleo-20.04.2.tar.xz",
+                    "sha256": "0b343fc6bae604e596ff36d47d28aac7c85a72c4461cd5c80682eae27d109eef"
                 }
             ]
         },
