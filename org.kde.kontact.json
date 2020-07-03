@@ -549,8 +549,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/libkdepim-19.04.1.tar.xz",
-                    "sha256": "28217ce30663955168d39eaa4e0c7efb47a437f59df77971f3e98efea99adc45"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/libkdepim-20.04.2.tar.xz",
+                    "sha256": "3356ec5d380350e49eb88511559237a225113f9f7342c3f213460bbcc74cb75b"
                 }
             ]
         },
