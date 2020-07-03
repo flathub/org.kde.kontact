@@ -594,8 +594,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.56/kholidays-5.56.0.tar.xz",
-                    "sha256": "28bc4a987adac5313dcc03b50eb34d910b93f76f54c0aaa0d30b97a086a6a252"
+                    "url": "https://download.kde.org/stable/frameworks/5.71/kholidays-5.71.0.tar.xz",
+                    "sha256": "5469718d6ede7edb2ab06bbaff8af01567ba77ffe2160c2c2d47c666cfebf417"
                 }
             ]
         },
