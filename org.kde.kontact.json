@@ -1210,8 +1210,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/pim-sieve-editor-19.04.1.tar.xz",
-                    "sha256": "3a8ce54140233fa7ae618fc05ae9d882cab6e56835e9fdb29e2242885ce50e10"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/pim-sieve-editor-20.04.2.tar.xz",
+                    "sha256": "593c8c433bb0b2341c796c022594684baf77931578f42cbd532b624bf1a940d7"
                 }
             ]
         },
