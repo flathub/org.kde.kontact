@@ -1240,8 +1240,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/akonadiconsole-19.04.1.tar.xz",
-                    "sha256": "33846348b0308eaf4ca81e8d577ce0eb6c17d49632e034607506413e86531262"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/akonadiconsole-20.04.2.tar.xz",
+                    "sha256": "453ea3ed27b897b588d7adc9dc0865655efde841ecbcc9aceba84a923071eef8"
                 }
             ]
         }
