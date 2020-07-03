@@ -714,8 +714,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kdepim-apps-libs-19.04.1.tar.xz",
-                    "sha256": "c3530a810a1eddfa06a27f24b723f971e7e2e144bbb2dac7ff30e7dec948a15d"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kdepim-apps-libs-20.04.2.tar.xz",
+                    "sha256": "76a39e6cf75125664c413e5b749fb7b0bae5905b774f0e5a38835bd961e0caa8"
                 }
             ]
         },
