@@ -416,8 +416,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kidentitymanagement-19.04.1.tar.xz",
-                    "sha256": "5216d26aef0c483f3dff51564e8b1526821b25279d7c5e9c21c87a5d5e20822a"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kidentitymanagement-20.04.2.tar.xz",
+                    "sha256": "33dbb5fef72182da7fb70207c14ee9012e62e3902247064b0f23145bdbd86c04"
                 }
             ]
         },
