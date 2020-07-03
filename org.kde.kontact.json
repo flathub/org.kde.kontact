@@ -669,8 +669,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kdav-19.04.1.tar.xz",
-                    "sha256": "356e59f904f075521df60499b7f84d7868dbb78968b04fd15be6d359c154e737"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kdav-20.04.2.tar.xz",
+                    "sha256": "06511f4573a0f82c836e34323083c736705a37da7259ad45319aff653b9ce75e"
                 }
             ]
         },
