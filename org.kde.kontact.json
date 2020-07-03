@@ -963,8 +963,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kmail-19.04.1.tar.xz",
-                    "sha256": "62fcd78318d35848e5ae461f7ebd3b6f202c57c51008c71d7e2a1d1c3d58f2c5"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kmail-20.04.2.tar.xz",
+                    "sha256": "10fca989f68c6c477cf4c47d0b3301f6db62a4187e4d20487504a547ba166b25"
                 }
             ]
         },
