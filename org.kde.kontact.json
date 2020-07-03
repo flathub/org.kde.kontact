@@ -1148,8 +1148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/grantlee-editor-19.04.1.tar.xz",
-                    "sha256": "b07f3c3179010b1d9a9170bc6e2b85517c3dfbd277336316882f4503823e076a"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/grantlee-editor-20.04.2.tar.xz",
+                    "sha256": "95206ed8f3372198f77e3b9307828d94d79c8278f41624d6467de3eddef77819"
                 }
             ]
         },
