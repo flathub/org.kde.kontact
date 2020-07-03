@@ -465,8 +465,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kldap-19.04.1.tar.xz",
-                    "sha256": "638e62d39fbe935b1df3c03f9617acbe5ade4ad617245bc590ca07b7fd0b723b"
+                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kldap-20.04.2.tar.xz",
+                    "sha256": "622faaf235f55def8b1a895f35a7846a67ca8b5c9b616afa75dc4bba1ec2d0bc"
                 }
             ],
             "modules": [
