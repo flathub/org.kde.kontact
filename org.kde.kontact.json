@@ -654,8 +654,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.56/syndication-5.56.0.tar.xz",
-                    "sha256": "09874ad643da79c538592800d307ab8f2e8785032c0d885fac8f9355ae83d972"
+                    "url": "https://download.kde.org/stable/frameworks/5.71/syndication-5.71.0.tar.xz",
+                    "sha256": "c515fd48d3736b55c8e7990c72471bfddd55363c4bcb049713be741eaa7b07e0"
                 }
             ]
         },
