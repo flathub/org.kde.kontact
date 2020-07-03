@@ -1129,8 +1129,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kpkpass-19.04.1.tar.xz",
-                                    "sha256": "fb3554b04d00b326d5f5e14af9c0272c020092d3329808a6177fb0714f6a1cb7"
+                                    "url": "https://download.kde.org/stable/release-service/20.04.2/src/kpkpass-20.04.2.tar.xz",
+                                    "sha256": "128d6ff4481d22373f15eccd227efcec6f3198487bf63204e02a2c26c9bdeefe"
                                 }
                             ]
                         }
