@@ -1,0 +1,13 @@
+diff --git a/KF5AkonadiConfig.cmake.in b/KF5AkonadiConfig.cmake.in
+index bcf732070..105e06ee9 100644
+--- a/KF5AkonadiConfig.cmake.in
++++ b/KF5AkonadiConfig.cmake.in
+@@ -4,7 +4,7 @@ set_and_check(AKONADI_DBUS_INTERFACES_DIR  "@PACKAGE_AKONADI_DBUS_INTERFACES_INS
+ set_and_check(AKONADI_INCLUDE_DIR          "@PACKAGE_AKONADI_INCLUDE_DIR@")
+ 
+ # The directory where akonadi-xml.xsd and kcfg2dbus.xsl are installed
+-set(KF5Akonadi_DATA_DIR "@PACKAGE_KF5Akonadi_DATA_DIR@")
++set(KF5Akonadi_DATA_DIR "/app/share/kf5/akonadi/")
+ 
+ # set the directories
+ if(NOT AKONADI_INSTALL_DIR)
