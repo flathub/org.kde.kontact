@@ -98,8 +98,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.11.1.tar.bz2",
-                    "sha256": "2d1b111774d2e3dd26dcd7c251819ce4ef774ec5e566251eb9308fa7542fbd6f"
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.15.0.tar.bz2",
+                    "sha256": "0b472bc12c7d455906c8a539ec56da0a6480ef1c3a87aa5b74d7125df68d0e5b"
                 }
             ],
             "modules": [
@@ -108,8 +108,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.32.tar.bz2",
-                            "sha256": "c345c5e73cc2332f8d50db84a2280abfb1d8f6d4f1858b9daa30404db44540ca"
+                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.39.tar.bz2",
+                            "sha256": "4a836edcae592094ef1c5a4834908f44986ab2b82e0824a0344b49df8cdb298f"
                         }
                     ]
                 },
@@ -118,8 +118,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.1.tar.bz2",
-                            "sha256": "47f96c37b4f2aac289f0bc1bacfa8bd8b4b209a488d3d15e2229cb6cc9b26449"
+                            "url": "https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.4.tar.bz2",
+                            "sha256": "c080ee96b3bd519edd696cfcebdecf19a3952189178db9887be713ccbcb5fbf0"
                         }
                     ]
                 }
@@ -135,8 +135,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://download.kde.org/stable/kdiagram/2.6.1/kdiagram-2.6.1.tar.xz",
-                    "sha256": "bde71ca5ef70b3077696d56b24e0e1f69ae255c0bf7bf453e9596afdd25dcdb0"
+                    "url": "http://download.kde.org/stable/kdiagram/2.7.0/kdiagram-2.7.0.tar.xz",
+                    "sha256": "63a2eabfa1554ceb1d686d5f17ed6308139b6d9155aaf224e0309585b070fbdd"
                 }
             ]
         },
@@ -164,8 +164,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/libical/libical/releases/download/v3.0.4/libical-3.0.4.tar.gz",
-                            "sha256": "72b216e10233c3f60cb06062facf41f3b0f70615e5a60b47f9853341a0d5d145"
+                            "url": "https://github.com/libical/libical/releases/download/v3.0.8/libical-3.0.8.tar.gz",
+                            "sha256": "09fecacaf75ba5a242159e3a9758a5446b5ce4d0ab684f98a7040864e1d1286f"
                         }
                     ],
                     "cleanup": [
@@ -218,8 +218,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://sqlite.org/2016/sqlite-autoconf-3150200.tar.gz",
-                            "sha256": "07b35063b9386865b78226cdaca9a299d938a87aaa8fdc4d73edb0cef30f3149"
+                            "url": "https://sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
+                            "sha256": "bf6db7fae37d51754737747aaaf413b4d6b3b5fbacd52bdb2d0d6e5b2edd9aee"
                         }
                     ],
                     "cleanup": [
@@ -283,8 +283,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/steveire/grantlee/archive/v5.1.0.tar.gz",
-                    "sha256": "3836572fe5e49d28a1d99186c6d96f88ff839644b4bc77b73b6d8208f6ccc9d1"
+                    "url": "https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz",
+                    "sha256": "139acee5746b957bdf1327ec0d97c604d4c0b9be42aec5d584297cb5ed6a990a"
                 }
             ]
         },
@@ -314,8 +314,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://fukuchi.org/works/qrencode/qrencode-4.0.2.tar.gz",
-                            "sha256": "dbabe79c07614625d1f74d8c0ae2ee5358c4e27eab8fd8fe31f9365f821a3b1d"
+                            "url": "https://fukuchi.org/works/qrencode/qrencode-4.1.1.tar.gz",
+                            "sha256": "da448ed4f52aba6bcb0cd48cac0dd51b8692bccc4cd127431402fca6f8171e8e"
                         }
                     ]
                 },
@@ -441,8 +441,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.4.7/xapian-core-1.4.7.tar.xz",
-                    "sha256": "13f08a0b649c7afa804fa0e85678d693fd6069dd394c9b9e7d41973d74a3b5d3"
+                    "url": "https://oligarchy.co.uk/xapian/1.4.17/xapian-core-1.4.17.tar.xz",
+                    "sha256": "b5eb8556dea1b0cad4167a66223522e66d670ec1eba16c7fdc844ed6b652572e"
                 }
             ],
             "cleanup": [
@@ -484,8 +484,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://mirror.eu.oneandone.net/software/openldap/openldap-release/openldap-2.4.44.tgz",
-                            "sha256": "d7de6bf3c67009c95525dde3a0212cc110d0a70b92af2af8e3ee800e81b88400"
+                            "url": "http://mirror.eu.oneandone.net/software/openldap/openldap-release/openldap-2.4.56.tgz",
+                            "sha256": "25520e0363c93f3bcb89802a4aa3db33046206039436e0c7c9262db5a61115e0"
                         },
                         {
                             "type": "script",
