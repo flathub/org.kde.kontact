@@ -332,6 +332,36 @@
             ]
         },
         {
+            "name": "libkleo",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/unstable/release-service/20.11.90/src/libkleo-20.11.90.tar.xz",
+                    "sha256": "1557fb80a7674fcd2f14dc15d18777db2832a110ac1150af380ef2a3c7a4895f"
+                }
+            ]
+        },
+        {
+            "name": "grantleetheme",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/unstable/release-service/20.11.90/src/grantleetheme-20.11.90.tar.xz",
+                    "sha256": "efce050698ac3795ffe39cfa97363654b89630abe788acaf96b52b552f2d7c53"
+                }
+            ]
+        },
+        {
             "name": "akonadi-contacts",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
@@ -671,36 +701,6 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/frameworks/5.76/kdav-5.76.0.tar.xz",
                     "sha256": "c6b1d32d9c976585e278c2061091ee90ef2d7feb29642f236a3941cea5ffae72"
-                }
-            ]
-        },
-        {
-            "name": "libkleo",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/unstable/release-service/20.11.90/src/libkleo-20.11.90.tar.xz",
-                    "sha256": "1557fb80a7674fcd2f14dc15d18777db2832a110ac1150af380ef2a3c7a4895f"
-                }
-            ]
-        },
-        {
-            "name": "grantleetheme",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/unstable/release-service/20.11.90/src/grantleetheme-20.11.90.tar.xz",
-                    "sha256": "efce050698ac3795ffe39cfa97363654b89630abe788acaf96b52b552f2d7c53"
                 }
             ]
         },
