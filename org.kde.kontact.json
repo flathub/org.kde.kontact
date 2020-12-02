@@ -4,6 +4,8 @@
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15",
+    "base": "io.qt.qtwebengine.BaseApp",
+    "base-version": "5.15",
     "sdk": "org.kde.Sdk",
     "command": "run_kontact.sh",
     "finish-args": [
