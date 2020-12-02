@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.cyrusimap.org/releases/cyrus-sasl-2.1.27.tar.gz",
-                    "sha256": "26866b1549b00ffd020f188a43c258017fa1c382b3ddadd8201536f72efb05d5"
+                    "url": "https://github.com/cyrusimap/cyrus-sasl/archive/cyrus-sasl-2.1.27.tar.gz",
+                    "sha256": "b564d773803dc4cff42d2bdc04c80f2b105897a724c247817d4e4a99dd6b9976"
                 },
                 {
                     "type": "shell",
