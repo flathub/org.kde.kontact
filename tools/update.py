@@ -23,7 +23,7 @@ def build_url(product, name, version, porting_aids=False):
             product_url = f'stable/frameworks/{short_version}/portingAids'
         else:
             product_url = f'stable/frameworks/{short_version}'
-    elif product == 'applications':
+    elif product == 'release-service':
         stream = 'unstable' if version.endswith('.90') else 'stable'
         product_url = f'{stream}/release-service/{version}/src'
 
@@ -76,7 +76,7 @@ def update_source(source, new_url):
     source['sha256'] = checksum.hexdigest()
 
 def update_applications_url(source, name, version):
-    new_url = build_url('applications', name, version)
+    new_url = build_url('release-service', name, version)
     update_source(source, new_url)
 
 def update_frameworks_url(source, name, version):
@@ -92,7 +92,7 @@ def update_modules(args, modules):
         for source in sources:
             if source['type'] != 'archive':
                 continue
-            if '/applications/' in source['url']:
+            if '/release-service/' in source['url']:
                 update_applications_url(source, module['name'], args.version)
             elif '/frameworks/' in source['url']:
                 update_frameworks_url(source, module['name'], args.kf5version)

@@ -29,14 +29,13 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 # dedicated instance for existing users.
 if [ ! -f "${XDG_CONFIG_HOME}/akonadi/akonadiserverrc" ]; then
     export AKONADI_INSTANCE="flatpak"
+else
+    # If we are using the default instance, make sure we are running
+    # against the Flatpak instance, not the system-wide one
+    stop_akonadi
 fi
 
-# Make sure we run against our own Akonadi instance
-stop_akonadi
-
-# Make sure that our Akonadi is stopped when this script exits, as there
-# is no way to shut it down later and it would interfere with the next run.
-trap stop_akonadi EXIT TERM
+trap stop_akonadi EXIT
 
 # Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca5
 # automatically (because KDED lives outside of the sandbox).
@@ -45,10 +44,6 @@ trap stop_akonadi EXIT TERM
 # is minimal.
 kbuildsycoca5
 
-# fire up Akonadi
-akonadictl start
-
-# .. aaaaand lift-off
+# Start Kontact, this will auto-start Akonadi as well
 exec kontact "$@"
-
 
