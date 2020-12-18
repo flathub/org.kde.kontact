@@ -1,64 +1,87 @@
 #!/bin/python3
 
-import argparse
-import requests
-import json
-import hashlib
-import sys
-import subprocess
-import os
-import yaml
-from math import ceil
-from tqdm import tqdm
+"""
+Tool to automatically update KDE packages in flatpak manifests
+"""
 
-def update_source(source, name, version, new_url):
+import argparse
+import json
+from math import ceil
+import hashlib
+import tempfile
+import subprocess
+import sys
+import requests
+from tqdm import tqdm
+import yaml
+
+def build_url(product, name, version, porting_aids=False):
+    url = 'https://download.kde.org'
+    if product == 'frameworks':
+        short_version = '.'.join(version.split('.')[0:2])
+        if porting_aids:
+            product_url = f'stable/frameworks/{short_version}/portingAids'
+        else:
+            product_url = f'stable/frameworks/{short_version}'
+    elif product == 'release-service':
+        stream = 'unstable' if version.endswith('.90') else 'stable'
+        product_url = f'{stream}/release-service/{version}/src'
+
+    return f'{url}/{product_url}/{name}-{version}.tar.xz'
+
+
+def download_tarball(new_url):
     print('Downloading %s' % new_url)
-    r = requests.get(new_url, stream = True)
-    r.raise_for_status()
-    total_size = int(r.headers.get('content-length', 0))
+    request = requests.get(new_url, stream = True)
+    request.raise_for_status()
+    total_size = int(request.headers.get('content-length', 0))
     block_size = 4096
-    wrote = 0
+    written = 0
     buffer = bytes()
     checksum = hashlib.new('sha256')
-    for data in tqdm(r.iter_content(block_size), total=ceil(total_size/block_size), unit='KB', unit_scale = True, ):
-        wrote += len(data)
+    for data in tqdm(request.iter_content(block_size), total=ceil(total_size/block_size), unit='KB',
+                     unit_scale = True):
+        written += len(data)
         checksum.update(data)
         buffer += data
-    if total_size !=0 and wrote != total_size:
-        print("File download failed, size mismatch (%d/%d)" % (wrote, total_size))
-        exit(1)
+    if total_size not in (0, written):
+        print("File download failed, size mismatch (%d/%d)" % (written, total_size))
+        sys.exit(1)
 
+    return (buffer, checksum)
+
+def verify_signature(new_url, buffer):
     sig = requests.get(new_url + '.sig')
     sig.raise_for_status()
-    sigfilename = '/tmp/%s.sig' % name
-    with open(sigfilename, 'w') as sigfile:
+    with tempfile.NamedTemporaryFile(mode='w') as sigfile:
         sigfile.write(sig.text)
+        sigfile.flush()
 
-    gpg = subprocess.Popen(['gpg2', '--verify', sigfilename, '-'],
-                           stdin = subprocess.PIPE, stdout = None,
-                           stderr = subprocess.PIPE)
-    gpg.stdin.write(buffer)
-    gpg.stdin.close()
-    gpg.wait()
-    if gpg.returncode != 0:
-        print("Failed to verify GPG signature")
-        print(gpg.stderr.read().decode())
-        exit(1)
+        gpg = subprocess.Popen(['gpg2', '--verify', sigfile.name, '-'],
+                               stdin = subprocess.PIPE, stdout = None,
+                               stderr = subprocess.PIPE)
+        gpg.stdin.write(buffer)
+        gpg.stdin.close()
+        gpg.wait()
+        if gpg.returncode != 0:
+            print("Failed to verify GPG signature")
+            print(gpg.stderr.read().decode())
+            sys.exit(1)
+
+def update_source(source, new_url):
+    buffer, checksum = download_tarball(new_url)
+    verify_signature(new_url, buffer)
 
     source['url'] = new_url
     source['sha256'] = checksum.hexdigest()
 
-def update_applications_url(source, name, new_version):
-    new_url = 'https://download.kde.org/stable/applications/%s/src/%s-%s.tar.xz' % (new_version, name, new_version)
-    update_source(source, name, new_version, new_url)
+def update_applications_url(source, name, version):
+    new_url = build_url('release-service', name, version)
+    update_source(source, new_url)
 
-def update_frameworks_url(source, name, new_version):
-    short_version =  '.'.join(new_version.split('.')[0:2])
-    if 'portingAids' in source['url']:
-        new_url = 'https://download.kde.org/stable/frameworks/%s/portingAids/%s-%s.tar.xz' % (short_version, name, new_version)
-    else:
-        new_url = 'https://download.kde.org/stable/frameworks/%s/%s-%s.tar.xz' % (short_version, name, new_version)
-    update_source(source,  name, new_version, new_url)
+def update_frameworks_url(source, name, version):
+    new_url = build_url('frameworks', name, version, porting_aids='portingAids' in source['url'])
+    update_source(source, new_url)
 
 def update_modules(args, modules):
     for module in modules:
@@ -69,28 +92,28 @@ def update_modules(args, modules):
         for source in sources:
             if source['type'] != 'archive':
                 continue
-            if source['url'].startswith('https://download.kde.org/stable/applications'):
-                source = update_applications_url(source, module['name'], args.version)
-            elif source['url'].startswith('https://download.kde.org/stable/frameworks'):
-                source = update_frameworks_url(source, module['name'], args.kf5version)
+            if '/release-service/' in source['url']:
+                update_applications_url(source, module['name'], args.version)
+            elif '/frameworks/' in source['url']:
+                update_frameworks_url(source, module['name'], args.kf5version)
         if 'modules' in module:
             update_modules(args, module['modules'])
 
 def update_json_file(args, filename):
     with open(filename, 'r', encoding='utf-8') as infile:
-        j = json.load(infile)
-        update_modules(args, j['modules'])
+        manifest = json.load(infile)
+        update_modules(args, manifest['modules'])
 
     with open(filename, 'w', encoding='utf-8') as outfile:
-        json.dump(j, outfile, indent=4, ensure_ascii = False)
+        json.dump(manifest, outfile, indent=4, ensure_ascii = False)
 
 def update_yaml_file(args, filename):
     with open(filename, 'r', encoding='utf-8') as infile:
-        y = yaml.load(infile, Loader=yaml.Loader)
-        update_modules(args, y['modules'])
+        manifest = yaml.load(infile, Loader=yaml.Loader)
+        update_modules(args, manifest['modules'])
 
     with open(filename, 'w', encoding='utf-8') as outfile:
-        outfile.write(yaml.dump(y, Dumper=yaml.Dumper))
+        outfile.write(yaml.dump(manifest, Dumper=yaml.Dumper))
 
 def main():
     parser = argparse.ArgumentParser()

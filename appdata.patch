@@ -1,8 +1,8 @@
-diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
-index 9b7ba71..86906e5 100644
---- a/src/org.kde.kontact.appdata.xml
-+++ b/src/org.kde.kontact.appdata.xml
-@@ -230,7 +230,7 @@
+diff --git a/src/data/org.kde.kontact.appdata.xml b/src/data/org.kde.kontact.appdata.xml
+index 95e3e5e5..b53bbb20 100644
+--- a/src/data/org.kde.kontact.appdata.xml
++++ b/src/data/org.kde.kontact.appdata.xml
+@@ -331,7 +331,7 @@
        <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-summary.png</image>
      </screenshot>
      <screenshot>
@@ -10,17 +10,17 @@ index 9b7ba71..86906e5 100644
 +      <caption>KMail, the email component of Kontact</caption>
        <caption xml:lang="ca">El KMail, el component de correu electrònic del Kontact.</caption>
        <caption xml:lang="ca-valencia">El KMail, el component de correu electrònic del Kontact.</caption>
-       <caption xml:lang="en-GB">KMail, the email component of Kontact.</caption>
-@@ -251,7 +251,7 @@
+       <caption xml:lang="da">KMail, Kontacts e-mailkomponent.</caption>
+@@ -361,7 +361,7 @@
        <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kmail.png</image>
      </screenshot>
      <screenshot>
 -      <caption>Organize your time, manage events, create todos or schedule meetings with KOrganizer.</caption>
 +      <caption>Organize your time with KOrganizer</caption>
-       <caption xml:lang="ca">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu pendents o programeu reunions amb el KOrganizer.</caption>
-       <caption xml:lang="ca-valencia">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu pendents o programeu reunions amb el KOrganizer.</caption>
-       <caption xml:lang="en-GB">Organise your time, manage events, create to-dos or schedule meetings with KOrganizer.</caption>
-@@ -271,7 +271,7 @@
+       <caption xml:lang="ca">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu tasques pendents o programeu reunions amb el KOrganizer.</caption>
+       <caption xml:lang="ca-valencia">Organitzeu el vostre temps, gestioneu els esdeveniments, creeu tasques pendents o programeu reunions amb el KOrganizer.</caption>
+       <caption xml:lang="da">Planlæg din tid, administrér begivenheder, opret gøremål og planlæg møder med KOrganizer.</caption>
+@@ -391,7 +391,7 @@
        <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-korganizer.png</image>
      </screenshot>
      <screenshot>
@@ -28,24 +28,29 @@ index 9b7ba71..86906e5 100644
 +      <caption>KAddressBook let's you manage your contacts</caption>
        <caption xml:lang="ca">El KAddressBook proporciona una manera fàcil de gestionar els vostres contactes.</caption>
        <caption xml:lang="ca-valencia">El KAddressBook proporciona una manera fàcil de gestionar els vostres contactes.</caption>
-       <caption xml:lang="en-GB">KAddressBook provides an easy way to manage your contacts.</caption>
-@@ -291,7 +291,7 @@
+       <caption xml:lang="cs">KAddressBook poskytuje snadný způsob pro správu kontaktů.</caption>
+@@ -422,7 +422,7 @@
        <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-kaddressbook.png</image>
      </screenshot>
      <screenshot>
 -      <caption>Stay on top of the new with Akregator, our news reader.</caption>
 +      <caption>Stay on top of the news with Akregator</caption>
-       <caption xml:lang="ca">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
-       <caption xml:lang="ca-valencia">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
-       <caption xml:lang="en-GB">Stay on top of the new with Akregator, our news reader.</caption>
-@@ -315,4 +315,10 @@
+       <caption xml:lang="ca">Manteniu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
+       <caption xml:lang="ca-valencia">Manteniu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
+       <caption xml:lang="da">Hold styr på nyhederne med vores nyhedslæser Akregator.</caption>
+@@ -456,10 +456,11 @@
    <provides>
      <binary>kontact</binary>
    </provides>
 +  <content_rating type="oars-1.1" />
-+  <releases>
+   <releases>
+-    <release version="5.16.0" date="2020-12-10"/>
+-    <release version="5.15.3" date="2020-11-05"/>
+-    <release version="5.15.2" date="2020-10-08"/>
+-    <release version="5.15.1" date="2020-09-03"/>
++    <release version="20.12.0" date="2020-12-12" type="stable" />
 +    <release version="19.04.1" date="2019-05-09" type="stable" />
 +    <release version="18.12.2" date="2019-02-12" type="stable" />
 +    <release version="18.08.2" date="2018-10-11" type="stable" />
-+  </releases>
+   </releases>
  </component>
