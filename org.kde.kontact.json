@@ -984,8 +984,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.79/portingAids/kross-5.79.0.tar.xz",
-                            "sha256": "cc3564329823d659ab6d146e3f646f6cd1457a6512bff7c4f88a3b6159f71702"
+                            "url": "https://download.kde.org/stable/frameworks/5.88/portingAids/kross-5.88.0.tar.xz",
+                            "sha256": "c889a3f8ceef51f8ad188e8cc98d7aae110268d23ff4ade8d7ef779bb90f5e6d"
                         }
                     ]
                 }
