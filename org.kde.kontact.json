@@ -790,10 +790,6 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.0/src/akregator-21.12.0.tar.xz",
                     "sha256": "9b9952c799e9469193c1e78aa733c6c25f41362129a68c92ec679fa05eb3a170"
-                },
-                {
-                    "type": "patch",
-                    "path": "akregator-arm32-fix-namelookup.patch"
                 }
             ]
         },
