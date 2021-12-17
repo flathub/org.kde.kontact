@@ -164,8 +164,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz2",
-                    "sha256": "7f6130bc3cf65f56a618888ce9d5ea704fa10b462be126ad053e80e553d6d8b7"
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2",
+                    "sha256": "fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854"
                 }
             ]
         },
@@ -181,8 +181,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-21.04.3.tar.xz",
-                    "sha256": "f076dba29986961c7774118b4730c8035820e423d792f15644fa09ad1d55d26e"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-21.12.0.tar.xz",
+                    "sha256": "23bf7036b9b6f5d8ce01535c2698d54768bfa7c70c9257e4c92dca4d319cb8f3"
                 }
             ],
             "modules": [
@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kmime-21.04.3.tar.xz",
-                    "sha256": "42923dc4f755909d49387f43bef79d72e44f1a187c85f95d5195db91a26e8d16"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmime-21.12.0.tar.xz",
+                    "sha256": "75bb5cc9da5fbaa2be4797e372cff47fb426cbeab9581ccdde48a92285f2d858"
                 }
             ]
         },
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-mime-21.04.3.tar.xz",
-                    "sha256": "86fd97d1367dfa7509881f1d6c76080b1926b7d873b5d36526fe0907895812d4"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-mime-21.12.0.tar.xz",
+                    "sha256": "d86b6d72be0e046bc56dfe9c29256f5dfd727da1f542659144c3c3979fa6351f"
                 }
             ]
         },
@@ -263,8 +263,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/libkleo-21.04.3.tar.xz",
-                    "sha256": "1beefb25c80231655017ff9c2af41d85f340af837cf1f520aec3793454ae5582"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libkleo-21.12.0.tar.xz",
+                    "sha256": "572de9a37b6c56a1aaa23f5cb5e9d7ae1250a24ed2a0746574872081edf5a5d6"
                 }
             ]
         },
@@ -278,8 +278,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/grantleetheme-21.04.3.tar.xz",
-                    "sha256": "2257142b83296580eb0ffd5a600e7d0d3dc922bd746e2a57c8a6e4ad6285c5cd"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/grantleetheme-21.12.0.tar.xz",
+                    "sha256": "545db22246d95c47a53fcf9c54c8b42060bbbcf3844a443a0963c52472c6f3a9"
                 }
             ]
         },
@@ -293,8 +293,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-contacts-21.04.3.tar.xz",
-                    "sha256": "45c3128f58459dff8460757436dfce6f4996a53ea69036cf87ce1022a4e084de"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-contacts-21.12.0.tar.xz",
+                    "sha256": "e46350eff479e22f14e6a95fb0e8de0f823c5921b58c305ba4c1c1b4bdd8842a"
                 }
             ]
         },
@@ -308,8 +308,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/libkgapi-21.04.3.tar.xz",
-                    "sha256": "0ee13f388097c34b1f00aca9fcba45638c2ac3ba068240842e4d76e87b971986"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libkgapi-21.12.0.tar.xz",
+                    "sha256": "89f7273f7feedac50e2117253242ecb0e943d4a9e8c077ef85900f068d9dc585"
                 }
             ]
         },
@@ -323,8 +323,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/ksmtp-21.04.3.tar.xz",
-                    "sha256": "015ace6969a68fcfc0cbee227f8e386be2e4125a56b265f03d03e34a6232b508"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/ksmtp-21.12.0.tar.xz",
+                    "sha256": "2cda0ac5a355e2828770fb34e5684a01db306918a9fe748a897471bf3552055d"
                 }
             ]
         },
@@ -338,8 +338,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kmailtransport-21.04.3.tar.xz",
-                    "sha256": "95b0d84d1f4b2fed2fbf643a858d375accb02ad732b71b88edc74f6a4416a88f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmailtransport-21.12.0.tar.xz",
+                    "sha256": "f021ea644ad649fb680b61ed498124c1dc089db6b0b8a72726ec2049da323f98"
                 }
             ]
         },
@@ -353,8 +353,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kpimtextedit-21.04.3.tar.xz",
-                    "sha256": "da53943e0f3398f23dc81ff823a21742247fb7c46c429b7c67775a4f202b4253"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kpimtextedit-21.12.0.tar.xz",
+                    "sha256": "4157a163a9ecb339baecc19176f03f0478371b1b635187adef4d5ec98681d09f"
                 }
             ]
         },
@@ -368,8 +368,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kidentitymanagement-21.04.3.tar.xz",
-                    "sha256": "52900b7df87eeb72c982124b9bb9061152c7367583ff55dbfcfe0b05a1ca904f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kidentitymanagement-21.12.0.tar.xz",
+                    "sha256": "fc653adf022fb4c0c2f8ec8f910dbed7e6a713f6d7570d27148841fd71874d3e"
                 }
             ]
         },
@@ -383,8 +383,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kcalutils-21.04.3.tar.xz",
-                    "sha256": "97f94d7e4ad428d05f07a9a6e89eb1e6278fc369d5c0947bcfb0f67f0f451be2"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kcalutils-21.12.0.tar.xz",
+                    "sha256": "de2ef3a3532d0a474fb22834b14c3a40e5bd4284806eda7229fc5ffedc9a2426"
                 }
             ]
         },
@@ -417,8 +417,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kldap-21.04.3.tar.xz",
-                    "sha256": "7a8e8ba7ab4795eaab82736170ac1792d79675c702ad43ff088f97577988c238"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kldap-21.12.0.tar.xz",
+                    "sha256": "6f78eadf6e0bc7a6c4bb0ddea699393f5506f093163cc803194d75024d3ed760"
                 }
             ],
             "modules": [
@@ -471,8 +471,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-search-21.04.3.tar.xz",
-                    "sha256": "d047ef7b4a338dd31bce4d22b5c4bc8c9e87d1067d581afaa8549e7074f1c69b"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-search-21.12.0.tar.xz",
+                    "sha256": "3305dea1b1c1844fd15dc2cc3a631264beb9b00106e62ddfbecd260c41feca1d"
                 }
             ]
         },
@@ -486,8 +486,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kmbox-21.04.3.tar.xz",
-                    "sha256": "791188973d3067fdcdaabab1ffd6d31f2370562c355a1b3478293c5adf74374c"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmbox-21.12.0.tar.xz",
+                    "sha256": "139fbe4bfff0fdc07436e4af2d00915534f7b1b34b28793cfc0d3f6cf285a280"
                 }
             ]
         },
@@ -501,8 +501,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/libkdepim-21.04.3.tar.xz",
-                    "sha256": "5fd0fe9a01c764d3c191557c2dd4d71569cf912867c5bf36fcc79e94c11ff9b6"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libkdepim-21.12.0.tar.xz",
+                    "sha256": "d1330781d2689481f408d1b1c0f3cf1d4adfc231b4a3fe1d5d6d6662cf3ca6cd"
                 }
             ]
         },
@@ -516,8 +516,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kimap-21.04.3.tar.xz",
-                    "sha256": "11cd07c0a1fdc57d7b22c1ffb034a4baf97a50f12641ca7a8b18efec4024fcdf"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kimap-21.12.0.tar.xz",
+                    "sha256": "cd21661089ee22d8b189dd79f5b22c8d53763bd5d7d5f0f03a87703329c05a39"
                 }
             ]
         },
@@ -531,8 +531,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/pimcommon-21.04.3.tar.xz",
-                    "sha256": "a298c36bad00e4166bdb6eacf5a6cee82dfa37eebcec08f1e34ca1d82cddddbc"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/pimcommon-21.12.0.tar.xz",
+                    "sha256": "5849ff5750228a3eacd5a878cf4538e9086df0ee2070bc2386608019ace1b70b"
                 }
             ]
         },
@@ -546,8 +546,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kalarmcal-21.04.3.tar.xz",
-                    "sha256": "8591e13aff17a7a5d9772b62f765672b7a72fe557623ac1d2f88d608c5aecb3f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kalarmcal-21.12.0.tar.xz",
+                    "sha256": "1dc2619888c33757a39d9ba2bd204159e47aae01cde963c7e9439d6c1b3a6066"
                 }
             ]
         },
@@ -561,8 +561,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-calendar-21.04.3.tar.xz",
-                    "sha256": "352c1a809b8c0dd3006f96274c0af1cfcefaf4e4f74088b4c2854b9e7c657122"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-calendar-21.12.0.tar.xz",
+                    "sha256": "7a5df066f330b1dfdd290c579132f7e84d3f8cea941da4b2f6830b170ec07f4a"
                 }
             ]
         },
@@ -576,8 +576,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-notes-21.04.3.tar.xz",
-                    "sha256": "089a25c95107f1d104a825abade59de278d4aaa29ab4052339eb82e4d5f267c0"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-notes-21.12.0.tar.xz",
+                    "sha256": "42d87fa2bf4ba4316917b90745089b446da1120d86dcd32709d0c34273b22f5c"
                 }
             ]
         },
@@ -591,8 +591,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/libgravatar-21.04.3.tar.xz",
-                    "sha256": "1765ba00be7e79a32188bc1c7736dee25e3600ef9df53a2bd070d2cdaeebe355"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libgravatar-21.12.0.tar.xz",
+                    "sha256": "58979aefd90e431413d8375d0cb5a8899f95b515768c6d89d3ce83cbe95747b0"
                 }
             ]
         },
@@ -606,8 +606,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/calendarsupport-21.04.3.tar.xz",
-                    "sha256": "49dd1e8ece78f9b65247615d83ed8f4095a8d0f61815a8407aee77ad687c9df6"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/calendarsupport-21.12.0.tar.xz",
+                    "sha256": "345ce151c2811dd9172b79a142b8f3384e19b55920f56022bc9446f18aef79a8"
                 }
             ]
         },
@@ -621,8 +621,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/eventviews-21.04.3.tar.xz",
-                    "sha256": "9ee35e7cab595e2b91d638d00178e7326183b4e04d3c230542ee8e5963171280"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/eventviews-21.12.0.tar.xz",
+                    "sha256": "dedcd7583c8522a85561f544d67a25809bc533cd47cffe94c2522165d364c798"
                 }
             ]
         },
@@ -636,8 +636,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/incidenceeditor-21.04.3.tar.xz",
-                    "sha256": "23f085ca9323ea5426d5e1663488dd94175add6e7a417feb3b04990436a884e4"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/incidenceeditor-21.12.0.tar.xz",
+                    "sha256": "57df77be28e81f5b1b15cd1e65dc5b7f549f32e5e4c0be37768f0000c5502de7"
                 }
             ]
         },
@@ -651,8 +651,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/messagelib-21.04.3.tar.xz",
-                    "sha256": "99e6a14c49903d2e3f950ba8ed9a8ceae06f0ce5315df8a67ef60e80a2325543"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/messagelib-21.12.0.tar.xz",
+                    "sha256": "6119e69d875f3f3092604265203f750c95a9f49db64f67a95c509bad6c2457e4"
                 }
             ],
             "modules": [
@@ -666,8 +666,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/qca/2.3.1/qca-2.3.1.tar.xz",
-                            "sha256": "c13851109abefc4623370989fae3a745bf6b1acb3c2a13a8958539823e974e4b"
+                            "url": "https://download.kde.org/stable/qca/2.3.4/qca-2.3.4.tar.xz",
+                            "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4"
                         }
                     ]
                 }
@@ -683,8 +683,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/mailimporter-21.04.3.tar.xz",
-                    "sha256": "ffc7cc1b1ef99f3aefe7cc3d6e6a9a185a38c39ca41fed5de5c0dc76cde29c0c"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/mailimporter-21.12.0.tar.xz",
+                    "sha256": "3f223596f49b0952572bab1cc6e85af361c454c96cae9aaca4d52b313067425b"
                 }
             ]
         },
@@ -698,8 +698,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/mailcommon-21.04.3.tar.xz",
-                    "sha256": "45cc9bc3b19570c88756d247465f66b119e3aaeb887e8f82ff3495cdb27066b4"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/mailcommon-21.12.0.tar.xz",
+                    "sha256": "7c5fd837c7786bf24f2e662e7708463a2db703632887ae5086255a92dedf209a"
                 }
             ]
         },
@@ -713,8 +713,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kontactinterface-21.04.3.tar.xz",
-                    "sha256": "aa6e2e0a14fc960a9c9a46bcf3c7097de558168d60ec79d01c443bc0d55e9f85"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kontactinterface-21.12.0.tar.xz",
+                    "sha256": "7b4849eab07b26ef9406fe7afcfe011116502dbc1eaffa1ea8a819575d4c9f07"
                 }
             ]
         },
@@ -728,8 +728,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/libksieve-21.04.3.tar.xz",
-                    "sha256": "8393c9c3ee03af3d345438fc8dc9293705454a4a10c36478988a9c6cbcdbd95d"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libksieve-21.12.0.tar.xz",
+                    "sha256": "e0a3e1ba668c3b4f47856f04394fb9d9c483e9acab4f752c744e43dc1537aa71"
                 }
             ]
         },
@@ -743,8 +743,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kdepim-runtime-21.04.3.tar.xz",
-                    "sha256": "749b7fc958d8187e236ac3fe4fa7c24631cee689da3db140350c9016e1de1836"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kdepim-runtime-21.12.0.tar.xz",
+                    "sha256": "2a0c0caa75aa0aef2f790b044a49d84ff5de22de6e07a4ffe45b990a2947b7d6"
                 }
             ]
         },
@@ -758,8 +758,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/ktnef-21.04.3.tar.xz",
-                    "sha256": "e71fa77fee033fb763f0f5c48164178f28521bda4271820457340f02fdbe5dda"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/ktnef-21.12.0.tar.xz",
+                    "sha256": "08e6565ba81d93154f8fca8f500c1570e357c28b48997713d3f519eaaafc650d"
                 }
             ]
         },
@@ -773,8 +773,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kmail-21.04.3.tar.xz",
-                    "sha256": "6b05ff369e8676e21588af8219bc9a3fe9aba5c24a3d1dc6f644a46ae68f30f1"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmail-21.12.0.tar.xz",
+                    "sha256": "e08018e1c74cea5361a449a799a6a689886643842a460c3916c12c4311438a86"
                 }
             ]
         },
@@ -788,12 +788,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akregator-21.04.3.tar.xz",
-                    "sha256": "7ffc6520c541405996cde16ddba769004249f161aafa01113f8c723efb35ec0c"
-                },
-                {
-                    "type": "patch",
-                    "path": "akregator-arm32-fix-namelookup.patch"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akregator-21.12.0.tar.xz",
+                    "sha256": "9b9952c799e9469193c1e78aa733c6c25f41362129a68c92ec679fa05eb3a170"
                 }
             ]
         },
@@ -807,8 +803,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/korganizer-21.04.3.tar.xz",
-                    "sha256": "9e1bc97a4cc0941c8dc4daf302ddc500a993f349a3278b79e55af1b83cac5833"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/korganizer-21.12.0.tar.xz",
+                    "sha256": "28cd09bec0559b66199d57f95201ba1f12aad6002f419a6620297148e920cce1"
                 }
             ]
         },
@@ -823,8 +819,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kalarm-21.04.3.tar.xz",
-                    "sha256": "1fc3aa7276bba5294352abf325508cd8ecd98bc7a92f273d7570c5d5545cd01d"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kalarm-21.12.0.tar.xz",
+                    "sha256": "353fa8c78426e6f92facae1b5e37f000442441bb981cf828895240f6cdec8142"
                 }
             ]
         },
@@ -838,8 +834,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kaddressbook-21.04.3.tar.xz",
-                    "sha256": "512af9b9f7966499725c31ca2884e82fd43d69bda2259bd20e52210635e3ccc4"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kaddressbook-21.12.0.tar.xz",
+                    "sha256": "3a86dfddcf2e522a7eafd60f0cd6ac558b371712edae4df06c488af71472da88"
                 }
             ]
         },
@@ -853,8 +849,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/knotes-21.04.3.tar.xz",
-                    "sha256": "182166b5e1317c38b0a4a8d11e6d2f27548de0ed895b35f1a88b6cf216ca5122"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/knotes-21.12.0.tar.xz",
+                    "sha256": "afeb17534fe609255785770cd883947ccff805908a9ab9ad3250a6739775bc61"
                 }
             ]
         },
@@ -868,12 +864,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kontact-21.04.3.tar.xz",
-                    "sha256": "e1e6a236eb201c977af352e97c85aa62984d99b8ba4dfc398092b92c0aca50c9"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kontact-21.12.0.tar.xz",
+                    "sha256": "4996ad097b97cf25506a68fc5b06304bcee50ae0bfed596510e1f6258390599e"
                 },
                 {
                     "type": "file",
                     "path": "run_kontact.sh"
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
             ],
             "post-install": [
@@ -890,8 +890,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadi-import-wizard-21.04.3.tar.xz",
-                    "sha256": "f1850013b560deb468f4657ebdd7cee62661d657b95b4e43944f5a5d3f5ab7be"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadi-import-wizard-21.12.0.tar.xz",
+                    "sha256": "b1977d691d4b8b89772d10b711ee9307178f47bd82d9819ad2646678d5ac3b53"
                 }
             ]
         },
@@ -905,8 +905,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kdepim-addons-21.04.3.tar.xz",
-                    "sha256": "b20c6c0ef87b70d17c50dd574b0dcf62967ad326a7f553e4a6ffc6ebcf80e1ee"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kdepim-addons-21.12.0.tar.xz",
+                    "sha256": "f00ae7ac3311bf31377830f44a44fe0a6b9c09a0749529aefd81254b0a1db603"
                 }
             ],
             "modules": [
@@ -920,8 +920,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/release-service/21.04.3/src/kitinerary-21.04.3.tar.xz",
-                            "sha256": "5cee2f06b446997e0414e131618149f124c437aa50b6808494f4902f3178fc61"
+                            "url": "https://download.kde.org/stable/release-service/21.12.0/src/kitinerary-21.12.0.tar.xz",
+                            "sha256": "33f19570aaabe9340bb6f8c8d37e33d1c943644eee5275b9ffc59dfa64dcef37"
                         }
                     ],
                     "modules": [
@@ -935,8 +935,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kpkpass-21.04.3.tar.xz",
-                                    "sha256": "4fe41557a06645b49de981c2cbb1f4189c2e0fe49b29d7c9020990b76716bff8"
+                                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kpkpass-21.12.0.tar.xz",
+                                    "sha256": "b69ba26ef69f72699995425323e55f7064623b3116d806dca65c2713a0e7770a"
                                 }
                             ]
                         }
@@ -954,8 +954,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/grantlee-editor-21.04.3.tar.xz",
-                    "sha256": "284ca91b23d1b890f1c29d312a47f256cca91a747295680cea369835f19cc932"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/grantlee-editor-21.12.0.tar.xz",
+                    "sha256": "22f4c9bd29951c1ef0b705cd5ec1ebefa5309e992922db5f1dfb06800c1bdbd3"
                 }
             ]
         },
@@ -969,8 +969,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kmail-account-wizard-21.04.3.tar.xz",
-                    "sha256": "cf96d78d5af7bb1f039681645885643851e06ae8299b3c4f218db39cfd336eea"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmail-account-wizard-21.12.0.tar.xz",
+                    "sha256": "72cbb9509d72625dd19eca1e64fcc52213629666438105c7f4a524edc8367421"
                 }
             ],
             "modules": [
@@ -984,8 +984,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.79/portingAids/kross-5.79.0.tar.xz",
-                            "sha256": "cc3564329823d659ab6d146e3f646f6cd1457a6512bff7c4f88a3b6159f71702"
+                            "url": "https://download.kde.org/stable/frameworks/5.88/portingAids/kross-5.88.0.tar.xz",
+                            "sha256": "c889a3f8ceef51f8ad188e8cc98d7aae110268d23ff4ade8d7ef779bb90f5e6d"
                         }
                     ]
                 }
@@ -1001,8 +1001,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/pim-data-exporter-21.04.3.tar.xz",
-                    "sha256": "c6387a40bbc8f8c8ddb3a9b3b0587ae103477ae318d9b5380f0e7d0c2b2dad9f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/pim-data-exporter-21.12.0.tar.xz",
+                    "sha256": "1770587412aa8ac118e3cd37f44b47968074b420ad4214455095743140d31aa7"
                 }
             ]
         },
@@ -1016,8 +1016,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/pim-sieve-editor-21.04.3.tar.xz",
-                    "sha256": "3b2f84bbaca33d516239dfaa137bafd3a951b2af2b72804673c61675ea69c15f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/pim-sieve-editor-21.12.0.tar.xz",
+                    "sha256": "0723dba9c9978da1afcd02c45b4ed142c3519e5961bb35f4cf11793d6971f3ba"
                 }
             ]
         },
@@ -1031,8 +1031,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/mbox-importer-21.04.3.tar.xz",
-                    "sha256": "2b045c6379fe700350fce9c725e1fc132af562a7fd372a46261eb9ddc043c9bc"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/mbox-importer-21.12.0.tar.xz",
+                    "sha256": "613b2118a554dba72345071b96c5f15fb5fb274808fa17032e44baa87c023f65"
                 }
             ]
         },
@@ -1046,8 +1046,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/akonadiconsole-21.04.3.tar.xz",
-                    "sha256": "be013c419c023823258554559c23de3e287bd1e1dc180223839615c4ccfab010"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/akonadiconsole-21.12.0.tar.xz",
+                    "sha256": "cd7ae9577da0a3ddd64ee74db725501f04eb2a8f1aae0a85cc10df16f7f8a151"
                 }
             ]
         }
