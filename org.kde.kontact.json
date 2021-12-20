@@ -97,38 +97,6 @@
             ]
         },
         {
-            "name": "gpgme",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.15.0.tar.bz2",
-                    "sha256": "0b472bc12c7d455906c8a539ec56da0a6480ef1c3a87aa5b74d7125df68d0e5b"
-                }
-            ],
-            "modules": [
-                {
-                    "name": "libgpg-error",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.39.tar.bz2",
-                            "sha256": "4a836edcae592094ef1c5a4834908f44986ab2b82e0824a0344b49df8cdb298f"
-                        }
-                    ]
-                },
-                {
-                    "name": "libassuan",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.4.tar.bz2",
-                            "sha256": "c080ee96b3bd519edd696cfcebdecf19a3952189178db9887be713ccbcb5fbf0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "kdiagram",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
@@ -250,6 +218,16 @@
                     "type": "archive",
                     "url": "https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz",
                     "sha256": "139acee5746b957bdf1327ec0d97c604d4c0b9be42aec5d584297cb5ed6a990a"
+                }
+            ]
+        },
+        {
+            "name": "gpgme",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.16.0.tar.bz2",
+                    "sha256": "6c8cc4aedb10d5d4c905894ba1d850544619ee765606ac43df7405865de29ed0"
                 }
             ]
         },
