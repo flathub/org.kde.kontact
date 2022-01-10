@@ -3,9 +3,9 @@
     "branch": "stable",
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-21.08",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15",
+    "base-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
     "command": "run_kontact.sh",
     "finish-args": [
@@ -97,38 +97,6 @@
             ]
         },
         {
-            "name": "gpgme",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.15.0.tar.bz2",
-                    "sha256": "0b472bc12c7d455906c8a539ec56da0a6480ef1c3a87aa5b74d7125df68d0e5b"
-                }
-            ],
-            "modules": [
-                {
-                    "name": "libgpg-error",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.39.tar.bz2",
-                            "sha256": "4a836edcae592094ef1c5a4834908f44986ab2b82e0824a0344b49df8cdb298f"
-                        }
-                    ]
-                },
-                {
-                    "name": "libassuan",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.4.tar.bz2",
-                            "sha256": "c080ee96b3bd519edd696cfcebdecf19a3952189178db9887be713ccbcb5fbf0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "kdiagram",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
@@ -164,8 +132,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2",
-                    "sha256": "fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854"
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
+                    "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc"
                 }
             ]
         },
@@ -250,6 +218,16 @@
                     "type": "archive",
                     "url": "https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz",
                     "sha256": "139acee5746b957bdf1327ec0d97c604d4c0b9be42aec5d584297cb5ed6a990a"
+                }
+            ]
+        },
+        {
+            "name": "gpgme",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.16.0.tar.bz2",
+                    "sha256": "6c8cc4aedb10d5d4c905894ba1d850544619ee765606ac43df7405865de29ed0"
                 }
             ]
         },
@@ -393,8 +371,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.4.17/xapian-core-1.4.17.tar.xz",
-                    "sha256": "b5eb8556dea1b0cad4167a66223522e66d670ec1eba16c7fdc844ed6b652572e"
+                    "url": "https://oligarchy.co.uk/xapian/1.4.18/xapian-core-1.4.18.tar.xz",
+                    "sha256": "196ddbb4ad10450100f0991a599e4ed944cbad92e4a6fe813be6dce160244b77"
                 }
             ],
             "cleanup": [
@@ -425,19 +403,23 @@
                 {
                     "name": "openldap",
                     "config-opts": [
-                        "--disable-overlays",
                         "--disable-backends",
-                        "--disable-slapd",
                         "--disable-debug",
+                        "--disable-overlays",
+                        "--disable-slapd",
+                        "--disable-syslog",
                         "--enable-dynamic",
+                        "--enable-ipv6",
+                        "--with-cyrus-sasl",
+                        "--with-threads",
                         "--with-tls=gnutls"
                     ],
                     "rm-configure": true,
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://mirror.eu.oneandone.net/software/openldap/openldap-release/openldap-2.4.56.tgz",
-                            "sha256": "25520e0363c93f3bcb89802a4aa3db33046206039436e0c7c9262db5a61115e0"
+                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.0.tgz",
+                            "sha256": "b71c580eac573e9aba15d95f33dd4dd08f2ed4f0d7fc09e08ad4be7ed1e41a4f"
                         },
                         {
                             "type": "script",
