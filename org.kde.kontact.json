@@ -44,6 +44,7 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kcookiejar5",
         "--talk-name=org.kde.kpasswdserver",
+        "--talk-name=org.kde.StatusNotifierWatcher",
         "--talk-name=org.freedesktop.portal.*",
         "--system-talk-name=org.freedesktop.NetworkManager",
         "--env=QT_QPA_PLATFORM=xcb",
