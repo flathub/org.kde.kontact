@@ -119,7 +119,7 @@
                         "type": "anitya",
                         "project-id": 17734,
                         "stable-only": true,
-                        "url-template": "http://download.kde.org/stable/kdiagram/$version/kdiagram-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/kdiagram/$version/kdiagram-$version.tar.xz"
                     }
                 }
             ]
