@@ -29,6 +29,7 @@
         "--own-name=org.kde.korgac",
         "--own-name=org.kde.korganizer",
         "--own-name=org.kde.kalarm",
+        "--own-name=org.kde.kalendar",
         "--own-name=org.kde.accountwizard",
         "--own-name=org.kde.pimsettingexporter",
         "--own-name=org.kde.sieveeditor",
@@ -1382,6 +1383,33 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "kalendar",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DBUILD_FLATPAK=ON"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kalendar-22.04.0.tar.xz",
+                    "sha256": "7f7fa0345aab4eff740e82814fe7b300a19bed5ca34239ab8d7edaa07639aa2e",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kalendar-$version.tar.xz"
+                    }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/rename-kalendar-desktop.patch"
+                }
+            ]
         }
+
     ]
 }
