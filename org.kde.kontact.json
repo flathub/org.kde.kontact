@@ -560,8 +560,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.1.tgz",
-                            "sha256": "9d576ea6962d7db8a2e2808574e8c257c15aef55f403a1fb5a0faf35de70e6f3",
+                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.2.tgz",
+                            "sha256": "81d09345232eb62486ecf5acacd2c56c0c45b4a6c8c066612e7f421a23a1cf87",
                             "x-checker-data": {
                                 "type": "html",
                                 "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/",
@@ -1410,6 +1410,5 @@
                 }
             ]
         }
-
     ]
 }
