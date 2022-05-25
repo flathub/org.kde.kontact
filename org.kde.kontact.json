@@ -308,6 +308,27 @@
             ]
         },
         {
+            "name": "kpimtextedit",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/kpimtextedit-22.04.1.tar.xz",
+                    "sha256": "f6cedefcc351069e01d0f3f15d4eaefe0ecb2865aaab3e17811af54a39f9bfc7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpimtextedit-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "libkleo",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
@@ -429,27 +450,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmailtransport-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "kpimtextedit",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/kpimtextedit-22.04.1.tar.xz",
-                    "sha256": "f6cedefcc351069e01d0f3f15d4eaefe0ecb2865aaab3e17811af54a39f9bfc7",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpimtextedit-$version.tar.xz"
                     }
                 }
             ]
