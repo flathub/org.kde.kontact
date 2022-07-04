@@ -529,8 +529,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.4.19/xapian-core-1.4.19.tar.xz",
-                    "sha256": "1fca48fca6cc3526cc4ba93dd194fe9c1326857b78edcfb37e68d086d714a9c3",
+                    "url": "https://oligarchy.co.uk/xapian/1.4.20/xapian-core-1.4.20.tar.xz",
+                    "sha256": "ce2be5eff72075c8106c0340e70b1093dbcebe2ab42dc1c1be08dd3ad419442d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
@@ -1315,8 +1315,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.94/portingAids/kross-5.94.0.tar.xz",
-                            "sha256": "1d6925bd2530ded6ea97f832fda42de0e24d1d7302e52262171fd0461f642d49",
+                            "url": "https://download.kde.org/stable/frameworks/5.95/portingAids/kross-5.95.0.tar.xz",
+                            "sha256": "557efdd6bc27c93ab2bc0820f74f412395cc8d78248db035ce7923df88b37915",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
