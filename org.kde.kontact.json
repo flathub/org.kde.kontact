@@ -18,6 +18,8 @@
         "--socket=wayland",
         "--device=dri",
         "--filesystem=xdg-config/kdeglobals:ro",
+        "--filesystem=~/.gnupg:create",
+        "--filesystem=xdg-run/gnupg:ro",
         "--own-name=org.freedesktop.Akonadi",
         "--own-name=org.freedesktop.Akonadi.*",
         "--own-name=org.freedesktop.Akonadi.Control.*",
@@ -39,6 +41,7 @@
         "--own-name=org.kde.pim.*",
         "--own-name=org.kde.akonadiconsole.*",
         "--own-name=org.kde.kioexec.*",
+        "--own-name=org.kde.kalendarac",
         "--talk-name=org.kde.Solid.PowerManagement",
         "--talk-name=org.kde.kded5",
         "--talk-name=org.kde.kglobalaccel",
@@ -1288,7 +1291,6 @@
                             ]
                         },
                         {
-
                             "name": "kpkpass",
                             "config-opts": [
                                 "-DBUILD_TESTING=OFF",
