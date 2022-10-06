@@ -254,8 +254,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
-                            "sha256": "bf6db7fae37d51754737747aaaf413b4d6b3b5fbacd52bdb2d0d6e5b2edd9aee"
+                            "url": "https://sqlite.org/2022/sqlite-autoconf-3390400.tar.gz",
+                            "sha256": "f31d445b48e67e284cf206717cc170ab63cbe4fd7f79a82793b772285e78fdbb"
                         }
                     ],
                     "cleanup": [
