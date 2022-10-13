@@ -30,7 +30,6 @@
         "--own-name=org.kde.kmail",
         "--own-name=org.kde.kmail2",
         "--own-name=org.kde.knotes",
-        "--own-name=org.kde.kontact",
         "--own-name=org.kde.korgac",
         "--own-name=org.kde.korganizer",
         "--own-name=org.kde.kalarm",
