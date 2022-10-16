@@ -94,7 +94,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/etesync/libetebase/archive/v0.5.3/libetebase-0.5.3.tar.gz",
-                    "sha256": "78c79f72df40ae4ed85beca593d870159f923e8b9e0111c16e34b6142c634995"
+                    "sha256": "78c79f72df40ae4ed85beca593d870159f923e8b9e0111c16e34b6142c634995",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 235050,
+                        "stable-only": true,
+                        "url-template": "https://github.com/etesync/libetebase/archive/v$version/libetebase-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -333,7 +339,13 @@
                 {
                     "type": "archive",
                     "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.18.0.tar.bz2",
-                    "sha256": "361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e"
+                    "sha256": "361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1239,
+                        "stable-only": true,
+                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
+                    }
                 }
             ]
         },
