@@ -1290,8 +1290,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-22.09.0.tar.xz",
-                                    "sha256": "d7a8f748211359cadb774ba3e18ecda6464b34027045c0648eb30d5852a41e2e",
+                                    "url": "https://poppler.freedesktop.org/poppler-22.11.0.tar.xz",
+                                    "sha256": "093ba9844ed774285517361c15e21a31ba4df278a499263d4403cca74f2da828",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
@@ -1378,14 +1378,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.95/portingAids/kross-5.95.0.tar.xz",
-                            "sha256": "557efdd6bc27c93ab2bc0820f74f412395cc8d78248db035ce7923df88b37915",
-                            "x-checker-data": {
-                                "type": "anitya",
-                                "project-id": 8762,
-                                "stable-only": true,
-                                "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/portingAids/kross-$version.tar.xz"
-                            }
+                            "url": "https://download.kde.org/stable/frameworks/5.100/portingAids/kross-5.100.0.tar.xz",
+                            "sha256": "b26fcdc1b88d5d706ce7d527f3a8cfddc8554254813e158488f3fb2ed5b6f64a"
                         }
                     ]
                 }
