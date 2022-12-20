@@ -1470,6 +1470,27 @@
             ]
         },
         {
+            "name": "kirigami-addons",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.6.1.tar.xz",
+                    "sha256": "2a399afa29ea5ad2c74f5b20e52055aebc43867405596e16b9b1ebe0d000d7d2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kalendar",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
