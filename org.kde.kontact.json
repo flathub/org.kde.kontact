@@ -93,8 +93,8 @@
                 "libetebase-dependencies-cargo-generator.json",
                 {
                     "type": "archive",
-                    "url": "https://github.com/etesync/libetebase/archive/v0.5.3/libetebase-0.5.3.tar.gz",
-                    "sha256": "78c79f72df40ae4ed85beca593d870159f923e8b9e0111c16e34b6142c634995",
+                    "url": "https://github.com/etesync/libetebase/archive/v0.5.4/libetebase-0.5.4.tar.gz",
+                    "sha256": "ba0d6740d39d7d09cdf2dda4e73716a3c05502770a40b8087582570bd1c31752",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 235050,
