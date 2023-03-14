@@ -1378,8 +1378,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.103/portingAids/kross-5.103.0.tar.xz",
-                            "sha256": "d863872adf437594a592aef6cc589f745ed2d5bd9ada9d4aa0ce64e9a820fc0d",
+                            "url": "https://download.kde.org/stable/frameworks/5.104/portingAids/kross-5.104.0.tar.xz",
+                            "sha256": "7b5c15d46386c5c36b673947be0ac789f597688a0fbeabae41996be35fe0fe12",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
@@ -1485,8 +1485,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.1.tar.xz",
-                    "sha256": "c4e94821e81fcda173e71e9bfd5def66961a276278dc784b9b0c6f7cbcd4a0c8",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.2.tar.xz",
+                    "sha256": "f8629c597d6df715b3eece9ffed94926bf3cab829f22f3aab22e3c822e2b7b76",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
