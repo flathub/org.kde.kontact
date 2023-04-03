@@ -338,8 +338,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.18.0.tar.bz2",
-                    "sha256": "361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.19.0.tar.bz2",
+                    "sha256": "cb58494dc415fba9eeb12b826550ad3190dc92e265c5bb2ae1a21c92841cfd38",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -1290,8 +1290,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-23.03.0.tar.xz",
-                                    "sha256": "b04148bf849c1965ada7eff6be4685130e3a18a84e0cce73bf9bc472ec32f2b4",
+                                    "url": "https://poppler.freedesktop.org/poppler-23.04.0.tar.xz",
+                                    "sha256": "b6d893dc7dcd4138b9e9df59a13c59695e50e80dc5c2cacee0674670693951a1",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
