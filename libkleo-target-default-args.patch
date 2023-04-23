@@ -1,0 +1,30 @@
+commit 97b67eb1c2a102462339233ed738a65d1e638e91
+Author: Ingo Klöcker <dev@ingo-kloecker.de>
+Date:   Tue Mar 14 10:42:18 2023 +0100
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+    
+    Non-KF targets must use KDE_INSTALL_TARGETS_DEFAULT_ARGS. The KF_
+    variables adds ${_IMPORT_PREFIX}/include/KF[56] to
+    INTERFACE_INCLUDE_DIRECTORIES and that causes cmake errors for users
+    of this library if ${_IMPORT_PREFIX}/include/KF[56] doesn't exist
+    (e.g. because one uses KF libraries provided by the distro).
+    
+    This needs to be fixed in all of KDE PIM.
+    CCMAIL: montel@kde.org
+    
+    (cherry picked from commit 26753ebdd2eb256e03a3be614e6ebf555fa03452)
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index d146675..1d922d5 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -222,7 +222,7 @@ set_target_properties(KPim${KF_MAJOR_VERSION}Libkleo PROPERTIES
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}Libkleo
+-    EXPORT KPim${KF_MAJOR_VERSION}LibkleoTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}LibkleoTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ target_include_directories(KPim${KF_MAJOR_VERSION}Libkleo INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR}/KPim${KF_MAJOR_VERSION}/Libkleo>")
