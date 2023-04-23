@@ -1,0 +1,32 @@
+commit bda9cf4507bb8c6e1b2c9597c7e0ac95e2a61fe2
+Author: Laurent Montel <montel@kde.org>
+Date:   Sat Apr 22 09:27:18 2023 +0200
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+
+diff --git a/autotests/kimaptest/CMakeLists.txt b/autotests/kimaptest/CMakeLists.txt
+index 3281f13..7a4cd28 100644
+--- a/autotests/kimaptest/CMakeLists.txt
++++ b/autotests/kimaptest/CMakeLists.txt
+@@ -18,7 +18,7 @@ add_library(KPim${KF_MAJOR_VERSION}::kimaptest ALIAS kimaptest)
+ target_include_directories(KPim${KF_MAJOR_VERSION}IMAP INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR}/KPim${KF_MAJOR_VERSION}/KIMAPTest>")
+ target_link_libraries(kimaptest KPim${KF_MAJOR_VERSION}IMAP Qt::Test Qt::Network Qt::Core KF${KF_MAJOR_VERSION}::CoreAddons KF${KF_MAJOR_VERSION}::KIOCore KF${KF_MAJOR_VERSION}::I18n)
+ 
+-install(TARGETS kimaptest EXPORT KPim${KF_MAJOR_VERSION}IMAPTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS kimaptest EXPORT KPim${KF_MAJOR_VERSION}IMAPTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ ########### install files ###############
+ 
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 8b75885..8c635b5 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -191,7 +191,7 @@ ecm_generate_headers(KIMAP_CamelCase_HEADERS
+   REQUIRED_HEADERS KIMAP_HEADERS
+ )
+ 
+-install(TARGETS KPim${KF_MAJOR_VERSION}IMAP EXPORT KPim${KF_MAJOR_VERSION}IMAPTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS KPim${KF_MAJOR_VERSION}IMAP EXPORT KPim${KF_MAJOR_VERSION}IMAPTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ install(FILES
+     ${CMAKE_CURRENT_BINARY_DIR}/kimap_export.h

@@ -1,0 +1,29 @@
+commit 913efbfbc5b2a6dda42e8ce865580e9f79d0a6f9
+Author: Laurent Montel <montel@kde.org>
+Date:   Sat Apr 22 09:27:21 2023 +0200
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+
+diff --git a/autotests/benchmarker/CMakeLists.txt b/autotests/benchmarker/CMakeLists.txt
+index 35c2afd..9c96f3e 100644
+--- a/autotests/benchmarker/CMakeLists.txt
++++ b/autotests/benchmarker/CMakeLists.txt
+@@ -31,4 +31,4 @@ target_link_libraries(akonadi_benchmarker
+   Qt::DBus
+ )
+ 
+-install(TARGETS akonadi_benchmarker ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS akonadi_benchmarker ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 56e1f87..efc3d9d 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -124,7 +124,7 @@ set_target_properties(KPim${KF_MAJOR_VERSION}AkonadiMime PROPERTIES
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiMime
+-    EXPORT KPim${KF_MAJOR_VERSION}AkonadiMimeTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}AkonadiMimeTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+     )
+ 
+ 

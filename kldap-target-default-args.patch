@@ -1,0 +1,19 @@
+commit 267943a460cc54a4d6b73708e27dd8c45b18749c
+Author: Laurent Montel <montel@kde.org>
+Date:   Sat Apr 22 09:27:16 2023 +0200
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index b04d26c..b47b7d8 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -125,7 +125,7 @@ set_target_properties(KPim${KF_MAJOR_VERSION}Ldap PROPERTIES
+     EXPORT_NAME Ldap
+ )
+ 
+-install(TARGETS KPim${KF_MAJOR_VERSION}Ldap EXPORT KPim${KF_MAJOR_VERSION}LdapTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS KPim${KF_MAJOR_VERSION}Ldap EXPORT KPim${KF_MAJOR_VERSION}LdapTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ ########### install files ###############
+ 

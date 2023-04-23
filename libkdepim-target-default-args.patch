@@ -1,0 +1,19 @@
+commit d87afad803f41b3a8dc8803f63e7903a652f1d8f
+Author: Laurent Montel <montel@kde.org>
+Date:   Sat Apr 22 09:27:18 2023 +0200
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 79ee3f7..baf0e48 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -80,7 +80,7 @@ set_target_properties(KPim${KF_MAJOR_VERSION}Libkdepim PROPERTIES
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}Libkdepim
+-    EXPORT KPim${KF_MAJOR_VERSION}LibkdepimTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}LibkdepimTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+     )
+ 
+ ecm_generate_headers(libkdepim_Camelcasewidgets_HEADERS

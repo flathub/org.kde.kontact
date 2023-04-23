@@ -1,0 +1,30 @@
+commit 30d404657748c17509dc9fc356b90b5dacd19c99
+Author: Ingo Klöcker <dev@ingo-kloecker.de>
+Date:   Tue Mar 14 10:41:35 2023 +0100
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+    
+    Non-KF targets must use KDE_INSTALL_TARGETS_DEFAULT_ARGS. The KF_
+    variables adds ${_IMPORT_PREFIX}/include/KF[56] to
+    INTERFACE_INCLUDE_DIRECTORIES and that causes cmake errors for users
+    of this library if ${_IMPORT_PREFIX}/include/KF[56] doesn't exist
+    (e.g. because one uses KF libraries provided by the distro).
+    
+    This needs to be fixed in all of KDE PIM.
+    CCMAIL: montel@kde.org
+    
+    (cherry picked from commit 76dbf56c268284ef3ffe640aea97ead39168a571)
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 574f394..eec1bd9 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -77,7 +77,7 @@ set_target_properties(KPim${KF_MAJOR_VERSION}Mime PROPERTIES
+     EXPORT_NAME Mime
+ )
+ 
+-install(TARGETS KPim${KF_MAJOR_VERSION}Mime EXPORT KPim${KF_MAJOR_VERSION}MimeTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS KPim${KF_MAJOR_VERSION}Mime EXPORT KPim${KF_MAJOR_VERSION}MimeTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ # Don't install them but needed to compile kdepimlibs
+ ecm_generate_headers(KMime_CamelCase_HEADERS

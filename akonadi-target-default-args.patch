@@ -1,0 +1,170 @@
+commit ba7cb307fa9ec57797110f9691b5dfadf3dbc593
+Author: Laurent Montel <montel@kde.org>
+Date:   Sat Apr 22 09:27:19 2023 +0200
+
+    Use correct INSTALL_TARGETS_DEFAULT_ARGS
+
+diff --git a/autotests/libs/testrunner/CMakeLists.txt b/autotests/libs/testrunner/CMakeLists.txt
+index 9f2d8aa11..422307902 100644
+--- a/autotests/libs/testrunner/CMakeLists.txt
++++ b/autotests/libs/testrunner/CMakeLists.txt
+@@ -22,7 +22,7 @@ target_link_libraries(akonaditest
+   Qt::Widgets
+ )
+ 
+-install(TARGETS akonaditest ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS akonaditest ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ # Set the akonaditest path (needed by AkonadiMacros.cmake when invoked in kdepimlibs)
+ set(_akonaditest_DIR ${CMAKE_CURRENT_BINARY_DIR} CACHE PATH "akonaditest path")
+diff --git a/src/agentbase/CMakeLists.txt b/src/agentbase/CMakeLists.txt
+index a41168325..f912463fd 100644
+--- a/src/agentbase/CMakeLists.txt
++++ b/src/agentbase/CMakeLists.txt
+@@ -112,7 +112,7 @@ ecm_generate_pri_file(BASE_NAME AkonadiAgentBase
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiAgentBase
+     EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets
+-    ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
+diff --git a/src/agentserver/CMakeLists.txt b/src/agentserver/CMakeLists.txt
+index 3be892ce8..8ed1b1e4a 100644
+--- a/src/agentserver/CMakeLists.txt
++++ b/src/agentserver/CMakeLists.txt
+@@ -57,4 +57,4 @@ install(TARGETS akonadi_agent_launcher
+           DESTINATION ${BIN_INSTALL_DIR})
+ 
+ install(TARGETS akonadi_agent_server
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+diff --git a/src/akonadicontrol/CMakeLists.txt b/src/akonadicontrol/CMakeLists.txt
+index e376fcb5d..61535ba8d 100644
+--- a/src/akonadicontrol/CMakeLists.txt
++++ b/src/akonadicontrol/CMakeLists.txt
+@@ -77,7 +77,7 @@ if (WITH_ACCOUNTS)
+ endif()
+ 
+ install(TARGETS akonadi_control
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ configure_file(org.freedesktop.Akonadi.Control.service.cmake ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.Akonadi.Control.service)
+ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.Akonadi.Control.service
+diff --git a/src/akonadictl/CMakeLists.txt b/src/akonadictl/CMakeLists.txt
+index 95ebfb6bd..711920e94 100644
+--- a/src/akonadictl/CMakeLists.txt
++++ b/src/akonadictl/CMakeLists.txt
+@@ -35,5 +35,5 @@ target_link_libraries(akonadictl
+ )
+ 
+ install(TARGETS akonadictl
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+diff --git a/src/asapcat/CMakeLists.txt b/src/asapcat/CMakeLists.txt
+index cae4018b5..7b14493dc 100644
+--- a/src/asapcat/CMakeLists.txt
++++ b/src/asapcat/CMakeLists.txt
+@@ -14,5 +14,5 @@ target_link_libraries(asapcat
+ )
+ 
+ install(TARGETS asapcat
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+diff --git a/src/core/CMakeLists.txt b/src/core/CMakeLists.txt
+index 8aba05691..1b113a465 100644
+--- a/src/core/CMakeLists.txt
++++ b/src/core/CMakeLists.txt
+@@ -464,7 +464,7 @@ ecm_generate_pri_file(BASE_NAME AkonadiCore
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiCore
+-    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
+diff --git a/src/private/CMakeLists.txt b/src/private/CMakeLists.txt
+index fddc58bb4..805da66f0 100644
+--- a/src/private/CMakeLists.txt
++++ b/src/private/CMakeLists.txt
+@@ -73,7 +73,7 @@ target_include_directories(KPim${KF_MAJOR_VERSION}AkonadiPrivate INTERFACE "$<IN
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiPrivate
+     EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets
+-    ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
+diff --git a/src/rds/CMakeLists.txt b/src/rds/CMakeLists.txt
+index f95b4fc8b..2f74db067 100644
+--- a/src/rds/CMakeLists.txt
++++ b/src/rds/CMakeLists.txt
+@@ -19,6 +19,6 @@ target_link_libraries(akonadi_rds
+ )
+ 
+ install(TARGETS akonadi_rds
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+diff --git a/src/selftest/CMakeLists.txt b/src/selftest/CMakeLists.txt
+index f10469f81..94f05336f 100644
+--- a/src/selftest/CMakeLists.txt
++++ b/src/selftest/CMakeLists.txt
+@@ -11,5 +11,5 @@ PRIVATE
+ 
+ install(TARGETS
+     akonadiselftest
+-    ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+diff --git a/src/server/CMakeLists.txt b/src/server/CMakeLists.txt
+index bc216643b..c6e9e2bb7 100644
+--- a/src/server/CMakeLists.txt
++++ b/src/server/CMakeLists.txt
+@@ -289,7 +289,7 @@ target_link_libraries(akonadiserver
+ )
+ 
+ install(TARGETS akonadiserver
+-        ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
+diff --git a/src/widgets/CMakeLists.txt b/src/widgets/CMakeLists.txt
+index 3b186285d..4876ba75b 100644
+--- a/src/widgets/CMakeLists.txt
++++ b/src/widgets/CMakeLists.txt
+@@ -194,7 +194,7 @@ ecm_generate_pri_file(BASE_NAME AkonadiWidgets
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiWidgets
+-    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
+diff --git a/src/xml/CMakeLists.txt b/src/xml/CMakeLists.txt
+index 43ab2ae22..b2f556804 100644
+--- a/src/xml/CMakeLists.txt
++++ b/src/xml/CMakeLists.txt
+@@ -79,11 +79,11 @@ ecm_generate_pri_file(BASE_NAME AkonadiXml
+ 
+ install(TARGETS
+     KPim${KF_MAJOR_VERSION}AkonadiXml
+-    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    EXPORT KPim${KF_MAJOR_VERSION}AkonadiTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(TARGETS
+-    akonadi2xml ${KF_INSTALL_TARGETS_DEFAULT_ARGS}
++    akonadi2xml ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+ )
+ 
+ install(FILES
