@@ -549,8 +549,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.4.22/xapian-core-1.4.22.tar.xz",
-                    "sha256": "05884af00b06702ce486057d62a3bfbe6606cf965ada0f5ea570b328a2fa1ea8",
+                    "url": "https://oligarchy.co.uk/xapian/1.4.23/xapian-core-1.4.23.tar.xz",
+                    "sha256": "30d3518172084f310dab86d262b512718a7f9a13635aaa1a188e61dc26b2288c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
@@ -608,8 +608,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.4.tgz",
-                            "sha256": "d51704e50178430c06cf3d8aa174da66badf559747a47d920bb54b2d4aa40991",
+                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.6.tgz",
+                            "sha256": "082e998cf542984d43634442dbe11da860759e510907152ea579bdc42fe39ea0",
                             "x-checker-data": {
                                 "type": "html",
                                 "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/",
@@ -729,8 +729,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.3.2.tar.xz",
-                    "sha256": "981ec78762e3ae0f03d86c43c8709ad6ce825668390c3921c1a7c4aad4aa51e3",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.4.1.tar.xz",
+                    "sha256": "894abb8fdc9360486bcaccba156504a8f914ea65b885f62fc4750f1a0d284637",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -918,8 +918,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/qca/2.3.6/qca-2.3.6.tar.xz",
-                            "sha256": "ee59d531d4b82fb1685f4d8d74c2caa0777f501800f7426eaa372109a4305249",
+                            "url": "https://download.kde.org/stable/qca/2.3.7/qca-2.3.7.tar.xz",
+                            "sha256": "fee2343b54687d5be3e30fb33ce296ee50ac7ae5e23d7ab725f63ffdf7af3f43",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 13606,
@@ -1313,8 +1313,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-23.07.0.tar.xz",
-                                    "sha256": "f29b4b4bf47572611176454c8f21506d71d27eca5011a39aa44038b30b957db0",
+                                    "url": "https://poppler.freedesktop.org/poppler-23.08.0.tar.xz",
+                                    "sha256": "4a4bf7fc903b9f1a2ab7d04b7c5d8220db9bc6261cc73fdb9a826dc272f49aa8",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
@@ -1401,8 +1401,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.107/portingAids/kross-5.107.0.tar.xz",
-                            "sha256": "3f0eac7ceaf22fae6202efb66b73e192b781e5733566cbf3362d82be8e8cbe8e",
+                            "url": "https://download.kde.org/stable/frameworks/5.108/portingAids/kross-5.108.0.tar.xz",
+                            "sha256": "4d1303d0748e878e361d5dafd2f19bb585c30a0135b5b0fef64a8160524b8548",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
@@ -1508,8 +1508,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.9.0.tar.xz",
-                    "sha256": "56d8073cd9797d4adf5a75f5dc0d2385fc2e896ab6e6106131a6f0d6a976d8a2",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.10.0.tar.xz",
+                    "sha256": "9897e70bf167f579cec06d09d49a9a27aba184cbd1b2fce2c3ae757a87b01216",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
