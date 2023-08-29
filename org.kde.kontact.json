@@ -252,22 +252,24 @@
                     "name": "sqlite3",
                     "config-opts": [
                         "--enable-threadsafe",
-                        "--enable-threads-override-locks"
+                        "--enable-threads-override-locks",
+                        "--enable-fts5"
                     ],
                     "build-options": {
-                        "cflags": "-DSQLITE_ENABLE_UNLOCK_NOTIFY=1"
+                        "cflags": [
+                            "-DSQLITE_ENABLE_UNLOCK_NOTIFY=1",
+                            "-DSQLITE_ENABLE_COLUMN_METADATA=1",
+                            "-DSQLITE_SECURE_DELETE=1",
+                            "-DSQLITE_ENABLE_FTS3=1",
+                            "-DSQLITE_ENABLE_UNLOCK_NOTIFY=1",
+                            "-DSQLITE_ENABLE_DBSTAT_VTAB=1"
+                        ]
                     },
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.sqlite.org/2023/sqlite-autoconf-3430000.tar.gz",
-                            "sha256": "49008dbf3afc04d4edc8ecfc34e4ead196973034293c997adad2f63f01762ae1",
-                            "x-checker-data": {
-                                "type": "anitya",
-                                "project-id": 4877,
-                                "stable-only": true,
-                                "url-template": "https://www.sqlite.org/2023/sqlite-autoconf-${major}${minor}0${patch}00.tar.gz"
-                            }
+                            "url": "https://sqlite.org/2022/sqlite-autoconf-3390400.tar.gz",
+                            "sha256": "f31d445b48e67e284cf206717cc170ab63cbe4fd7f79a82793b772285e78fdbb"
                         }
                     ],
                     "cleanup": [
