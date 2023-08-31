@@ -248,6 +248,7 @@
                 }
             ]
         },
+        {
             "name": "kmime",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
