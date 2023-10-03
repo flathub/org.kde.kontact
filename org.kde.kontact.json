@@ -1006,6 +1006,18 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kdepim-runtime-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fb0d78fb3bcfce5bd4ff7f51e4cd1405693e0275.diff"
+                },
+                {
+                    "type": "patch",
+                    "path": "2fd3604ad6a9594b9dd8b0f1529f4f4589fe831f.diff"
+                },
+                {
+                    "type": "patch",
+                    "path": "c99afc75a503fff6ca83df2f47a5d5d951579524.diff"
                 }
             ]
         },

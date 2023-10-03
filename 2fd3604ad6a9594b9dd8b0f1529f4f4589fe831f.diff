@@ -1,0 +1,44 @@
+diff --git a/resources/google-groupware/CMakeLists.txt b/resources/google-groupware/CMakeLists.txt
+index 2f2b46adedd9cc23d4119476a3ccd4bcea677d6c..0ac6f2db8e92388f79f8f0b89c2aad399a08bbed 100644
+--- a/resources/google-groupware/CMakeLists.txt
++++ b/resources/google-groupware/CMakeLists.txt
+@@ -67,9 +67,6 @@ set(googleresource_SRCS
+     ${googleresource_common_SRCS}
+ )
+ 
+-ki18n_wrap_ui(googleresource_SRCS googlesettingswidget.ui)
+-
+-
+ add_executable(akonadi_google_resource ${googleresource_SRCS})
+ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+     set_target_properties(akonadi_google_resource PROPERTIES UNITY_BUILD ON)
+@@ -126,6 +123,7 @@ install(
+ kcoreaddons_add_plugin(googleconfig
+     INSTALL_NAMESPACE "pim${QT_MAJOR_VERSION}/akonadi/config"
+ )
++
+ target_sources(googleconfig
+ PRIVATE
+     googleconfig.cpp
+@@ -133,6 +131,9 @@ PRIVATE
+     googlesettingswidget.h
+     ${googleresource_common_SRCS}
+ )
++
++ki18n_wrap_ui(googleconfig googlesettingswidget.ui)
++
+ target_link_libraries(googleconfig
+     KPim${KF_MAJOR_VERSION}::AkonadiCore
+     KPim${KF_MAJOR_VERSION}::AkonadiCalendar
+diff --git a/resources/google-groupware/googleresource.cpp b/resources/google-groupware/googleresource.cpp
+index 47a7e0c8d5498711b28c9adbdce09a0dc339ff2d..d51c1e4a7cac8b4260755a4646d909974802ae0a 100644
+--- a/resources/google-groupware/googleresource.cpp
++++ b/resources/google-groupware/googleresource.cpp
+@@ -11,7 +11,6 @@
+ #include "googleresourcestate.h"
+ #include "googlescopes.h"
+ #include "googlesettings.h"
+-#include "googlesettingswidget.h"
+ #include "settingsadaptor.h"
+ 
+ #include "personhandler.h"
