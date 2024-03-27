@@ -331,6 +331,27 @@
             ]
         },
         {
+            "name": "ktextaddons",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.5.3.tar.xz",
+                    "sha256": "8a52db8abfa8a9d68d2d291fb0f8be20659fd7899987b4dcafdf2468db0917dc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 351168,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/ktextaddons/ktextaddons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kpimtextedit",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
@@ -694,23 +715,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kimap-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "ktextaddons",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.5.3.tar.xz",
-                    "sha256": "8a52db8abfa8a9d68d2d291fb0f8be20659fd7899987b4dcafdf2468db0917dc",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 351168,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/ktextaddons/ktextaddons-$version.tar.xz"
                     }
                 }
             ]
