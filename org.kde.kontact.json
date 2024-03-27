@@ -1397,29 +1397,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmail-account-wizard-$version.tar.xz"
                     }
                 }
-            ],
-            "modules": [
-                {
-                    "name": "kross",
-                    "config-opts": [
-                        "-DBUILD_TESTING=OFF",
-                        "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-                    ],
-                    "buildsystem": "cmake-ninja",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.111/portingAids/kross-5.111.0.tar.xz",
-                            "sha256": "2d35882a0181cce02e178f02067a7d350aab009baf3da41e4db2af236f74b640",
-                            "x-checker-data": {
-                                "type": "anitya",
-                                "project-id": 8762,
-                                "stable-only": true,
-                                "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/portingAids/kross-$version.tar.xz"
-                            }
-                        }
-                    ]
-                }
             ]
         },
         {
