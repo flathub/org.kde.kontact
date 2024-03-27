@@ -1525,6 +1525,44 @@
             ]
         },
         {
+            "name": "kmbox",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kmbox-24.02.1.tar.xz",
+                    "sha256": "7f1e6ec4dc0d8ba1e6a5bf3c9a5d2d314be3d027e0ac6ef83f07f67a59bea4da",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kmbox-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mimetreeparser",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/mimetreeparser-24.02.1.tar.xz",
+                    "sha256": "bc3f48e6d8d975607b73a1b45d310ccb584e8e8f5470bd6bf443a1f914d2a11b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/mimetreeparser-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "merkuro",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
