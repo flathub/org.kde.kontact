@@ -394,6 +394,26 @@
             ]
         },
         {
+            "name": "ktexttemplate",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/ktexttemplate-6.0.0.tar.xz",
+                    "sha256": "b964e612d2d623bbcf3f5a76ae4ba4408f80de6c588074c67f18834b5e48274c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/ktexttemplate-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "grantleetheme",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
