@@ -13,7 +13,7 @@
     "finish-args": [
         "--share=network",
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
         "--filesystem=xdg-config/kdeglobals:ro",
@@ -53,7 +53,6 @@
         "--talk-name=org.kde.kpasswdserver",
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--system-talk-name=org.freedesktop.NetworkManager",
-        "--env=QT_QPA_PLATFORM=xcb",
         "--env=SASL_PATH=/app/lib/sasl2"
     ],
     "cleanup": [
