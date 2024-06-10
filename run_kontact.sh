@@ -37,12 +37,12 @@ fi
 
 trap stop_akonadi EXIT
 
-# Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca5
+# Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca6
 # automatically (because KDED lives outside of the sandbox).
 # As a workaround we force-run it ourselves. It's really only needed once,
 # but detecting whether it already exists or not is hard and the overhead
 # is minimal.
-kbuildsycoca5
+kbuildsycoca6
 
 # Start Kontact, this will auto-start Akonadi as well
 exec kontact "$@"
