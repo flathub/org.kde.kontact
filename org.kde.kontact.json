@@ -322,8 +322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2",
-                    "sha256": "e11b1a0e361777e9e55f48a03d89096e2abf08c63d84b7017cfe1dce06639581",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
+                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -405,8 +405,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.14/ktexttemplate-6.14.0.tar.xz",
+                    "sha256": "65a908aa573e40cf9884a9d42a4b8d5574baf2f402a19764cda2cccde27c897a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
