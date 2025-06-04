@@ -91,8 +91,8 @@
                 "libetebase-dependencies-cargo-generator.json",
                 {
                     "type": "archive",
-                    "url": "https://github.com/etesync/libetebase/archive/v0.5.7/libetebase-0.5.7.tar.gz",
-                    "sha256": "ba5522d1d338f10fb31bf133f4fcd83d27d0c8fee7954c09dbed36dd97a07a88",
+                    "url": "https://github.com/etesync/libetebase/archive/v0.5.8/libetebase-0.5.8.tar.gz",
+                    "sha256": "4f2623a6e194aa3df69307d13ad00c42ec853a1af02ca329e35cd829ff472145",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 235050,
@@ -322,8 +322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2",
-                    "sha256": "e11b1a0e361777e9e55f48a03d89096e2abf08c63d84b7017cfe1dce06639581",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -405,8 +405,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.14/ktexttemplate-6.14.0.tar.xz",
+                    "sha256": "65a908aa573e40cf9884a9d42a4b8d5574baf2f402a19764cda2cccde27c897a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -531,8 +531,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.7.0.tar.xz",
-                    "sha256": "7d854975185cf740de486d84f1e2ec3e4eadb66ac9fb897214cba9ab8cc492b1",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.8.1.tar.xz",
+                    "sha256": "00028ae4df99e250518345ea28d9cdf49d700e9acac482734bb51384da11f945",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -648,8 +648,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.9.tgz",
-                            "sha256": "2cb7dc73e9c8340dff0d99357fbaa578abf30cc6619f0521972c555681e6b2ff",
+                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.10.tgz",
+                            "sha256": "c065f04aad42737aebd60b2fe4939704ac844266bc0aeaa1609f0cad987be516",
                             "x-checker-data": {
                                 "type": "html",
                                 "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/",
@@ -1396,8 +1396,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-25.05.0.tar.xz",
-                                    "sha256": "9b1627c5b76816ac5e4052a03f5b605ba40b45cf06b02cadd0479620b499ab38",
+                                    "url": "https://poppler.freedesktop.org/poppler-25.06.0.tar.xz",
+                                    "sha256": "8199532d38984fab46dbd0020ec9c40f20e928e33e9b4cc6043572603a821d83",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
