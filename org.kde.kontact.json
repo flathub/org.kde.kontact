@@ -322,8 +322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
-                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -405,8 +405,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/ktexttemplate-6.15.0.tar.xz",
+                    "sha256": "5c652ebae5d32d1b84fa438ad94cc621621d31e0abcfef3b0a511a586d697a84",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -531,8 +531,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.8.1.tar.xz",
-                    "sha256": "00028ae4df99e250518345ea28d9cdf49d700e9acac482734bb51384da11f945",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
+                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -1396,8 +1396,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-25.06.0.tar.xz",
-                                    "sha256": "8199532d38984fab46dbd0020ec9c40f20e928e33e9b4cc6043572603a821d83",
+                                    "url": "https://poppler.freedesktop.org/poppler-25.07.0.tar.xz",
+                                    "sha256": "c504a9066dbdfebe377ad53cec641fd971ee96c4e1e8ca74e6c9c03d46d817ae",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
