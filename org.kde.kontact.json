@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2",
-                    "sha256": "46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b",
+                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+                    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -322,8 +322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
-                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -343,8 +343,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.6.0.tar.xz",
-                    "sha256": "d9846505a52f97bda64ead193032bc29573ec31481f473be3c586f5b8321ecdc",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.7.1.tar.xz",
+                    "sha256": "90cf25e298e095c40b3286a7153d04f961ef4e6598321bdeb00f2be7e998ae7e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -405,8 +405,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.17/ktexttemplate-6.17.0.tar.xz",
+                    "sha256": "15d75941d15eac3cd1243066b13a30d6c1451ca630b0c29b3624be34ad73e972",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -837,8 +837,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/qca/2.3.9/qca-2.3.9.tar.xz",
-                            "sha256": "c555d5298cdd7b6bafe2b1f96106f30cfa543a23d459d50c8a91eac33c476e4e",
+                            "url": "https://download.kde.org/stable/qca/2.3.10/qca-2.3.10.tar.xz",
+                            "sha256": "1c5b722da93d559365719226bb121c726ec3c0dc4c67dea34f1e50e4e0d14a02",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 13606,
@@ -1396,8 +1396,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-25.07.0.tar.xz",
-                                    "sha256": "c504a9066dbdfebe377ad53cec641fd971ee96c4e1e8ca74e6c9c03d46d817ae",
+                                    "url": "https://poppler.freedesktop.org/poppler-25.08.0.tar.xz",
+                                    "sha256": "425ed4d4515a093bdcdbbaac6876f20617451edc710df6a4fd6c45dd67eb418d",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
