@@ -21,6 +21,7 @@
         "--own-name=org.freedesktop.Akonadi.Agent.*",
         "--own-name=org.freedesktop.Akonadi.Control.*",
         "--own-name=org.freedesktop.Akonadi.Resource.*",
+        "--own-name=org.kde.importwizard",
         "--own-name=org.kde.accountwizard",
         "--own-name=org.kde.akonadiconsole.*",
         "--own-name=org.kde.akregator",
