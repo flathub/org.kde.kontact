@@ -324,8 +324,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.8.0.tar.xz",
-                    "sha256": "159c605d3d031bf818e164ea410150103c5f9f87cea35e2979e42d86c3318c99",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.9.0.tar.xz",
+                    "sha256": "053bcf84e45c141042186a9115a8dd51a7262802fe9547745e44b419015b9694",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -1260,8 +1260,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-25.12.0.tar.xz",
-                                    "sha256": "c18b40eb36b1a0c5b86e29ca054bf0770304583da4f2cdd42fe86eca6a20de48",
+                                    "url": "https://poppler.freedesktop.org/poppler-26.01.0.tar.xz",
+                                    "sha256": "1cb944a4b88847f5fb6551683bc799db59f04990f5d8be07aba2acbf38601089",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
