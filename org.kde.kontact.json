@@ -10,6 +10,7 @@
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "run_kontact.sh",
+    "copy-icon": true,
     "finish-args": [
         "--device=dri",
         "--env=SASL_PATH=/app/lib/sasl2",
@@ -55,21 +56,24 @@
         "--talk-name=org.kde.kwalletd6"
     ],
     "cleanup": [
-        "/lib/cmake",
-        "/lib/pkgconfig",
-        "/lib/plugins/designer",
-        "/include",
-        "/docs",
-        "/mkspecs",
-        "/share/man",
         "/bin/afmtodit",
-        "/usr/bin/xsd",
+        "/docs",
+        "/include",
+        "/lib/cmake",
         "/lib/libKF6*.so",
         "/lib/libboost_*.so",
-        "*.a",
-        "*.la"
+        "/lib/pkgconfig",
+        "/lib/plugins/designer",
+        "/mkspecs",
+        "/share/doc",
+        "/share/man",
+        "/usr/bin/xsd",
+        "*.la",
+        "*.a"
     ],
-    "copy-icon": true,
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "modules": [
         {
             "name": "libetebase",
