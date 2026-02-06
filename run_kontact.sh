@@ -6,16 +6,6 @@
 # SPFX-License-Identifier: GPL-2.0-or-later
 #
 
-function stop_akonadi {
-    akonadictl stop
-    count=0
-    while akonadictl status 2>&1 | grep -q "running" && [ ${count} -lt 5 ]; do
-        echo "Waiting for Akonadi to stop..."
-        ((count=count+1))
-        sleep 1
-    done
-}
-
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 
 # We want to use a dedicated Akonadi instance in the Flatpak in order
@@ -29,13 +19,20 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 # dedicated instance for existing users.
 if [ ! -f "${XDG_CONFIG_HOME}/akonadi/akonadiserverrc" ]; then
     export AKONADI_INSTANCE="flatpak"
-else
+elif serverpath="$(dbus-send --session --dest=org.freedesktop.Akonadi \
+    --type=method_call --print-reply=literal /Server \
+    org.freedesktop.Akonadi.Server.serverPath)"; then
     # If we are using the default instance, make sure we are running
     # against the Flatpak instance, not the system-wide one
-    stop_akonadi
+    case "$serverpath" in
+    */org.kde.kontact/*)
+        # System akonadi does not have application ID in the path.
+        ;;
+    *)
+        akonadictl stop --wait
+        ;;
+    esac
 fi
-
-trap stop_akonadi EXIT
 
 # Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca6
 # automatically (because KDED lives outside of the sandbox).
@@ -44,6 +41,9 @@ trap stop_akonadi EXIT
 # is minimal.
 kbuildsycoca6
 
-# Start Kontact, this will auto-start Akonadi as well
-exec kontact "$@"
-
+# Start requested application, this will auto-start Akonadi if needed.
+if [ "$#" -eq 0 ]; then
+    exec kontact
+else
+    exec "$@"
+fi

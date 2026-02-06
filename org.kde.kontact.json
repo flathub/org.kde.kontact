@@ -69,6 +69,9 @@
         "*.a",
         "*.la"
     ],
+    "cleanup-commands": [
+        "sed -i -- 's/^Exec=\\(.*\\)$/Exec=/app/bin/run_kontact.sh \\1/' /app/share/applications/*.desktop /app/share/dbus-1/services/*.service"
+    ],
     "copy-icon": true,
     "modules": [
         {
