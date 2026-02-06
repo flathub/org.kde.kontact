@@ -1122,6 +1122,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.2/src/kontact-25.12.2.tar.xz",
                     "sha256": "18040be6e1ac53e741e5e8fee4b08c57380e088e1661fd683833b7fb1a4d3351",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
