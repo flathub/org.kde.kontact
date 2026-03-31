@@ -108,6 +108,10 @@
                 },
 
                 {
+                    "type": "patch",
+                    "path": "patches/cyrus-sasl/1.patch"
+                },
+                {
                     "type": "shell",
                     "commands": [
                         "cp -p /usr/share/automake-*/config.{sub,guess} ."
