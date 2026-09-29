@@ -106,7 +106,6 @@
                         "url-template": "https://github.com/cyrusimap/cyrus-sasl/archive/cyrus-sasl-$version.tar.gz"
                     }
                 },
-
                 {
                     "type": "patch",
                     "path": "patches/cyrus-sasl/1.patch"
@@ -203,8 +202,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -226,8 +225,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-25.12.3.tar.xz",
-                    "sha256": "6884ca6219547f00f4d6a6dc6b787d095c0a925fa31cc8e7bad154991a70062a",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-26.08.1.tar.xz",
+                    "sha256": "40b7eac471333eaa4ea0a010586660d2539def5ba61f9169d4129c2b569b4c34",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -268,8 +267,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-mime-25.12.3.tar.xz",
-                    "sha256": "15e4c7ff51fa3f3d9373b3f8fc9fb87a9ddddb260103161e08c249ce8dbfbfa0",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-mime-26.08.1.tar.xz",
+                    "sha256": "344240cc5277cbc0a68c913f6a4a138287adbd7651f9fb7ef36cf10a70538993",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -331,8 +330,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-2.0.0.tar.xz",
-                    "sha256": "0101dacca60bef92d2b045342c880e1419f3dd6b1e98a1f850a14f47b3f9de79",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-2.2.0.tar.xz",
+                    "sha256": "26b78fab82ce76fa19d8d2a47757631d21dcaddb6814442b6dd2853e65cd5a81",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -352,8 +351,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kpimtextedit-25.12.3.tar.xz",
-                    "sha256": "100f5dd703adea988f63f2975034a0eff3d4e7d55d088009b02031dc0e47b9c5",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kpimtextedit-26.08.1.tar.xz",
+                    "sha256": "e8cd1bdcd58af6c7eac9ede5ec00c635766e9d32c3922e766028cb0c26eb7163",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -373,8 +372,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkleo-25.12.3.tar.xz",
-                    "sha256": "5fab807b445305cdc790a9a9c93804e809c897919576426f3ea8cd543a59de2c",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkleo-26.08.1.tar.xz",
+                    "sha256": "57868f2f89ec307423d4986aa181380be58bea311e45fc29a617f7f0a32e4eec",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -394,8 +393,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/grantleetheme-25.12.3.tar.xz",
-                    "sha256": "ff0bf29f9727710bf90cb28871406e9c7a59006c7881c04f8a8f2c63d9f64330",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/grantleetheme-26.08.1.tar.xz",
+                    "sha256": "bab8da9c6ab35dcc2e4a83e6890c53099aad5dec5be6bfa2d21dc127bb8413bf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -415,8 +414,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-contacts-25.12.3.tar.xz",
-                    "sha256": "575bb419a6bfde2bb3eaceda9636878492f8601fe87c767721f9cea5c250898f",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-contacts-26.08.1.tar.xz",
+                    "sha256": "96894e82adff3e0ff84db4e6ed757a62971d4835c785efb353663a76550050e4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -436,8 +435,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkgapi-25.12.3.tar.xz",
-                    "sha256": "3d8f6dd6e0d4274102cbf7c3dff67d8cef074e25fbf34bb8e505fd38273656b1",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkgapi-26.08.1.tar.xz",
+                    "sha256": "435dd7b20d0547d45627a471e12d9695119dc044f770046cb33017757af375de",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -457,8 +456,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/ksmtp-25.12.3.tar.xz",
-                    "sha256": "a4a76de3a2471d8828c086ea04633a3de2d9ba135b80c5c0ede7eb285ac45a9e",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/ksmtp-26.08.1.tar.xz",
+                    "sha256": "227c0578def79612a4cae9745445e5dff023458ffffabf305e06d953248f72a0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -478,8 +477,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kmailtransport-25.12.3.tar.xz",
-                    "sha256": "f0c03316437f81f15a17ef31fe82884d816d2bace134a0aa45dc8bb0741eb501",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmailtransport-26.08.1.tar.xz",
+                    "sha256": "2a227c011a54d38b61c33e6a7d0d7b499174ed35ed4f1dd5b05ab38afda47614",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -499,8 +498,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kidentitymanagement-25.12.3.tar.xz",
-                    "sha256": "18b24c23bd6fdb5e617b0cd7c7b2ce1da6ffb566e309c796176691c633d49e87",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kidentitymanagement-26.08.1.tar.xz",
+                    "sha256": "afd285bac8ce85e87b9f06672423311e299ce75ce1baf4720a59c65e4b4d235a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -520,8 +519,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kcalutils-25.12.3.tar.xz",
-                    "sha256": "8d54dfef43b7929c9d9b52ba2b6234f94537923e4ff94984611bf7489502a234",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kcalutils-26.08.1.tar.xz",
+                    "sha256": "a8db4527bb98e7152ada184a2a998bb88f44f975b8c4bda0907a3ee56c52561c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -536,8 +535,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://oligarchy.co.uk/xapian/1.5.1/xapian-core-1.5.1.tar.xz",
-                    "sha256": "b17d059e4a3d5e4f9bcf59aa53a48ee447b6b20bc0deb8e0b4786b63a7f20039",
+                    "url": "https://oligarchy.co.uk/xapian/2.1.0/xapian-core-2.1.0.tar.xz",
+                    "sha256": "8e1259586d342e3d12b5e1f772e9185a10f2ba16e541566b5c3c239f71b8aacc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15919,
@@ -566,8 +565,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kldap-25.12.3.tar.xz",
-                    "sha256": "496cabade483caaea19f77cfa63047c3c0a2ee4dfc9bfe2e810dcffcc08af155",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kldap-26.08.1.tar.xz",
+                    "sha256": "e4be78254cfd19976544ad10981bae5aacdd96b778a9eaa4cec28be233722505",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -595,8 +594,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.12.tgz",
-                            "sha256": "1716ad779e85d743694c3e3b05277fb71b6a5eadca43c7a958aa62683b22208e",
+                            "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.7.1.tgz",
+                            "sha256": "253db80f301258ea69cda1184766d57395b836aaabf41157eb0316eb0fac1341",
                             "x-checker-data": {
                                 "type": "html",
                                 "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/",
@@ -636,8 +635,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-search-25.12.3.tar.xz",
-                    "sha256": "75eca6c38ab9db5882a6a72af0f2fe0f96d94864198b4a4cf89d774807121d09",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-search-26.08.1.tar.xz",
+                    "sha256": "6bce5595f5f1f0d49eaa777d86c4c74c83086e93f17f18a93c51c24738a297a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -657,8 +656,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kmbox-25.12.3.tar.xz",
-                    "sha256": "088e88b85686374da855215351e0e5248464921c8b546531d91b8dcef952ff93",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmbox-26.08.1.tar.xz",
+                    "sha256": "4bda0a789e010d383db7a56294941853cc2d878ddd57b33f1e08daeb2714a75b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -678,8 +677,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkdepim-25.12.3.tar.xz",
-                    "sha256": "5b2ffc63f30ffdf513061b634db3df6019ab4aad56b1c11f50dadec081b8cf43",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkdepim-26.08.1.tar.xz",
+                    "sha256": "f4de990ab9a8e38b9f73870c1f9523d51c69ede75b8ccf2d62e51be48a861682",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -699,8 +698,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kimap-25.12.3.tar.xz",
-                    "sha256": "96303168f2bf97905e68bfbc93f7efba9a93a9331eca53294557d3ef3f56678a",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kimap-26.08.1.tar.xz",
+                    "sha256": "dadca1d3090bc600998333bae006d8062e374ef46d699fa308f52eee00e96f01",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -720,8 +719,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/pimcommon-25.12.3.tar.xz",
-                    "sha256": "6496e293294e23c6db8a19e4774313426bcdc8478defb2141ec4f6653f9f4b2f",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/pimcommon-26.08.1.tar.xz",
+                    "sha256": "67ea0976c8a3d37c224e0f2a5db08dcb88342f0c77378f28b7aef6f502fccb7e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -741,8 +740,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libgravatar-25.12.3.tar.xz",
-                    "sha256": "3a7388ad15f0da3556e36be0b9ae604b3e5b1a6bb1424220122767bc0d3c88a6",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libgravatar-26.08.1.tar.xz",
+                    "sha256": "459e245db0872ee5f780d4cc90808e90d9fcb63f0ee9c22552c15d60754c388f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -762,8 +761,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/messagelib-25.12.3.tar.xz",
-                    "sha256": "d2d9e8e1eb6d053d82254f8962543ce81ce3d44b583d015f91c8e15ad284d6ba",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/messagelib-26.08.1.tar.xz",
+                    "sha256": "0f3d5b72a4c49bee88aa4c432b127f85e1f152eafecd6d5bd6abca5c05206d68",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -784,8 +783,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/qca/2.3.10/qca-2.3.10.tar.xz",
-                            "sha256": "1c5b722da93d559365719226bb121c726ec3c0dc4c67dea34f1e50e4e0d14a02",
+                            "url": "https://download.kde.org/stable/qca/2.3.12/qca-2.3.12.tar.xz",
+                            "sha256": "d4a2b3aa0272d73ea0c4cd2140960177fa34ddc2030e59a48ecfb80c757572c3",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 13606,
@@ -807,8 +806,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-calendar-25.12.3.tar.xz",
-                    "sha256": "ac606d2210ba581167b0f17bc81dc60ed4c0de66daf9adcd55fce25c73c60014",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-calendar-26.08.1.tar.xz",
+                    "sha256": "7fd92f7b4be2b36ff33b96ec8668285b967d3a0dcd26d61ac9826524dc99cfba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -828,8 +827,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/calendarsupport-25.12.3.tar.xz",
-                    "sha256": "455785712a32f0dba7947a314eb99065d902ac6c432947e9e699a44ca18c70a1",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/calendarsupport-26.08.1.tar.xz",
+                    "sha256": "6490d2a70fcf393a8af1daaf571ba0b88972f9ab1b091ffb2dff19ac520423bc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -849,8 +848,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/eventviews-25.12.3.tar.xz",
-                    "sha256": "c2e776f55e485b346d256a9f21fd244af2b75e18c489ec811e334050cccbca6a",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/eventviews-26.08.1.tar.xz",
+                    "sha256": "6e8fed1a2cbfab0ac10d9b6f5c086060de33435c99d3f34c7437386e8f49ebe2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -870,8 +869,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/incidenceeditor-25.12.3.tar.xz",
-                    "sha256": "c4ab1c0b44e68be4c3c287c2a5b0b41aaaf6ba746202694101ab4a50f5d8977a",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/incidenceeditor-26.08.1.tar.xz",
+                    "sha256": "b638e343d4293164ac8bd290a64fc199542488c417c4acd1d2c10ee198d5cd7f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -891,8 +890,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/mailimporter-25.12.3.tar.xz",
-                    "sha256": "eb99de68d8f5febe3d9eef8e6a793f9bdf62f54ad016fabe78f564d90e7a2db4",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mailimporter-26.08.1.tar.xz",
+                    "sha256": "e3181bb3502a5433be41af82ade8012ae50f970ca4c2092068b0ab399b757752",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -912,8 +911,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/mailcommon-25.12.3.tar.xz",
-                    "sha256": "8ac657f8050b968b592e5ec24c7123a9f33bc2703c3c461c4a87531b5f15da59",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mailcommon-26.08.1.tar.xz",
+                    "sha256": "055bbae0e0df9f0610fca2a4303fe6caabdfc206910a04832cbd717b3c1374e4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -933,8 +932,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kontactinterface-25.12.3.tar.xz",
-                    "sha256": "5e39b97021293811346a659926bbe8830d40fe8349d5cb7f9e8b63a180d78790",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kontactinterface-26.08.1.tar.xz",
+                    "sha256": "c330d3c6f531ec13cd0dd2f291ca12a787cbc35cc4c9a1722e4d117d456eb821",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -954,8 +953,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libksieve-25.12.3.tar.xz",
-                    "sha256": "4dfde60dfa60f2c6c4c1235acc32f8bd6e2bbe65e419cdae71dd26fea5993e0d",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libksieve-26.08.1.tar.xz",
+                    "sha256": "6e9629c4aae301fb2cfd8d5c383c647bb33a04d0e983dcd4fae8964d5ad67ed6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -975,8 +974,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kdepim-runtime-25.12.3.tar.xz",
-                    "sha256": "9c034771cc66ed5103acf5276fd2a5f9f43b503393e3779208c4f97c4d274689",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kdepim-runtime-26.08.1.tar.xz",
+                    "sha256": "524910cc66b8279c1fa8eba517ec63121e4b74cccbfe0549d73ddf5cfd6ee837",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -996,8 +995,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/ktnef-25.12.3.tar.xz",
-                    "sha256": "f31a9008c62b380a615447669fd96b65aa25062ba4d314de42aadb267d1ec747",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/ktnef-26.08.1.tar.xz",
+                    "sha256": "f044833403ac6d9352287ccaed35af4eea07a95b9d89dfb740b01061e5af48a1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1018,8 +1017,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kmail-25.12.3.tar.xz",
-                    "sha256": "e1ed980945ea3428100e01b5fccbb4e98b109c1d8503340c23b97238d36821c1",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmail-26.08.1.tar.xz",
+                    "sha256": "2e5035d0f4219f7ec77a1859d483e8f902663db9bcc1c2fdd0a2a4337cc7bf89",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1039,8 +1038,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akregator-25.12.3.tar.xz",
-                    "sha256": "b15411e8a67c8934ceb30c1b00399424d4a4273698f8560aef4e761921c139e3",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akregator-26.08.1.tar.xz",
+                    "sha256": "efdbec77e803012072c3bebcf53e810e17e48461a166124840f6fe429a336f01",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1060,8 +1059,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/korganizer-25.12.3.tar.xz",
-                    "sha256": "9bb837f1a1f9aedbf35f3254a526cc6f5c7591b4c27e649817db6b563ad698c3",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/korganizer-26.08.1.tar.xz",
+                    "sha256": "5589e15d154831ccdbe0aed38ea04ad5c5569e34d71038f0effdebf270908d2f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1082,8 +1081,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kalarm-25.12.3.tar.xz",
-                    "sha256": "2ba214f9216f57b97899162aeb9ea7b7223edb2f7dba7ba49e8c9b0b10f72762",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kalarm-26.08.1.tar.xz",
+                    "sha256": "5ea59c5ed126768b90cef9da7370d32e02f097e5e2e2140456734bd150dc5ac9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1103,8 +1102,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kaddressbook-25.12.3.tar.xz",
-                    "sha256": "5c3e77aa683eff9a96a5117768e8b1828f171dade1a035443bda37a1c5abcbd4",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kaddressbook-26.08.1.tar.xz",
+                    "sha256": "fb37324db737ccdb3f8680ed7b1f03ac24418aeb6f1545e78486c2b9b05cdec9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1124,8 +1123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kontact-25.12.3.tar.xz",
-                    "sha256": "4124c873d26a9047332aeeac8002a5619a1455f19280538f191efbf6edeef604",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kontact-26.08.1.tar.xz",
+                    "sha256": "5be086d1e47793f78bbe607fd9e9c171212db8649bb92d9463dd739800e86424",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
@@ -1153,8 +1152,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadi-import-wizard-25.12.3.tar.xz",
-                    "sha256": "21d12c6b38b04ea19320afe97907986a9a432a9cf6cff33afe015dc1aa6404b6",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadi-import-wizard-26.08.1.tar.xz",
+                    "sha256": "af5c26b74dce64974403bac9182c8477fbfd99369978670b5e2aee588fad4699",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1174,8 +1173,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kdepim-addons-25.12.3.tar.xz",
-                    "sha256": "0eebf8a6aee397b53ce1365ed6a27af5f7a348865c575ba7ac0f88787f7fa979",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kdepim-addons-26.08.1.tar.xz",
+                    "sha256": "09a604e46cbacde0cc99848e18f51ae64019382beb1da11e94319bc48cc8937d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1195,8 +1194,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/release-service/25.12.3/src/kitinerary-25.12.3.tar.xz",
-                            "sha256": "dd8374be2e4c488902f6c0b4b9fd12ad7f808de23b7df4561ef30b3f79b44d13",
+                            "url": "https://download.kde.org/stable/release-service/26.08.1/src/kitinerary-26.08.1.tar.xz",
+                            "sha256": "0969f558a912506d52a06a4ca10a52f3b400e8671fd1451efe1b74b2b5bec907",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8763,
@@ -1247,8 +1246,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://poppler.freedesktop.org/poppler-26.03.0.tar.xz",
-                                    "sha256": "8b3c5e2a9f2ab4c3ec5029f28af1b433c6b71f0d1e7b3997aa561cf1c0ca4ebe",
+                                    "url": "https://poppler.freedesktop.org/poppler-26.08.0.tar.xz",
+                                    "sha256": "dc906e68cea698109706ac6aa3d2c9d4512fcfcac42d90b8afcda486d1b9abd0",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 3686,
@@ -1268,8 +1267,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kpkpass-25.12.3.tar.xz",
-                                    "sha256": "f916bdc37c11740cc527ee76a1326d3457ed9bf153d609cdb5ea7bb581885df9",
+                                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kpkpass-26.08.1.tar.xz",
+                                    "sha256": "d1b9f52e266d7be21e818780a1a4578c3d8cf574925f5c0265e583f82408c903",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 8763,
@@ -1299,8 +1298,8 @@
                             "sources": [
                                 {
                                     "type": "archive",
-                                    "url": "https://github.com/zxing-cpp/zxing-cpp/archive/v2.3.0.tar.gz",
-                                    "sha256": "64e4139103fdbc57752698ee15b5f0b0f7af9a0331ecbdc492047e0772c417ba",
+                                    "url": "https://github.com/zxing-cpp/zxing-cpp/archive/v3.1.1.tar.gz",
+                                    "sha256": "7286b1e6ade66fe82b7c8208b4595deeb55d6486b410834fdc65702f46650542",
                                     "x-checker-data": {
                                         "type": "anitya",
                                         "project-id": 101246,
@@ -1323,8 +1322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/grantlee-editor-25.12.3.tar.xz",
-                    "sha256": "30558f34937773baf9d8ffe47e8c02d9b000087358fe7a6ddf892b8518c35404",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/grantlee-editor-26.08.1.tar.xz",
+                    "sha256": "e462f130766d0b8d0ac8727711b11beffa5426e7d738dfaa303f1c9eddd74f0f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1344,8 +1343,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kmail-account-wizard-25.12.3.tar.xz",
-                    "sha256": "0a41268e6b153700c4c815da1baa40637efa61943f4e387f66cf5599d8e8d502",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmail-account-wizard-26.08.1.tar.xz",
+                    "sha256": "4ace348a96e1080882ddb768af2414da8299727b11f94d336f1f6594a367ec8b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1365,8 +1364,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/pim-data-exporter-25.12.3.tar.xz",
-                    "sha256": "d1e7c7ffeb8c1339d2214e7b368a5abb3db6f836115fec4cedb8fc3c18193af4",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/pim-data-exporter-26.08.1.tar.xz",
+                    "sha256": "597b9a5c4bf5d643d9da967ba58770aaf6a42ecb5e08dc11860a1cf37384d651",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1386,8 +1385,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/pim-sieve-editor-25.12.3.tar.xz",
-                    "sha256": "eae7f687f76950b8e490420747076087bf3fb04da15df6b04b663586b2550f81",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/pim-sieve-editor-26.08.1.tar.xz",
+                    "sha256": "9415d474e5fc2dcd6817bf5ac97f62e416ca606af99762c7876d4add3d739e5c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1407,8 +1406,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/mbox-importer-25.12.3.tar.xz",
-                    "sha256": "628238e028aeaa2a6395a78449abfe4344d69fcff7c7f4b70994a98fc194be95",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mbox-importer-26.08.1.tar.xz",
+                    "sha256": "489dd394d47893fe269dfd1bb6640f37645c1e07f97ea0d8b41c7fe04bbf8124",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1428,8 +1427,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/akonadiconsole-25.12.3.tar.xz",
-                    "sha256": "1effdb62375b66435de8b75cfe1429eeda5facc546d9b192e8a8affeea216bba",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/akonadiconsole-26.08.1.tar.xz",
+                    "sha256": "5fa0c3bc487cc67f69a88d1dd5455250bece0f204ff4635edc5b145a0cfac8a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1449,8 +1448,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kmbox-25.12.3.tar.xz",
-                    "sha256": "088e88b85686374da855215351e0e5248464921c8b546531d91b8dcef952ff93",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmbox-26.08.1.tar.xz",
+                    "sha256": "4bda0a789e010d383db7a56294941853cc2d878ddd57b33f1e08daeb2714a75b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1466,8 +1465,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/mimetreeparser-25.12.3.tar.xz",
-                    "sha256": "e83b96782634c8d7dda443ffc005d1d2991620ecfb270c4bf16a67d5d3e949f5",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mimetreeparser-26.08.1.tar.xz",
+                    "sha256": "b81506a5876039c0aa9969f7bd71040880b171b53014a76a8bbaed02287cc5f9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -1488,8 +1487,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/merkuro-25.12.3.tar.xz",
-                    "sha256": "f56169db85cb600ba2a49b32bf53d17eadd137e116d19f4b69ef2a5eab2c8bae",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/merkuro-26.08.1.tar.xz",
+                    "sha256": "036df52be52c1fc7b239ada44bd45eb7f875c13f59b5009e7029d303b152a16e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
