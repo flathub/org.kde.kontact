@@ -220,7 +220,7 @@
                 "-DBUILD_TOOLS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DDATABASE_BACKEND=SQLITE",
-		"-BUILD_PYTHON_BINDINGS=OFF"
+				"-DBUILD_PYTHON_BINDINGS=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -262,7 +262,7 @@
             "name": "akonadi-mime",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-		"-BUILD_PYTHON_BINDINGS=OFF",
+				"-DBUILD_PYTHON_BINDINGS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
@@ -410,7 +410,7 @@
             "name": "akonadi-contacts",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-		"-BUILD_PYTHON_BINDINGS=OFF",
+				"-DBUILD_PYTHON_BINDINGS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
