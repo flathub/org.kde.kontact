@@ -33,7 +33,6 @@
         "--own-name=org.kde.kmail2",
         "--own-name=org.kde.korgac",
         "--own-name=org.kde.korganizer",
-        "--own-name=org.kde.merkuro",
         "--own-name=org.kde.pim.*",
         "--own-name=org.kde.pimsettingexporter",
         "--own-name=org.kde.sieveeditor",
@@ -1477,66 +1476,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadiconsole-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "kmbox",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmbox-26.08.1.tar.xz",
-                    "sha256": "4bda0a789e010d383db7a56294941853cc2d878ddd57b33f1e08daeb2714a75b",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kmbox-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "mimetreeparser",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mimetreeparser-26.08.1.tar.xz",
-                    "sha256": "b81506a5876039c0aa9969f7bd71040880b171b53014a76a8bbaed02287cc5f9",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/mimetreeparser-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "merkuro",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DBUILD_FLATPAK=ON"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/merkuro-26.08.1.tar.xz",
-                    "sha256": "036df52be52c1fc7b239ada44bd45eb7f875c13f59b5009e7029d303b152a16e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/merkuro-$version.tar.xz"
                     }
                 }
             ]
