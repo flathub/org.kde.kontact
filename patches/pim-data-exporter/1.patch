@@ -1,0 +1,10 @@
+--- a/CMakeLists.txt	2026-02-28 13:03:37.000000000 +0100
++++ b/CMakeLists.txt	2026-10-09 10:38:38.862556608 +0200
+@@ -128,6 +128,7 @@
+ # Find KdepimLibs Package
+ find_package(KPim6Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
+ find_package(KF6Contacts ${KF_MIN_VERSION} CONFIG REQUIRED)
++find_package(KF6I18n ${KF_MIN_VERSION} CONFIG REQUIRED)
+ find_package(KPim6IdentityManagementCore ${IDENTITYMANAGEMENT_LIB_VERSION} CONFIG REQUIRED)
+ find_package(KPim6MailCommon ${MAILCOMMON_LIB_VERSION} CONFIG REQUIRED)
+ find_package(KPim6MailTransport ${KMAILTRANSPORT_LIB_VERSION} CONFIG REQUIRED)
