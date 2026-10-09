@@ -1,0 +1,10 @@
+--- a/CMakeLists.txt	2026-02-20 05:17:07.000000000 +0100
++++ b/CMakeLists.txt	2026-10-09 10:43:08.232777424 +0200
+@@ -86,6 +86,7 @@
+ find_package(KF6Service ${KF_MIN_VERSION} CONFIG REQUIRED)
+ find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
+ find_package(KF6IconThemes ${KF_MIN_VERSION} QUIET)
++find_package(KF6I18n ${KF_MIN_VERSION} CONFIG REQUIRED)
+ 
+ # Find KdepimLibs Package
+ find_package(KPim6Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)

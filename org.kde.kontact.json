@@ -1111,7 +1111,12 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kaddressbook-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/kaddressbook/1.patch"
                 }
+
             ]
         },
         {
@@ -1161,6 +1166,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-import-wizard-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/akonadi-import-wizard/1.patch"
                 }
             ]
         },
@@ -1331,6 +1340,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/grantlee-editor-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/grantlee-editor/1.patch"
                 }
             ]
         },
@@ -1373,7 +1386,12 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/pim-data-exporter-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/pim-data-exporter/1.patch"
                 }
+
             ]
         },
         {
@@ -1415,6 +1433,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/mbox-importer-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/mbox-importer/1.patch"
                 }
             ]
         },

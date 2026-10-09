@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt      2026-10-09 10:12:21.865435202 +0200
++++ b/CMakeLists.txt      2026-10-09 10:12:12.331383355 +0200
+@@ -85,6 +85,7 @@
+ find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
+ find_package(KF6KIO ${KF_MIN_VERSION} REQUIRED)
+ find_package(KF6Archive ${KF_MIN_VERSION} REQUIRED)
++find_package(KF6I18n ${KF_MIN_VERSION} CONFIG REQUIRED)
+ find_package(KF6IconThemes ${KF_MIN_VERSION} CONFIG REQUIRED)
+ 
+ find_package(KF6DocTools ${KF_MIN_VERSION})
+
