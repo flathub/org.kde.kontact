@@ -1497,6 +1497,21 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "export-binaries",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./add_binary.sh kmail2 kmail",
+                "./add_binary.sh korganizer korganizer",
+                "./add_binary.sh kaddressbook kaddressbook"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "add_binary.sh"
+                }
+            ]
         }
     ]
 }
