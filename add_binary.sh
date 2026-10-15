@@ -11,13 +11,16 @@ function copy_app_desktop_file() {
   local dest_desktop
 
   src_desktop="${APPLICATIONS_DIR}/org.kde.${SRC_APP_NAME}.desktop"
-  if [ -f "${src_desktop}" ]; then
-      dest_desktop="${APPLICATIONS_DIR}/org.kde.kontact.${DEST_APP_NAME}.desktop"
-      sed \
-          -e "s|^Exec=.*|Exec=run_kontact.sh --${DEST_APP_NAME} %u|" \
-          -e "s|^Icon=.*|Icon=org.kde.kontact.${DEST_APP_NAME}|" \
-          "${src_desktop}" > "${dest_desktop}"
+  dest_desktop="${APPLICATIONS_DIR}/org.kde.kontact.${DEST_APP_NAME}.desktop"
+  if [ ! -f "${src_desktop}" ]; then
+      echo "Error: Source desktop file '${src_desktop}' does not exist. Failing build." >&2
+      exit 1
   fi
+
+  sed \
+      -e "s|^Exec=.*|Exec=run_kontact.sh --${DEST_APP_NAME} %u|" \
+      -e "s|^Icon=.*|Icon=org.kde.kontact.${DEST_APP_NAME}|" \
+      "${src_desktop}" > "${dest_desktop}"
 }
 
 function copy_app_icon() {
