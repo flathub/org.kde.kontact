@@ -2,9 +2,9 @@
     "id": "org.kde.kontact",
     "rename-icon": "kontact",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.10",
+    "runtime-version": "6.11",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.10",
+    "base-version": "6.11",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -219,7 +219,7 @@
                 "-DBUILD_TOOLS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DDATABASE_BACKEND=SQLITE",
-				"-DBUILD_PYTHON_BINDINGS=OFF"
+                "-DBUILD_PYTHON_BINDINGS=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -344,7 +344,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+		"-DBUILD_WITH_QT5=OFF"
             ],
             "sources": [
                 {
@@ -667,6 +668,12 @@
         },
         {
             "name": "akonadi-search",
+            "build-options": {
+                "append-path": "/usr/lib/sdk/rust-stable/bin",
+                "env": {
+                    "CARGO_NET_OFFLINE": "true"
+                }
+            },
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
@@ -684,7 +691,8 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-search-$version.tar.xz"
                     }
-                }
+                },
+                "akonadi-search-dependencies-cargo-generator.json"
             ]
         },
         {
@@ -841,7 +849,7 @@
             "name": "akonadi-calendar",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-		"-BUILD_PYTHON_BINDINGS=OFF",
+                "-DBUILD_PYTHON_BINDINGS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
