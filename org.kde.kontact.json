@@ -1331,11 +1331,14 @@
                         {
                             "name": "zxing",
                             "config-opts": [
-                                "-DBUILD_DEPENDENCIES=LOCAL",
+                                "-DZXING_DEPENDENCIES=LOCAL",
                                 "-DBUILD_SHARED_LIBS=ON",
-                                "-DBUILD_UNIT_TESTS=OFF",
-                                "-DBUILD_BLACKBOX_TESTS=OFF",
-                                "-DBUILD_EXAMPLES=OFF"
+                                "-DZXING_C_API=OFF",
+                                "-DZXING_WRITERS=OLD",
+                                "-DZXING_UNIT_TESTS=OFF",
+                                "-DZXING_BLACKBOX_TESTS=OFF",
+                                "-DZXING_EXAMPLES=OFF",
+                                "-DCMAKE_DISABLE_FIND_PACKAGE_Doxygen=ON"
                             ],
                             "buildsystem": "cmake-ninja",
                             "builddir": true,
