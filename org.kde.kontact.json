@@ -332,7 +332,7 @@
                     "sha256": "6651c5f7f801543d5b676719df9fec8053b0a6f5aba40b98ca0d2bee11136f30",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 229021,
+                        "project-id": 378536,
                         "stable-only": true,
                         "url-template": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-$version.tar.xz"
                     }
