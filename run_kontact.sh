@@ -35,8 +35,6 @@ else
     stop_akonadi
 fi
 
-trap stop_akonadi EXIT
-
 # Kontact requires that ksycoca cache exists, but cannot run kbuildsycoca6
 # automatically (because KDED lives outside of the sandbox).
 # As a workaround we force-run it ourselves. It's really only needed once,
@@ -44,6 +42,25 @@ trap stop_akonadi EXIT
 # is minimal.
 kbuildsycoca6
 
-# Start Kontact, this will auto-start Akonadi as well
-exec kontact "$@"
+# Default binary to execute
+APP_BIN="kontact"
+
+# Check first argument for custom target binary
+case "$1" in
+    --kmail)
+        APP_BIN="kmail"
+        shift
+        ;;
+    --korganizer)
+        APP_BIN="korganizer"
+        shift
+        ;;
+    --kaddressbook)
+        APP_BIN="kaddressbook"
+        shift
+        ;;
+esac
+
+# Execute the chosen application, forwarding all remaining arguments
+exec "$APP_BIN" "$@"
 
